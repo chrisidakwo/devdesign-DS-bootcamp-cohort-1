@@ -61,6 +61,6 @@ print(mergedList)
 mergedList.insert(6, "EXAMPLE")
 print(mergedList)
 
-# Checking/asserting membership
+# Checking/asserting membership in a list/tuple
 checkExist = 90 in mergedList
 print(checkExist)

@@ -25,7 +25,5 @@ else:
 
 print("I'm outside the if/else block!")
 
-# Multi-branching (Student grade)
-# Advanced and/or mixture
 # Ternary operators
 # Loops - for, while
