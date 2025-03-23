@@ -8,16 +8,23 @@
 # Tasks
 # Welcome the player and ask for their name.
 # Store their starting health and an empty list for their inventory.
+# Print a message showing the starting health and inventory.
+# Display a message: “You arrive at a fork in the road. Do you go left or right?”
 # Ask the player to choose a path (left or right).
 # If they choose left, they find a health potion (adds +20 HP).
 # If they choose right, they face a wild animal and lose -30 HP.
+# If they enter any other response, they lose -10HP.
+# Display updated health and inventory
 # The player finds a treasure chest with random items.
-# Items could be "Sword", "Shield", or "Gold Coins".
-# Use a loop to allow the player to pick two items.
+# Items could be any one of "Sword", "Shield", or "Gold Coins".
+# Use a loop to allow the player to pick two items and add to inventory
+# Display a message: “You reach a raging river. How will you cross?”
 # If the player has a Shield, they safely cross.
 # If they have a Sword, they fight off danger but lose 20 HP.
 # If they have neither, they lose 50 HP while crossing.
 # Use comparison and logical operators to determine the outcome.
+# Display final HP.
+# If HP is above 0, the player wins! Otherwise, it’s game over.
 
 healthPoint = 100
 inventory = []
