@@ -1,4 +1,5 @@
-# You are developing a simple text-based adventure game where the player explores a forest, collects items, makes decisions, and encounters challenges.
+# You are developing a simple text-based adventure game where the player explores a forest, 
+# collects items, makes decisions, and encounters challenges.
 
 # Game Setup:
 # 1. The player starts with 100 health points (hp = 100) and an empty inventory (inventory = []).
@@ -14,7 +15,7 @@
 # If they choose left, they find a health potion (adds +20 HP).
 # If they choose right, they face a wild animal and lose -30 HP.
 # If they enter any other response, they lose -10HP.
-# Display updated health and inventory
+# Display updated health and inventory.
 # The player finds a treasure chest with random items.
 # Items could be any one of "Sword", "Shield", or "Gold Coins".
 # Use a loop to allow the player to pick two items and add to inventory
@@ -26,10 +27,78 @@
 # Display final HP.
 # If HP is above 0, the player wins! Otherwise, it’s game over.
 
+import random # Modules in Python
+
 healthPoint = 100
 inventory = []
 locations = []
 treasureChest = ["Sword", "Shield", "Gold Coins"]
 
+print('')
+
 name = input('Welcome! Please enter your name: ')
-path = input('Please choose a path (left or right): ')
+
+print('')
+print('-----------------------------------------')
+print(f"---- HEALTH: {healthPoint} || Inventory: {', '.join(inventory) if len(inventory) > 0 else 'Empty'} ----")
+print('-----------------------------------------')
+print('')
+
+
+print('You arrive at a fork in the road. Do you go left or right?')
+path = input('Choose a path (left or right): ')
+
+if path == 'left':
+    healthPoint = healthPoint + 20 # healthPoint += 20
+elif path == 'right':
+    print('Oops! You encountered a wild animal and lost 30 health points!')
+    healthPoint = healthPoint - 30 #healthPoint -= 30
+else:
+    print('Oops! Invalid choice! You\'ve lost 10 health points!')
+    healthPoint = healthPoint - 10 #healthPoint -= 10
+
+print('')
+print('-----------------------------------------')
+print(f"---- HEALTH: {healthPoint} || Inventory: {', '.join(inventory) if len(inventory) > 0 else 'Empty'} ----")
+print('-----------------------------------------')
+print('')
+    
+# Helps to randomize the treasure items in the treasureChest list
+treasureChest = ["Shield", "Sword", "Gold Coins"]
+random.shuffle(treasureChest)
+
+itemsAdded = 0
+while (itemsAdded < 2):
+    inventory.append(treasureChest[len(inventory)])
+    itemsAdded = itemsAdded + 1  # itemsAdded += 1
+
+print('You reach a raging river. How will you cross?')
+
+if 'Shield' in inventory:
+    print('Yay! You\'ve safely crossed the river!')
+elif 'Sword' in inventory:
+    healthPoint = healthPoint - 20
+else:
+    healthPoint = healthPoint - 50
+
+# if 'Shield' in inventory:
+#     print('Yay! You\'ve safely crossed the river!')
+
+# if 'Sword' in inventory:
+#     healthPoint = healthPoint - 20
+
+# if (not 'Shield' in inventory) and (not'Sword' in inventory):
+#     healthPoint = healthPoint - 50
+
+print('')
+print('-----------------------------------------')
+print(f"---- HEALTH: {healthPoint} || Inventory: {', '.join(inventory) if len(inventory) > 0 else 'Empty'} ----")
+print('-----------------------------------------')
+print('')
+
+if healthPoint > 0:
+    print('You win!')
+else:
+    print('Too bad! Game over!')
+
+print('')
