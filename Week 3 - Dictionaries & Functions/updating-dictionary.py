@@ -5,6 +5,9 @@ person['lastName'] = 'Doe'
 person['age'] = 35
 person['dob'] = "16/03/1980"
 
+# Use the update() method to 'update' and/or add new entry to a dictionary
+person.update({ 'nationality': 'Ghanian' })
+
 print('')
 print(person)
 
