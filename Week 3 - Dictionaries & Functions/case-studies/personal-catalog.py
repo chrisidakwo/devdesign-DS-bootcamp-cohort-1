@@ -61,11 +61,11 @@ print('')
 
 books = {}
 
-for bookTitle, bookDetails in library.items():
+for (bookTitle, bookDetails) in library.items():
     genre = bookDetails['genre']
 
     if genre in books:
-        books[genre].append(bookTitle)
+        books['Fiction'].append(bookTitle)
     else:
         # books.update({ genre: [bookTitle] })
         books[genre] = [bookTitle]
@@ -78,7 +78,7 @@ print('')
 # 4. Create a "to read" list of all unread books
 library.update({"The Book Thief": {
     'author': "Markus Zusak",
-    'year': 2005,
+    'year': 1905,
     'genre': 'Fiction',
     'read': False
 }})
@@ -97,11 +97,15 @@ print("HERE ARE THE BOOKS TO READ")
 print(booksToRead)
 
 # 5. Find the oldest book in your collection
+oldestYear = 2025
+oldestBook = ''
 
-# bookYears = [2005, 1985, 2013]
-# bookNames = ['ABC', 'PCV', 'XYZ']
+for (bookName, bookDetails) in library.items():
+    if (bookDetails['year'] < oldestYear):
+        oldestYear = bookDetails['year']
+        oldestBook = bookName
 
-# use a lambda
-
+print('')
+print(f"THE OLDEST BOOK IS {oldestBook}, PRINTED IN {oldestYear}")
 
 print('')
