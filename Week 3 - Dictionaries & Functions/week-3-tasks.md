@@ -37,7 +37,7 @@ Find which animal type has the most variety. Variety in this case means the anim
 
 # 2. Working with COVID-19 Data
 
-Using the provided COVID-19 sample data [(click here)](case-studies/covid19-dataset.json){:target="_blank"}, attempt the following tasks:
+Using the provided COVID-19 sample data [(click here)](case-studies/covid19-dataset.json), attempt the following tasks:
 
 -  Find the country with the highest number of active cases
 - Calculate the ratio of active cases to population for each country
