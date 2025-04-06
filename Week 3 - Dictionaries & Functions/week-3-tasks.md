@@ -7,7 +7,8 @@ petShop = {
     "animals": {
         "dogs": {"Labrador": 3, "Beagle": 2, "Poodle": 1, "Mastiff": 5},
         "cats": {"Persian": 2, "Siamese": 1, "Maine Coon": 2},
-        "fish": {"Goldfish": 12, "Angelfish": 5, "Betta": 3}
+        "fish": {"Goldfish": 12, "Angelfish": 5, "Betta": 3},
+        "birds": {"Parakeet": 4, "Canary": 3, "Cockatiel": 7}
     },
     "supplies": {
         "food": {"Dog Food": 20, "Cat Food": 9, "Fish Food": 25},
@@ -19,7 +20,7 @@ petShop = {
 
 ## Task 1
 
-Your task is to dynamically update the quantity of a supply item after a sale.
+Your task is to **dynamically** update the quantity of a supply item after a sale.
 
 Request as much information from the user in order to know what product is to be sold.
 
@@ -39,7 +40,7 @@ Find which animal type has the most variety. Variety in this case means the anim
 
 Using the provided COVID-19 sample data [(click here)](case-studies/covid19-dataset.json), attempt the following tasks:
 
--  Find the country with the highest number of active cases
+- Find the country with the highest number of active cases
 - Calculate the ratio of active cases to population for each country
 - Find the country with the highest recovery rate (recoveries/total_cases)
 - Calculate active cases as a percentage of population for each country

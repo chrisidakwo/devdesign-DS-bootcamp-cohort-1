@@ -26,6 +26,7 @@ library['Things Fall Apart'] = {
     'read': False
 }
 
+# An alternative way to add new items to a dictionary
 # library.update({
 #     'Things Fall Apart': {
 #         'author': 'Chinua Achebe',
@@ -85,6 +86,7 @@ library.update({"The Book Thief": {
 
 print('')
 
+# 4
 booksToRead = []
 
 for (bookTitle, bookDetails) in library.items():

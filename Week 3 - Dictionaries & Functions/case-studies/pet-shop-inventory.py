@@ -37,7 +37,7 @@ catTrees = petShop['supplies']['habitats']['Cat Trees']
 # For example, we sold 3 cat trees
 petShop['supplies']['habitats']['Cat Trees'] = catTrees - 3
 
-# TODO: Make this dynamic
+# Task: Make this dynamic
 # supplyCategory = input('Enter the supply category (habitats, food, toys): ')
 
 # if supplyCategory in petShop['supplies']:
@@ -90,8 +90,8 @@ for (foodType, animalBreeds) in petShop['supplies'].items():
 
 print(f'\n The animal with the most number of breeds is {mostVariety} at {varietyCount}')
 
-# TODO: IN THE SECOND INTEPRETATION, "VARIETY" WOULD MEAN THE ANIMAL WITH THE MOST HEADCOUNT (AND NUMBER OF BREEDS)
+# Task: IN THE SECOND INTEPRETATION, "VARIETY" WOULD MEAN THE ANIMAL WITH THE MOST HEADCOUNT (AND NUMBER OF BREEDS)
 
-# TODO: Create a shopping list of supplies that are low in stock (fewer than 10)
+# Task: Create a shopping list of supplies that are low in stock (fewer than 10)
 
 print('')
