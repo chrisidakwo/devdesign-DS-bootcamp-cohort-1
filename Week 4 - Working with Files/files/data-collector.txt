@@ -1,0 +1,3 @@
+Name,Subject,Score
+Chris Idakwo,Mathematics,85.0
+David Irinyemi,Chemistry,80.0
