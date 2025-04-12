@@ -11,7 +11,6 @@ Additional attempts:
 - Add error handling to your solution
 - Calculate other statistics (average, min, max)
 
-
 ## Task 2 - Weather Data Analysis
 You've been hired by a local meteorological office to analyze temperature data from the past month.
 

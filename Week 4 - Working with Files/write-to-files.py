@@ -12,6 +12,8 @@ names = ["Chris Idakwo", "David Irinyemi", "Emmanuel Ezugwu", "Fola Onipede", "H
 # TODO: Do not add line break after the last name on the list
 
 with open(namesFilePath, 'w') as file:
+    # WRITE EACH NAME ON A NEW LINE
+
     # for name in names:
     #     file.write(name + '\n')
 
