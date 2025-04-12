@@ -8,8 +8,9 @@ with open(filePath, 'r') as file:
 
     print('')
 
-    # Alternative/manual method of looping through the lines in a file
-    # content = file.read() 
-    # for line in content.split('\n'):
-    #     print(line)
+    file.seek(0)
 
+    # Alternative/manual method of looping through the lines in a file
+    content = file.read() 
+    for line in content.split('\n'):
+        print(line)

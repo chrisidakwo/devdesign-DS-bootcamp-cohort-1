@@ -95,8 +95,6 @@ print(similarProducts)
 
 
 
-
-
 # Explaining Product Similarity Scores
 # "When we're shopping online, we often see recommendations for products similar to what we're looking at.
 # 

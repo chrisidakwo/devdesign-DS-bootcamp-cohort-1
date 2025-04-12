@@ -1,0 +1,26 @@
+property_id;city;neighborhood;property_type;bedrooms;bathrooms;square_feet;year_built;price;has_garage;has_pool
+HP001;New York;Chelsea;Apartment;2;2;1250;1998;850000;No;No
+HP002;Los Angeles;Venice;House;3;2.5;2100;1975;1250000;Yes;Yes
+HP003;Chicago;Lincoln Park;Condo;1;1;850;2005;320000;Yes;No
+HP004;Miami;South Beach;Apartment;3;3;1780;2010;920000;Yes;No
+HP005;New York;Brooklyn Heights;Townhouse;4;3;2900;1928;1950000;No;No
+HP006;San Francisco;Mission District;Condo;2;2;1100;2015;1100000;Yes;No
+HP007;Boston;Back Bay;Apartment;1;1;750;1915;495000;No;No
+HP008;Seattle;Capitol Hill;House;4;3.5;2850;1942;1325000;Yes;No
+HP009;Austin;South Congress;House;3;2;1950;2000;790000;Yes;Yes
+HP010;Los Angeles;Silver Lake;House;2;1;1400;1962;980000;Yes;No
+HP011;Portland;Nob Hill;Condo;2;2;1350;2008;625000;Yes;No
+HP012;Denver;LoDo;Apartment;1;1.5;925;2018;550000;Yes;No
+HP013;Chicago;Wicker Park;House;3;2.5;2400;1890;875000;No;No
+HP014;Washington;Georgetown;Townhouse;4;3.5;3200;1922;1750000;Yes;No
+HP015;Miami;Coconut Grove;House;5;4;3950;2005;1680000;Yes;Yes
+HP016;New York;Upper West Side;Apartment;3;2;1680;1962;1450000;No;No
+HP017;San Francisco;Noe Valley;House;4;3;2600;1915;2250000;Yes;No
+HP018;Philadelphia;Old City;Condo;2;2;1250;2010;580000;Yes;No
+HP019;Nashville;The Gulch;Apartment;2;2;1150;2016;495000;Yes;No
+HP020;Austin;East Austin;House;3;2;1800;1968;650000;Yes;No
+HP021;Seattle;Ballard;Townhouse;3;2.5;1950;2012;895000;Yes;No
+HP022;Boston;Beacon Hill;Apartment;1;1;720;1880;650000;No;No
+HP023;San Diego;La Jolla;House;4;3.5;3100;1980;2100000;Yes;Yes
+HP024;New Orleans;Garden District;House;5;4;4200;1905;1250000;Yes;No
+HP025;Chicago;Gold Coast;Condo;2;2;1550;2000;790000;Yes;No
