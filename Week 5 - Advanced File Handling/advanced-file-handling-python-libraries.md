@@ -571,7 +571,7 @@ Create a script that:
 
 * Cell types:
   * Code (Python execution)
-  * Markdown (formatted text)
+  * Markdown (formatted text) See: https://www.markdownguide.org/
   * Raw (unformatted text)
 * Key shortcuts:
   * Shift+Enter: Run cell
@@ -687,8 +687,4 @@ Today we covered:
 * [Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/)
 * [Real Python: Working with CSV Files](https://realpython.com/python-csv/)
 * [DataCamp: Python Directory and File Management](https://www.datacamp.com/community/tutorials/python-directory-management)
-
----
-
-# Questions?
 
