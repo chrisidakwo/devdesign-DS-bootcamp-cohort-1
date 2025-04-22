@@ -1,5 +1,5 @@
 # Introduction to Python Libraries
-## Week 3, Lesson 2
+## Week 5, Lesson 3
 
 Welcome to Week 3, Lesson 2 of our Python Data Science Bootcamp! Today, we'll explore Python libraries - one of the key elements that make Python such a powerful language for data science.
 
