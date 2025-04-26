@@ -1,0 +1,41 @@
+CLASS REPORT
+==================================================
+
+CLASS STATISTICS
+--------------------------------------------------
+Total Number of Students: 20
+Score Mean: 81.11
+Score Median: 81.875
+Score Standard Deviation: 7.79
+Score Range: 59.5 - 93.25
+Attendance Mean: 90.15%
+Attendance Median: 91.50%
+
+STUDENT RECOGNITION
+--------------------------------------------------
+Best Performing Student: Olivia Williams
+
+STUDENT DETAILS
+--------------------------------------------------
+Name                     Score    Attend   Grade
+-----------------------------------------------------------------
+Olivia Williams          93.25    98.0     A    
+Evelyn Jackson           91.25    96.0     A    
+Emma Johnson             88.25    97.0     B    
+Mia Gonzalez             87.25    97.0     B    
+Isabella Rodriguez       86.5     93.0     B    
+Ethan Thomas             85.5     91.0     B    
+Amelia Taylor            85.25    94.0     B    
+James Davis              84.75    94.0     B    
+Benjamin Lopez           84.5     95.0     B    
+Mason Wilson             82.25    92.0     B    
+Ava Jones                81.5     92.0     B    
+Sophia Miller            80.75    91.0     B    
+Michael Martin           80.5     88.0     B    
+Liam Smith               79.0     89.0     C    
+Harper Anderson          76.25    83.0     C    
+William Garcia           76.0     85.0     C    
+Charlotte Hernandez      75.5     88.0     C    
+Logan Martinez           74.75    86.0     C    
+Alexander Moore          69.75    79.0     D    
+Noah Brown               59.5     75.0     E    

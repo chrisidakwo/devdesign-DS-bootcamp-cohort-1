@@ -93,6 +93,7 @@ def getBestPerformingStudent(students):
     return f"{bestStudent['first_name']} {bestStudent['last_name']}"
 
 
+
 def generateClassReport(students):
     with open(CLASS_REPORT_FILE, 'w') as file:
         file.write("CLASS REPORT\n")

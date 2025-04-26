@@ -36,6 +36,7 @@ It's perfect for:
 - Data visualization
 - Machine learning
 - Sharing your work with others
+- Trial and error
 
 ### Launching Jupyter Notebook
 
