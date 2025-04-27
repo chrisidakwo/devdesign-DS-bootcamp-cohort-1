@@ -53,11 +53,11 @@ studentRecord('Jeffrey', grade = 'A', score = 82)
 # You can also use keyword arguments to specify the order of the parameters
 # This allows you to pass in the arguments in any order
 # For example, you can call the function like this:
-studentRecord('Maria', score = 78.5)
+studentRecord('Maria', score = 78.5, grade = 'C')
 
 # You can also use keyword arguments to specify the order of the parameters
 # This allows you to pass in the arguments in any order
 # For example, you can call the function like this:
-studentRecord(score = 90, name = 'Jeffrey')
+studentRecord(score = 90, name = 'Jeffrey', grade = 'A')
 
 print('')
