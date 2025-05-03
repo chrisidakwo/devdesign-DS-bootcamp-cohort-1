@@ -145,9 +145,9 @@ Pandas (Python Data Analysis Library) is built on top of NumPy and provides easy
 ### Why Pandas?
 
 If NumPy is like an efficient warehouse, Pandas is like a complete inventory management system. It not only stores your data efficiently but also labels everything with row and column names, lets you search and filter based on any criteria, handles missing items gracefully, and can import/export data from various sources.
-
+tables
 Key features:
-- DataFrames: 2D labeled data structures similar to spreadsheets or SQL tables
+- DataFrames: 2D labeled data structures similar to spreadsheets or SQL 
 - Series: 1D labeled arrays
 - Powerful data alignment and integration capabilities
 - Robust handling of missing data
