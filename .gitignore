@@ -2,4 +2,6 @@
 .idea
 .ipynb_*
 sports_team_env/*
+learning_env/*
+env/*
 Week 6 - Package Management/exercises/student_analysis/env/*

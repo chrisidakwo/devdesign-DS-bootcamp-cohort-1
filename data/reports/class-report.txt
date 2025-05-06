@@ -1,0 +1,111 @@
+
+========== CLASS PERFORMANCE PROFILE ==========
+Report Date: 2025-05-06
+Total Students: 21
+
+PERFORMANCE METRICS
+Class Average: 80.81
+Highest Score: 95.00
+Lowest Score: 59.50
+
+GRADE DISTRIBUTION
+A: 2 students (9.52%)
+B: 10 students (47.62%)
+C: 7 students (33.33%)
+D: 1 students (4.76%)
+E: 1 students (4.76%)
+
+SUBJECT AVERAGES
+Math: 79.12
+Science: 81.11
+English: 81.05
+History: 81.43
+
+STUDENTS NEEDING SUPPORT
+10 students (47.6% of total class students)
+
+PERFORMANCE BY GENDER
+F: 85.02
+M: 76.98
+
+ATTENDANCE CORRELATION
+The correlation between attendance rate and students' performance is 0.94.
+The value shows strong positive correlation, meaning that higher attendance rate is strongly associated with better performance.
+
+========== MATH PERFORMANCE SUMMARY ==========
+Average Score: 79.12
+Median Score: 79.12
+Range: 45.0 to 95.0
+Standard Deviation: 11.23
+
+Grade Distribution
+A: 4 students (19.0%)
+B: 5 students (23.8%)
+C: 9 students (42.9%)
+D: 2 students (9.5%)
+F: 1 students (4.8%)
+
+Top Performing Students:
+1. Olivia Williams (ID: STU003): 95
+2. Emma Johnson (ID: STU001): 92
+3. Isabella Rodriguez (ID: STU009): 91
+4. Ethan Thomas (ID: STU016): 91
+5. Evelyn Jackson (ID: STU019): 89
+
+========== SCIENCE PERFORMANCE SUMMARY ==========
+Average Score: 81.11
+Median Score: 81.11
+Range: 58.0 to 96.0
+Standard Deviation: 8.62
+
+Grade Distribution
+A: 3 students (14.3%)
+B: 10 students (47.6%)
+C: 6 students (28.6%)
+D: 1 students (4.8%)
+E: 1 students (4.8%)
+
+Top Performing Students:
+1. Olivia Williams (ID: STU003): 96
+2. Evelyn Jackson (ID: STU019): 93
+3. Mia Gonzalez (ID: STU013): 91
+4. Emma Johnson (ID: STU001): 88
+5. James Davis (ID: STU008): 88
+
+========== ENGLISH PERFORMANCE SUMMARY ==========
+Average Score: 81.05
+Median Score: 81.05
+Range: 65.0 to 95.0
+Standard Deviation: 9.53
+
+Grade Distribution
+A: 5 students (23.8%)
+B: 6 students (28.6%)
+C: 7 students (33.3%)
+D: 3 students (14.3%)
+
+Top Performing Students:
+1. Emma Johnson (ID: STU001): 95
+2. Evelyn Jackson (ID: STU019): 95
+3. Sophia Miller (ID: STU007): 93
+4. Harper Anderson (ID: STU015): 92
+5. Mason Wilson (ID: STU014): 90
+
+========== HISTORY PERFORMANCE SUMMARY ==========
+Average Score: 81.43
+Median Score: 81.00
+Range: 63.0 to 94.0
+Standard Deviation: 9.23
+
+Grade Distribution
+A: 5 students (23.8%)
+B: 7 students (33.3%)
+C: 6 students (28.6%)
+D: 3 students (14.3%)
+
+Top Performing Students:
+1. Olivia Williams (ID: STU003): 94
+2. James Davis (ID: STU008): 93
+3. Benjamin Lopez (ID: STU012): 92
+4. Amelia Taylor (ID: STU017): 92
+5. Liam Smith (ID: STU002): 91

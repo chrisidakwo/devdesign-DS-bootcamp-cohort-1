@@ -8,8 +8,10 @@ In here you will find all the code and asset files used in class sessions and so
 
 1. Create a virtual environment:
    ```
-   python -m venv myenv
+   python -m venv <myenv>
    ```
+
+   Replace <myenv> with your preferred virtual environment name
 
 2. Activate the environment:
    - Windows: `myenv\Scripts\activate`
