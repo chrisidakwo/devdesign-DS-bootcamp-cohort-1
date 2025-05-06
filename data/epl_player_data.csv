@@ -1,0 +1,543 @@
+player_id,team_name,player_name,nationality,position,age,matches_played,matches_started,minutes_played,goals,assists,shots,shots_on_target,passes_completed,pass_accuracy,tackles,interceptions,fouls_committed,fouls_suffered,yellow_cards,red_cards,games_suspended
+1,Manchester City,Erling Haaland,Norway,Forward,23,31,30,2595,27,5,125,55,550,78.6,15,5,18,35,2,0,0
+2,Arsenal,Bukayo Saka,England,Forward,22,38,38,3178,16,11,98,40,1250,81.2,35,18,25,50,4,0,0
+3,Liverpool,Mohamed Salah,Egypt,Forward,31,32,30,2601,18,9,105,45,950,80.5,18,10,15,28,1,0,0
+4,Aston Villa,Ollie Watkins,England,Forward,28,37,37,3153,19,13,90,40,800,75.0,20,12,30,45,6,0,0
+5,Manchester City,Phil Foden,England,Midfielder,23,35,32,2730,19,8,90,40,1100,85.0,30,18,18,45,2,0,0
+6,Chelsea,Cole Palmer,England,Midfielder,21,34,31,2733,16,9,78,38,1100,84.5,22,15,18,40,3,0,0
+7,Newcastle United,Alexander Isak,Sweden,Forward,30,30,27,2357,21,2,80,38,650,79.2,10,6,12,25,1,0,0
+8,Manchester United,Bruno Fernandes,Portugal,Midfielder,29,35,34,2970,10,8,95,30,1050,81.9,40,20,55,48,11,0,1
+9,Chelsea,Conor Gallagher,England,Midfielder,24,37,34,3020,5,5,55,18,1500,85.0,85,55,83,70,12,1,1
+10,Fulham,João Palhinha,Portugal,Midfielder,28,35,33,2879,4,1,50,15,900,80.1,95,70,65,30,13,1,2
+11,AFC Bournemouth,Marcos Senesi,Argentina,Defender,26,37,37,3330,1,1,20,5,1200,84.0,85,60,52,30,13,0,1
+12,Tottenham Hotspur,Yves Bissouma,Mali,Midfielder,27,33,30,2580,2,3,35,10,1500,86.0,95,70,65,50,11,2,4
+13,Sheffield United,Oliver McBurnie,Scotland,Forward,27,34,31,2600,6,3,70,25,550,72.0,40,25,55,40,9,2,3
+14,Chelsea,Reece James,England,Defender,24,15,12,1080,0,2,15,4,650,82.0,45,25,18,20,3,2,4
+15,Nottingham Forest,Taiwo Awoniyi,Nigeria,Forward,26,20,12,1150,6,3,22,11,172,74.0,9,1,9,13,2,0,0
+16,Nottingham Forest,Ola Aina,Nigeria,Defender,27,22,20,1820,1,1,8,3,634,81.0,47,18,18,2,3,0,0
+17,Fulham,Calvin Bassey,Nigeria,Defender,24,29,25,2250,1,0,5,2,1667,85.0,49,28,15,2,4,1,1
+18,Brentford,Frank Onyeka,Nigeria,Midfielder,26,26,11,1050,1,2,22,9,375,78.0,37,23,24,4,8,0,1
+19,Fulham,Alex Iwobi,Nigeria,Midfielder,28,32,27,2420,5,2,55,20,1012,82.0,31,15,12,8,2,0,0
+20,Manchester United,John Hughes,Australia,Midfielder,21,35,5,568,0,1,7,1,174,78.8,0,0,7,1,0,0,0
+21,Luton Town,Mohammed Cooper,Egypt,Midfielder,32,38,17,1550,0,4,19,7,414,84.4,23,13,13,11,3,0,0
+22,Aston Villa,Alfie Scott,Belgium,Midfielder,21,23,11,1174,1,1,12,4,433,82.4,18,14,9,21,0,0,0
+23,Sheffield United,Alex Fischer,Norway,Defender,24,5,0,121,0,0,0,0,41,88.3,0,0,0,0,0,0,0
+24,AFC Bournemouth,Lewis Turner,England,Defender,26,5,4,338,0,0,0,0,122,83.5,5,3,4,5,0,0,0
+25,Arsenal,Ryan Brown,Republic of Ireland,Midfielder,28,26,8,1019,1,3,9,3,357,84.6,19,10,18,9,2,0,0
+26,Everton,Lucas Anderson,Ukraine,Forward,22,16,8,791,3,1,26,10,213,73.1,7,4,4,4,0,0,0
+27,Aston Villa,Jacob Rossi,Ukraine,Goalkeeper,23,28,19,1360,0,0,0,0,416,79.9,0,0,23,11,4,0,0
+28,Manchester City,Tim Thomas,Algeria,Midfielder,21,35,17,1666,6,11,15,4,746,77.9,21,10,25,12,2,0,0
+29,Nottingham Forest,Archie Rossi,England,Midfielder,27,33,12,1310,5,8,26,9,712,85.3,18,11,25,11,1,0,0
+30,Aston Villa,Alex Baker,England,Midfielder,25,4,1,172,0,0,5,1,100,81.8,3,1,2,0,0,0,0
+31,Brentford,Pierre Harris,England,Defender,26,34,27,2601,5,0,19,6,815,86.3,84,68,18,10,1,0,0
+32,Nottingham Forest,Yusuf White,England,Defender,25,15,2,400,0,1,1,0,203,80.6,9,5,2,3,0,0,0
+33,Brighton & Hove Albion,William Gonzalez,South Korea,Goalkeeper,25,18,15,1056,0,0,0,0,220,79.0,0,0,6,4,1,1,1
+34,Brentford,Ali Jackson,Cameroon,Defender,21,7,6,450,0,0,2,0,127,78.7,14,11,6,7,0,0,0
+35,Aston Villa,Dylan Jackson,Portugal,Defender,24,35,28,1937,1,1,14,4,735,88.5,50,31,36,11,8,0,1
+36,Luton Town,Jack Robinson,Egypt,Midfielder,25,11,6,508,0,1,8,2,253,76.7,8,4,4,13,0,0,0
+37,Everton,Aaron Costa,Norway,Midfielder,35,32,9,853,0,0,11,2,370,84.8,20,10,12,6,0,0,0
+38,Nottingham Forest,Javier Lewis,Scotland,Midfielder,19,33,5,617,1,1,11,2,265,86.3,13,8,7,2,0,0,0
+39,Sheffield United,Leo Pereira,Cameroon,Midfielder,36,37,33,2406,3,7,62,23,545,79.8,51,29,30,18,7,0,1
+40,Brighton & Hove Albion,Luca Johnson,England,Defender,18,30,19,2038,6,2,13,2,519,80.6,33,22,5,5,0,0,0
+41,Chelsea,Hassan Diaz,England,Defender,27,34,0,641,0,0,2,0,246,79.2,16,13,3,3,0,0,0
+42,Crystal Palace,Thomas Turner,England,Defender,28,14,10,847,1,0,2,0,236,88.9,12,10,6,6,1,0,0
+43,Brighton & Hove Albion,Simone Edwards,England,Goalkeeper,38,17,5,640,0,0,0,0,223,71.4,0,0,4,2,0,0,0
+44,Tottenham Hotspur,David Brown,England,Forward,29,38,35,2369,14,1,24,8,351,80.6,26,16,4,24,0,0,0
+45,Aston Villa,Lewis Simon,Denmark,Defender,35,27,19,1806,3,2,11,2,538,80.0,39,32,58,10,7,0,1
+46,Brighton & Hove Albion,Ali Colombo,Austria,Midfielder,25,18,5,521,2,3,9,3,226,86.3,6,3,6,10,0,0,0
+47,Manchester United,John Taylor,Serbia,Forward,24,26,10,812,2,2,24,10,248,72.9,4,2,7,7,2,0,0
+48,West Ham United,Daniel Weber,Morocco,Goalkeeper,26,3,0,40,0,0,0,0,10,76.8,0,0,0,0,0,0,0
+49,Fulham,Nicolas Jackson,England,Midfielder,26,3,3,189,0,0,2,0,70,84.6,1,0,5,1,0,0,0
+50,Brighton & Hove Albion,Alexandre James,Canada,Defender,21,20,16,1202,0,0,7,1,375,81.5,22,14,17,12,3,0,0
+51,Sheffield United,Louis Mitchell,England,Forward,30,36,0,369,2,0,13,5,109,76.5,3,1,1,5,0,0,0
+52,Chelsea,Jonas Roberts,Jamaica,Midfielder,27,33,21,1721,6,4,53,15,804,79.7,19,14,6,15,1,0,0
+53,Brentford,Mathieu Moreau,Belgium,Defender,20,30,13,1459,0,3,4,1,444,82.6,31,22,4,17,0,0,0
+54,Aston Villa,Roberto Costa,Republic of Ireland,Midfielder,25,12,12,1066,1,4,17,4,492,79.0,16,12,5,10,0,0,0
+55,Nottingham Forest,Jean Wagner,Serbia,Midfielder,28,29,19,1888,5,0,37,12,992,86.9,18,11,16,15,1,0,0
+56,West Ham United,Luca Ward,England,Midfielder,38,18,16,1239,4,5,9,3,381,84.6,11,6,4,16,0,1,1
+57,Tottenham Hotspur,Jacob Hill,Wales,Midfielder,30,10,3,300,0,0,3,1,162,81.0,3,1,1,4,0,0,0
+58,Manchester City,Matteo Fischer,Austria,Midfielder,30,31,0,386,0,0,9,2,167,86.7,8,6,2,3,0,0,0
+59,Sheffield United,John Hernandez,England,Midfielder,25,18,13,1063,0,4,18,6,443,85.6,17,12,6,3,0,0,0
+60,Luton Town,Oliver Silva,England,Forward,36,37,1,631,1,0,19,8,134,70.5,2,0,5,5,2,0,0
+61,Fulham,Kyle Durand,Serbia,Midfielder,31,17,2,507,0,1,12,3,212,87.4,9,5,2,6,0,0,0
+62,Manchester City,Dylan Wood,England,Midfielder,18,10,3,351,0,0,3,1,138,78.6,5,3,0,1,0,0,0
+63,Aston Villa,Roberto Lewis,Sweden,Midfielder,27,7,0,135,0,0,1,0,55,80.5,2,1,0,1,0,0,0
+64,Manchester United,Archie Bruno,Senegal,Midfielder,27,8,0,125,0,0,1,0,29,82.1,2,1,1,0,0,0,0
+65,AFC Bournemouth,Klaus Sousa,England,Defender,22,28,5,1084,1,0,11,2,465,87.7,9,6,5,2,0,0,0
+66,Brighton & Hove Albion,Dylan Robinson,England,Midfielder,26,29,7,1006,2,2,17,6,333,80.0,13,8,3,8,0,0,0
+67,West Ham United,Callum King,Scotland,Defender,37,18,17,1104,0,0,7,1,393,86.6,17,12,22,8,4,0,0
+68,Everton,Harry Robinson,Republic of Ireland,Midfielder,27,15,12,1018,1,4,25,9,282,81.7,17,11,11,7,1,0,0
+69,AFC Bournemouth,Maximilian Sousa,England,Midfielder,26,20,8,830,0,1,10,3,124,84.9,21,16,2,0,0,0,0
+70,Brentford,Kyle Thomas,Republic of Ireland,Defender,36,34,18,2023,0,4,2,0,657,82.3,27,18,9,8,1,0,0
+71,Luton Town,Jamie Bruno,Netherlands,Forward,22,32,6,1022,5,1,41,16,174,74.2,9,4,7,12,0,0,0
+72,Brentford,William Fischer,Poland,Goalkeeper,38,4,1,124,0,0,0,0,30,69.6,0,0,1,0,0,0,0
+73,Sheffield United,Antoine Schulz,Japan,Midfielder,25,34,24,1964,0,3,38,16,1201,87.9,16,9,7,8,3,0,0
+74,Aston Villa,Matteo Turner,South Africa,Forward,38,14,4,412,1,0,8,2,105,69.1,4,1,3,1,0,0,0
+75,Crystal Palace,Giovanni Campbell,DR Congo,Goalkeeper,32,5,5,346,0,0,0,0,85,76.9,0,0,4,0,0,0,0
+76,Wolverhampton Wanderers,Joshua Diaz,England,Forward,25,10,4,381,1,0,5,1,80,72.3,2,1,2,2,0,0,0
+77,Crystal Palace,Maximilian Santos,Colombia,Midfielder,26,33,31,2359,1,0,39,16,1080,84.8,35,23,8,11,1,0,0
+78,Burnley,Paul Williams,France,Forward,26,37,2,495,3,2,12,4,129,74.2,1,0,1,5,0,0,0
+79,Liverpool,Juan Phillips,England,Midfielder,31,22,10,1128,4,9,32,10,410,84.3,11,6,3,3,0,0,0
+80,Everton,Alfie James,England,Midfielder,26,21,3,539,0,1,9,3,355,87.9,9,6,1,4,0,0,0
+81,Nottingham Forest,Alex Schulz,Morocco,Goalkeeper,33,29,24,1603,0,0,0,0,301,67.0,0,0,24,16,5,0,1
+82,Aston Villa,Oliver Rossi,Colombia,Midfielder,37,16,5,415,0,1,8,2,180,78.7,2,1,7,0,0,0,0
+83,Tottenham Hotspur,Miguel Bernard,Italy,Defender,27,33,17,1534,1,0,13,3,600,83.5,40,25,10,18,1,0,0
+84,Liverpool,Kyle Moreau,DR Congo,Forward,31,22,16,1153,1,6,18,8,315,79.7,4,2,2,19,0,0,0
+85,Brighton & Hove Albion,Pierre Leroy,Belgium,Midfielder,35,25,14,1528,2,11,19,8,595,78.9,20,12,5,5,1,0,0
+86,Fulham,Tyler Romano,Austria,Midfielder,38,10,7,647,0,1,8,3,223,80.0,11,5,3,7,0,0,0
+87,Manchester City,Alessandro Green,Croatia,Forward,31,10,1,338,1,0,6,2,76,77.7,3,1,3,2,0,0,0
+88,Brighton & Hove Albion,Hans Bernard,England,Defender,33,35,2,518,0,1,2,0,155,81.4,7,4,6,4,1,0,0
+89,Aston Villa,Hassan Harris,England,Midfielder,27,2,0,12,0,0,0,0,4,81.2,0,0,0,0,0,0,0
+90,Chelsea,Daniel Roberts,Austria,Midfielder,37,25,19,1652,0,9,21,7,645,78.8,26,17,18,16,4,0,0
+91,Everton,Aaron Ricci,Serbia,Goalkeeper,35,11,1,211,0,0,0,0,57,73.8,0,0,1,3,0,0,0
+92,Everton,Matthew Wood,England,Midfielder,30,31,6,898,1,3,21,7,491,87.9,11,6,11,8,1,0,0
+93,Arsenal,Thomas Petit,Canada,Goalkeeper,33,19,7,721,0,0,0,0,167,74.5,0,0,1,2,0,0,0
+94,Tottenham Hotspur,Hans Thompson,South Africa,Midfielder,38,3,2,174,0,1,2,0,66,77.6,3,2,1,0,0,0,0
+95,Tottenham Hotspur,David Adams,England,Defender,34,33,17,1634,0,0,15,5,666,83.8,29,24,5,18,0,0,0
+96,Liverpool,Lucas Durand,England,Midfielder,25,26,25,1958,3,3,34,11,814,79.2,17,9,36,12,6,0,1
+97,Burnley,Patrick Ferrari,England,Midfielder,29,7,3,309,0,0,7,3,166,79.9,3,2,1,0,0,0,0
+98,Crystal Palace,Felix Oliveira,New Zealand,Forward,21,9,0,113,0,0,2,0,27,69.4,1,0,1,1,0,0,0
+99,Luton Town,Mohammed Meyer,Serbia,Forward,22,27,20,1434,10,1,12,4,430,81.3,6,2,13,17,1,0,0
+100,AFC Bournemouth,Henry Marino,Croatia,Defender,29,35,22,1576,2,2,12,4,523,89.4,35,29,13,19,2,0,0
+101,Manchester City,Charlie Allen,England,Midfielder,25,9,9,616,1,2,18,6,231,83.0,11,8,7,5,3,0,0
+102,Sheffield United,James King,South Korea,Defender,22,9,8,567,1,0,4,1,181,78.3,8,4,2,4,0,0,0
+103,West Ham United,Charlie Edwards,Japan,Goalkeeper,31,34,7,1038,0,0,0,0,190,76.7,0,0,6,8,0,0,0
+104,Manchester United,Mathieu Davies,Turkey,Midfielder,34,20,14,1159,4,0,27,12,425,86.2,17,10,9,6,1,0,0
+105,Liverpool,Leo Kelly,Germany,Forward,37,10,1,251,1,0,5,2,42,78.0,1,0,1,1,0,0,0
+106,Aston Villa,Maximilian Walker,Colombia,Midfielder,38,36,13,1595,4,1,32,10,394,85.9,13,8,10,2,0,0,0
+107,West Ham United,Max Hall,Germany,Defender,33,5,0,36,0,0,0,0,9,86.9,0,0,0,0,0,0,0
+108,Aston Villa,Ali Lee,England,Midfielder,31,4,2,186,0,0,3,1,67,78.6,2,1,2,1,0,0,0
+109,Luton Town,Max Walker,England,Defender,26,37,14,1788,4,1,6,2,907,87.8,16,12,22,22,1,0,0
+110,West Ham United,Oliver Patel,England,Midfielder,26,20,10,820,0,5,15,4,196,83.9,13,6,14,3,2,0,0
+111,Nottingham Forest,Edward Scott,England,Goalkeeper,31,30,10,928,0,0,0,0,323,69.9,0,0,7,8,1,0,0
+112,Tottenham Hotspur,Mohammed Durand,Cameroon,Forward,37,4,0,86,0,0,2,0,13,74.2,0,0,0,0,0,0,0
+113,Burnley,José Sanchez,Italy,Defender,27,3,1,113,0,0,0,0,44,81.6,2,1,1,0,0,0,0
+114,Brentford,Andrea Fernandes,United States,Defender,23,9,6,496,1,1,3,0,193,86.0,1,0,0,2,0,0,0
+115,Liverpool,Nathan Fischer,Spain,Midfielder,31,37,25,2239,3,13,31,8,1047,76.3,25,14,29,22,3,0,0
+116,AFC Bournemouth,Alfie Fernandes,South Africa,Midfielder,21,16,13,1079,4,1,15,4,627,79.7,15,9,7,12,0,0,0
+117,Aston Villa,Javier Gonzalez,England,Goalkeeper,24,23,11,1214,0,0,0,0,333,77.2,0,0,12,15,1,0,0
+118,Chelsea,Thomas Hall,Japan,Defender,38,5,1,171,0,0,1,0,64,84.8,3,2,2,1,0,0,0
+119,Brighton & Hove Albion,Hans James,England,Forward,22,29,2,712,0,1,19,8,109,76.3,3,1,2,13,1,0,0
+120,Crystal Palace,William Esposito,Serbia,Goalkeeper,20,33,24,1981,0,0,0,0,672,76.9,0,0,25,18,7,0,1
+121,Newcastle United,Jake Becker,Spain,Forward,33,33,9,1190,1,2,23,10,286,79.7,11,7,8,23,0,0,0
+122,Everton,Hassan Sanchez,New Zealand,Defender,34,11,5,437,1,0,3,0,112,82.1,6,4,4,3,0,0,0
+123,Luton Town,Jan Cook,New Zealand,Defender,27,17,4,542,1,0,5,1,146,82.2,8,7,8,7,1,0,0
+124,Liverpool,Benjamin Schmidt,Finland,Midfielder,30,22,4,787,0,4,14,5,235,84.2,6,3,5,2,1,0,0
+125,Manchester City,Alex Baker,England,Midfielder,23,14,5,597,1,0,10,2,342,77.7,7,3,3,10,0,0,0
+126,Nottingham Forest,George Romano,Germany,Midfielder,28,9,9,658,1,1,15,6,319,85.3,8,5,2,0,0,0,0
+127,AFC Bournemouth,Jan Thomas,England,Goalkeeper,25,29,19,1580,0,0,0,0,434,71.7,0,0,15,10,2,0,0
+128,Brentford,Joseph Morris,Morocco,Forward,36,29,14,1539,7,1,58,23,364,73.9,9,4,10,27,0,0,0
+129,Brentford,Max Muller,DR Congo,Defender,21,34,7,1144,0,0,7,1,525,88.9,33,21,17,13,1,0,0
+130,Manchester City,Mohammed Evans,England,Forward,30,33,23,1894,6,8,49,18,377,68.4,11,7,17,15,3,0,0
+131,Arsenal,Aaron Garcia,New Zealand,Defender,22,31,28,2312,1,0,6,1,905,80.6,22,14,44,5,9,0,1
+132,Crystal Palace,Mason Mitchell,DR Congo,Defender,21,4,1,148,0,0,1,0,58,79.3,3,2,0,1,0,0,0
+133,Tottenham Hotspur,Jamie Costa,England,Midfielder,18,23,7,703,3,5,15,5,292,82.3,9,5,8,4,0,0,0
+134,Nottingham Forest,Pierre Williams,Algeria,Midfielder,30,31,2,1016,2,2,10,3,459,76.2,21,15,18,9,3,0,0
+135,Aston Villa,Simone Weber,Denmark,Midfielder,28,9,0,121,0,0,2,0,38,86.0,2,1,0,0,0,0,0
+136,Tottenham Hotspur,Oscar Bernard,Republic of Ireland,Defender,32,3,2,161,0,0,0,0,65,81.8,2,1,0,0,0,0,0
+137,Newcastle United,Aaron Lee,Morocco,Goalkeeper,19,22,8,729,0,0,0,0,247,78.3,0,0,6,6,0,0,0
+138,Chelsea,Miguel Greco,England,Defender,33,24,16,1179,3,1,3,0,366,83.2,31,27,3,10,0,0,0
+139,Crystal Palace,Benjamin Martins,Colombia,Goalkeeper,37,28,5,725,0,0,0,0,120,65.6,0,0,12,2,1,0,0
+140,Arsenal,William Colombo,England,Defender,38,26,11,1201,0,2,8,1,523,78.4,18,15,14,12,1,0,0
+141,AFC Bournemouth,Alex Cook,Croatia,Goalkeeper,36,3,1,138,0,0,0,0,34,70.6,0,0,0,0,0,0,0
+142,Fulham,Nathan Bianchi,Brazil,Midfielder,26,16,3,316,0,0,5,1,112,87.0,3,1,2,5,0,0,0
+143,Sheffield United,Aaron Greco,England,Defender,33,13,1,148,0,0,0,0,47,86.6,3,2,4,2,1,0,0
+144,Luton Town,David Young,England,Midfielder,27,11,11,903,1,1,8,2,388,80.3,12,6,7,13,1,0,0
+145,Brentford,Oliver Adams,England,Defender,35,37,23,2153,0,0,16,3,884,88.6,39,24,31,7,5,0,1
+146,Wolverhampton Wanderers,Nicolas Johnson,England,Midfielder,22,21,20,1316,5,3,25,8,800,77.5,7,5,13,8,2,0,0
+147,Tottenham Hotspur,Omar Lopez,England,Defender,19,8,8,537,0,1,5,1,187,86.5,12,8,2,4,0,0,0
+148,Luton Town,Kyle Edwards,England,Defender,38,20,19,1488,1,2,12,2,655,89.3,28,18,6,29,0,0,0
+149,Arsenal,Oliver Roberts,DR Congo,Forward,19,37,16,1796,8,3,56,21,437,76.9,17,9,8,29,0,0,0
+150,Manchester United,Tim Santos,England,Defender,27,30,2,413,0,0,1,0,149,83.6,7,4,3,0,0,0,0
+151,AFC Bournemouth,Abdul Edwards,Northern Ireland,Forward,29,33,6,879,6,2,29,10,290,71.5,6,2,2,15,0,0,0
+152,Chelsea,Jake Fischer,England,Defender,28,13,12,837,0,0,5,1,196,88.5,20,14,8,0,1,0,0
+153,Newcastle United,Julien Lee,Finland,Forward,19,4,2,206,0,0,2,0,40,74.6,2,1,1,2,0,0,0
+154,AFC Bournemouth,Matteo Santos,Switzerland,Defender,29,3,3,193,0,0,1,0,52,81.5,4,2,0,3,0,0,0
+155,Sheffield United,Freddie Edwards,Egypt,Forward,21,26,11,1131,9,3,40,19,341,78.6,9,4,3,1,0,0,0
+156,Brighton & Hove Albion,Juan Perez,Turkey,Goalkeeper,32,10,9,792,0,0,0,0,207,79.0,0,0,9,9,0,0,0
+157,Crystal Palace,Paul Bell,Scotland,Forward,34,33,31,2571,10,2,55,25,487,73.2,31,18,20,75,1,0,0
+158,Manchester City,Antoine Garcia,Mali,Forward,26,38,36,2501,11,10,36,14,526,75.3,18,11,11,47,2,0,0
+159,Arsenal,Nicolas Bruno,Norway,Midfielder,21,13,0,201,0,0,5,1,73,78.4,3,1,1,0,0,0,0
+160,Arsenal,Giovanni Hughes,England,Forward,34,14,8,703,2,0,17,6,168,72.4,7,3,10,8,0,0,0
+161,West Ham United,Mathieu Rodriguez,Wales,Midfielder,24,16,8,709,3,2,1,0,246,79.6,10,5,6,5,0,0,0
+162,Brentford,Jordan Schmidt,England,Midfielder,26,19,3,532,1,0,15,6,139,80.7,8,4,6,11,1,0,0
+163,Liverpool,Jordan Rodrigues,Belgium,Defender,38,17,15,1083,1,3,7,1,540,84.7,15,10,9,7,2,0,0
+164,Nottingham Forest,John Ferrari,Mali,Goalkeeper,25,4,0,91,0,0,0,0,11,66.5,0,0,1,1,0,0,0
+165,Chelsea,Ali Bianchi,Netherlands,Midfielder,33,31,12,1232,2,1,22,6,477,76.7,14,10,0,18,0,0,0
+166,Arsenal,Daniel Pereira,New Zealand,Midfielder,23,3,3,252,0,1,3,1,121,86.5,1,0,3,3,0,0,0
+167,Aston Villa,Luke Campbell,Spain,Midfielder,32,35,33,2576,0,7,51,21,1240,81.6,36,20,23,12,3,0,0
+168,West Ham United,Marco Patel,Italy,Midfielder,18,22,9,1016,1,4,12,3,287,86.3,13,9,20,2,2,0,0
+169,Aston Villa,Samuel Hughes,Switzerland,Goalkeeper,33,21,7,646,0,0,0,0,172,71.7,0,0,1,6,0,0,0
+170,Burnley,Jack Anderson,England,Defender,38,24,22,1569,0,1,12,3,800,79.9,37,29,20,21,2,0,0
+171,Crystal Palace,Max Hoffmann,England,Midfielder,25,15,4,483,0,0,5,2,117,80.5,10,7,9,10,0,0,0
+172,Newcastle United,Matteo Ward,England,Forward,37,6,4,345,0,2,9,2,99,75.9,3,1,4,1,0,0,0
+173,Chelsea,Jake Perez,Turkey,Midfielder,32,8,3,333,0,0,7,3,113,81.3,4,2,2,2,0,0,0
+174,Arsenal,Jean Alves,Netherlands,Midfielder,27,2,1,74,0,0,1,0,28,76.9,1,0,0,1,0,0,0
+175,Liverpool,Juan Brown,Republic of Ireland,Forward,27,27,5,950,4,3,31,15,239,77.0,3,1,3,10,0,0,0
+176,Fulham,Patrick Roberts,Norway,Forward,35,9,5,450,1,1,5,1,91,69.8,4,2,2,4,0,0,0
+177,Luton Town,Ahmed Gomez,England,Midfielder,30,15,7,599,2,1,10,2,142,86.5,9,6,2,6,0,0,0
+178,Manchester City,Mason Turner,England,Defender,20,7,0,152,0,0,0,0,48,80.9,2,1,0,0,0,0,0
+179,Arsenal,Isaac Lopez,Morocco,Forward,27,15,10,907,9,0,13,6,129,71.3,3,1,5,22,0,0,0
+180,Arsenal,Jean Meyer,Algeria,Defender,23,28,17,1620,0,1,9,3,486,86.1,19,15,10,15,0,0,0
+181,Chelsea,Luca Gomez,Austria,Defender,33,16,7,702,2,0,4,1,170,89.0,11,8,11,10,2,0,0
+182,West Ham United,Alexander Allen,Egypt,Defender,38,6,3,279,0,0,0,0,60,80.3,6,4,0,1,0,0,0
+183,Burnley,Alessandro Colombo,DR Congo,Goalkeeper,35,14,7,674,0,0,0,0,237,69.5,0,0,15,3,5,0,1
+184,Aston Villa,Andrea Durand,England,Defender,33,16,6,552,0,1,4,1,258,81.4,9,6,12,2,3,0,0
+185,Brentford,Bilal Thompson,Uruguay,Midfielder,33,21,6,668,0,3,14,5,369,78.7,12,6,8,2,1,0,0
+186,Wolverhampton Wanderers,Jamie Hall,United States,Midfielder,24,22,7,900,2,1,13,4,351,83.9,11,7,12,10,1,0,0
+187,Brentford,Karim Harris,England,Midfielder,29,11,2,319,0,2,5,2,101,82.5,3,2,6,0,0,0,0
+188,Liverpool,Niklas Evans,Portugal,Forward,18,27,4,591,1,0,19,8,119,68.1,3,1,10,2,1,0,0
+189,Brentford,Jonas Hernandez,England,Forward,18,1,1,63,0,0,2,0,19,81.7,0,0,0,0,0,0,0
+190,Chelsea,Archie Thompson,Jamaica,Forward,34,10,3,331,0,0,10,4,115,71.7,3,1,5,1,1,0,0
+191,Manchester United,Matthew Marino,Finland,Defender,20,3,0,43,0,0,0,0,13,85.6,0,0,0,0,0,0,0
+192,Aston Villa,Javier Davies,England,Defender,25,14,14,1210,4,2,6,1,505,78.6,30,18,17,13,2,0,0
+193,Brighton & Hove Albion,Harry Turner,Morocco,Goalkeeper,36,10,6,578,0,0,0,0,118,73.5,0,0,1,1,0,0,0
+194,Luton Town,Luke Cook,England,Defender,22,6,4,359,0,0,1,0,146,80.8,7,4,6,6,1,0,0
+195,Brighton & Hove Albion,Oliver Ferrari,England,Defender,26,29,15,1300,2,1,1,0,445,80.2,35,27,7,14,0,0,0
+196,Liverpool,Leo Harrison,South Africa,Defender,22,25,22,1878,0,3,7,1,551,82.3,42,26,81,13,13,0,2
+197,Tottenham Hotspur,Alfie Patel,Croatia,Defender,31,29,17,1508,7,0,10,2,143,82.2,21,13,5,9,0,0,0
+198,Wolverhampton Wanderers,Tyler Simon,England,Goalkeeper,20,36,15,1370,0,0,0,0,393,70.7,0,0,34,28,6,0,1
+199,Tottenham Hotspur,Oscar Harris,Netherlands,Defender,31,18,13,1047,5,1,8,2,301,89.3,15,12,5,16,0,0,0
+200,Crystal Palace,James Silva,South Africa,Defender,28,25,25,2156,1,1,13,3,1069,87.9,47,37,20,10,4,0,0
+201,Newcastle United,Carlos James,Uruguay,Forward,23,26,10,1066,1,1,43,17,157,76.1,5,2,6,23,2,0,0
+202,Newcastle United,Paul Diaz,Finland,Forward,23,36,1,667,0,1,13,5,116,74.1,8,3,5,7,1,0,0
+203,Crystal Palace,Mason Watson,England,Defender,22,28,25,1878,2,3,1,0,613,85.0,37,28,7,14,1,0,0
+204,AFC Bournemouth,Maximilian Gomez,Republic of Ireland,Goalkeeper,37,6,0,128,0,0,0,0,36,70.3,0,0,0,2,0,0,0
+205,Fulham,Luca Allen,England,Midfielder,31,7,0,73,0,0,1,0,24,82.7,1,0,0,0,0,0,0
+206,Burnley,Florian Lopez,South Korea,Defender,22,23,0,284,1,0,0,0,107,79.0,7,5,1,1,0,0,0
+207,Newcastle United,Manuel Rodriguez,Denmark,Midfielder,29,31,6,1009,3,4,13,4,353,79.6,20,14,11,15,2,0,0
+208,Aston Villa,Jan Harris,Italy,Defender,25,34,11,1162,0,0,1,0,276,83.5,26,21,34,15,4,1,1
+209,Manchester City,Lorenzo Hoffmann,England,Defender,24,29,18,1398,0,0,7,1,280,81.3,31,25,15,5,2,0,0
+210,Chelsea,Alex Kelly,Cameroon,Forward,24,30,3,927,5,0,23,9,205,76.9,8,4,5,5,1,0,0
+211,Everton,Alexandre Clarke,Mali,Defender,27,38,5,829,1,2,5,1,255,79.4,15,10,11,15,2,0,0
+212,Fulham,Ahmed Patel,Norway,Defender,33,35,11,1271,0,0,4,0,577,81.8,13,9,14,4,4,0,0
+213,Newcastle United,Tyler Schmidt,England,Midfielder,34,32,26,2211,2,2,48,20,755,81.9,23,12,13,7,4,0,0
+214,Arsenal,Kyle Cooper,England,Defender,35,19,5,688,1,0,3,1,260,83.9,3,2,5,7,0,0,0
+215,AFC Bournemouth,David Durand,England,Forward,19,29,17,1358,0,1,39,17,156,77.2,17,8,8,14,1,0,0
+216,Liverpool,Hassan White,Spain,Defender,25,14,12,1039,2,1,5,1,401,85.3,31,22,4,4,0,0,0
+217,Burnley,Jordan Gomez,England,Forward,26,35,10,1282,2,1,20,7,383,71.7,14,9,9,25,0,0,0
+218,Wolverhampton Wanderers,Thomas King,England,Defender,38,9,2,298,0,0,1,0,110,87.1,4,3,1,2,0,0,0
+219,Fulham,Yusuf Johnson,England,Midfielder,38,6,3,266,0,0,8,3,137,80.4,4,3,2,0,0,0,0
+220,Liverpool,Francesco Sousa,Scotland,Forward,38,23,2,482,4,0,18,8,137,79.5,4,2,4,5,0,0,0
+221,Burnley,José Bell,Colombia,Midfielder,19,3,0,77,0,0,1,0,38,87.2,1,0,0,1,0,0,0
+222,Newcastle United,Florian Edwards,Serbia,Forward,38,20,5,836,2,0,13,4,328,73.0,12,5,2,1,0,0,0
+223,Crystal Palace,Alessandro Bruno,New Zealand,Defender,25,28,20,1368,2,0,7,1,304,78.9,33,25,9,11,5,0,1
+224,Aston Villa,Ahmed Greco,Croatia,Midfielder,22,31,4,472,0,0,5,2,179,77.2,4,2,3,6,0,0,0
+225,Tottenham Hotspur,Lukas Ricci,Uruguay,Midfielder,22,5,4,333,0,2,7,1,98,80.2,3,1,0,1,0,0,0
+226,Everton,Edward Robinson,England,Midfielder,21,9,1,195,0,1,4,1,68,79.8,2,1,3,0,0,0,0
+227,Sheffield United,Antoine Thomas,England,Defender,37,19,0,407,0,1,0,0,157,84.2,10,7,2,2,0,0,0
+228,Manchester United,Miguel Cook,England,Midfielder,21,16,15,1210,4,4,21,8,434,76.1,23,13,7,10,1,0,0
+229,Burnley,Mohammed Adams,Scotland,Forward,35,12,12,908,2,2,54,16,308,76.2,11,4,5,16,0,0,0
+230,Crystal Palace,Hans Bernard,England,Defender,34,27,13,1164,4,3,1,0,367,85.4,4,2,2,17,0,0,0
+231,Tottenham Hotspur,Alejandro Kelly,England,Forward,30,38,4,827,4,0,23,11,194,71.3,7,3,7,13,1,0,0
+232,Crystal Palace,Niklas Richard,Italy,Midfielder,23,8,0,180,0,0,0,0,75,87.4,2,1,1,1,0,0,0
+233,West Ham United,Francesco White,United States,Defender,18,22,13,973,0,0,3,1,389,84.9,15,9,14,5,1,0,0
+234,Chelsea,Max Lewis,Sweden,Forward,26,7,1,175,0,0,4,1,34,80.1,1,0,2,1,0,0,0
+235,Arsenal,Pierre Bernard,England,Defender,38,27,7,809,0,4,5,1,330,81.3,16,9,9,9,1,0,0
+236,Manchester United,Manuel Davies,England,Goalkeeper,30,5,3,307,0,0,0,0,79,69.7,0,0,9,9,0,0,0
+237,Newcastle United,Jamie Schneider,Argentina,Goalkeeper,27,16,14,1079,0,0,0,0,316,80.0,0,0,4,5,0,0,0
+238,Manchester United,Jacob Smith,England,Midfielder,31,2,0,41,0,0,0,0,22,76.1,0,0,0,0,0,0,0
+239,Crystal Palace,Archie Turner,Canada,Midfielder,34,16,13,1011,1,5,23,10,444,84.5,10,5,28,9,6,0,1
+240,AFC Bournemouth,Karim Petit,England,Midfielder,20,38,6,1129,2,3,12,3,323,83.1,13,6,6,10,0,0,0
+241,West Ham United,Nathan Silva,England,Defender,28,21,14,1032,1,0,8,1,396,87.4,6,4,13,5,3,0,0
+242,Aston Villa,Alejandro Lee,Nigeria,Defender,24,29,9,1205,0,0,4,0,303,87.7,21,14,16,12,1,0,0
+243,Brighton & Hove Albion,Lucas Robinson,DR Congo,Forward,25,23,12,1163,11,2,22,7,327,81.9,2,0,5,6,0,0,0
+244,Aston Villa,Bilal Wright,Croatia,Midfielder,22,8,0,196,0,0,4,1,8,78.4,3,1,1,0,0,0,0
+245,Burnley,Paul Anderson,England,Midfielder,20,2,0,42,0,0,0,0,19,77.1,0,0,0,0,0,0,0
+246,Arsenal,Adam Fischer,Wales,Forward,31,26,15,1199,0,1,17,5,363,71.0,10,4,8,6,1,0,0
+247,Manchester United,Lukas Young,Belgium,Midfielder,33,27,17,1362,0,4,4,1,676,81.0,19,13,2,4,0,0,0
+248,Luton Town,Harry Scott,Algeria,Forward,29,31,31,2240,6,4,40,14,529,71.8,18,7,29,42,5,0,1
+249,Arsenal,Juan Sanchez,England,Midfielder,29,38,14,1430,0,2,39,14,577,79.2,24,17,12,8,1,0,0
+250,Burnley,Tyler Lee,England,Forward,23,12,3,463,1,1,9,3,91,80.8,6,2,5,5,0,0,0
+251,Newcastle United,Miguel Diaz,Cameroon,Midfielder,27,12,7,480,1,3,5,1,164,76.2,6,3,4,4,0,0,0
+252,Tottenham Hotspur,Callum Bernard,England,Defender,23,21,1,456,0,1,3,1,150,87.3,11,9,4,2,0,0,0
+253,Fulham,Paul Thompson,Brazil,Forward,28,20,10,756,2,2,15,7,299,79.1,5,3,1,15,0,0,0
+254,Sheffield United,Lewis Cooper,England,Midfielder,36,12,6,560,0,3,10,2,236,84.7,4,3,4,6,0,0,0
+255,Burnley,George Patel,Cameroon,Forward,37,21,19,1348,2,3,40,19,264,70.0,12,7,8,22,1,0,0
+256,Liverpool,Giovanni Colombo,Scotland,Forward,38,22,14,968,2,2,41,17,213,72.9,5,3,11,35,0,0,0
+257,Chelsea,Ali Martinez,Portugal,Midfielder,30,23,17,1397,2,1,23,9,529,82.9,29,21,4,9,0,0,0
+258,Arsenal,Jamie Williams,South Korea,Goalkeeper,28,17,3,324,0,0,0,0,37,70.6,0,0,3,1,0,0,0
+259,Liverpool,Callum Wagner,Brazil,Forward,37,31,1,714,4,1,6,2,157,74.1,3,1,0,7,0,0,0
+260,Luton Town,Christian Romano,Senegal,Midfielder,27,20,7,651,1,5,11,3,256,81.9,10,5,5,5,0,0,0
+261,Sheffield United,Carlos Wood,England,Defender,21,2,0,24,0,0,0,0,8,88.1,0,0,0,0,0,0,0
+262,Luton Town,Tyler Patel,England,Defender,29,25,11,834,0,1,6,1,281,81.2,25,21,4,4,0,0,0
+263,Liverpool,Niklas Phillips,England,Midfielder,35,27,24,1950,2,0,41,17,536,85.8,25,15,12,14,2,0,0
+264,Burnley,Mason Garcia,England,Forward,27,6,3,330,0,1,9,3,111,80.6,0,0,1,4,0,0,0
+265,Everton,Daniel Harris,South Africa,Forward,24,13,2,204,0,0,6,2,32,70.8,2,1,2,3,0,0,0
+266,Liverpool,Alfie Cook,DR Congo,Forward,35,26,17,1327,1,2,38,14,428,80.2,10,6,0,6,0,0,0
+267,Tottenham Hotspur,Lucas Schneider,England,Defender,36,38,6,1137,1,0,9,1,341,81.4,26,19,9,31,0,0,0
+268,Burnley,Thomas Garcia,Austria,Midfielder,19,12,4,459,0,1,7,2,112,80.8,7,4,5,1,1,0,0
+269,Brentford,Cameron Morris,England,Goalkeeper,18,22,9,981,0,0,0,0,217,77.9,0,0,6,8,0,0,0
+270,Tottenham Hotspur,Matthew Petit,Jamaica,Forward,32,21,8,923,5,2,29,9,156,74.2,9,6,9,27,0,0,0
+271,Arsenal,Francisco Lewis,England,Forward,20,20,16,1280,3,1,43,17,359,76.0,5,2,5,11,0,0,0
+272,Everton,Charlie Adams,England,Defender,24,18,11,1060,0,0,7,2,274,79.5,11,6,11,12,1,0,0
+273,Brentford,Paul Muller,DR Congo,Forward,29,23,5,634,5,6,21,9,195,69.3,4,1,7,1,0,0,0
+274,Manchester United,Lukas Cooper,England,Defender,24,18,13,1132,1,5,5,1,295,86.2,23,17,11,14,1,0,0
+275,West Ham United,Thomas Baker,England,Goalkeeper,38,18,13,1264,0,0,0,0,335,71.9,0,0,4,14,0,0,0
+276,Sheffield United,Ibrahim Weber,Ivory Coast,Midfielder,21,1,1,78,0,0,1,0,26,84.2,1,0,1,1,0,0,0
+277,West Ham United,Christian Bianchi,England,Midfielder,38,20,6,740,0,0,15,6,329,85.7,9,6,4,2,0,0,0
+278,Tottenham Hotspur,Alessandro Taylor,DR Congo,Defender,38,32,18,1476,2,0,6,1,455,78.4,25,20,15,2,2,0,0
+279,Luton Town,Klaus Garcia,Senegal,Midfielder,29,33,19,1994,1,11,49,20,791,78.2,27,14,48,8,2,0,0
+280,Luton Town,Matteo Patel,England,Midfielder,28,6,1,190,0,1,1,0,64,85.5,3,1,1,2,0,0,0
+281,Aston Villa,Juan Evans,United States,Midfielder,38,38,37,3281,8,6,41,17,1358,82.0,48,36,52,6,5,1,2
+282,Tottenham Hotspur,Isaac Wood,Norway,Defender,28,27,18,1834,2,0,8,1,832,88.3,32,20,18,26,1,0,0
+283,Arsenal,James Martins,England,Defender,26,14,12,1045,0,1,5,1,350,87.4,19,15,14,6,2,0,0
+284,Brentford,Tyler Smith,England,Defender,19,35,12,1654,3,2,15,5,491,87.1,53,40,22,9,3,0,0
+285,AFC Bournemouth,Benjamin Edwards,England,Defender,21,25,16,1344,0,0,0,0,421,81.6,46,31,5,0,0,0,0
+286,Tottenham Hotspur,Callum Hernandez,DR Congo,Defender,29,13,2,484,1,1,2,0,110,80.7,11,8,9,4,0,0,0
+287,AFC Bournemouth,Marco Bianchi,France,Defender,19,25,20,1489,0,0,3,0,610,89.9,37,29,9,13,1,0,0
+288,Everton,Patrick White,France,Defender,35,17,15,1249,0,1,6,2,174,78.1,21,15,7,10,0,0,0
+289,Tottenham Hotspur,Mohammed Wright,Algeria,Midfielder,34,8,4,294,0,0,4,1,100,78.4,4,2,4,0,0,0,0
+290,Wolverhampton Wanderers,Jamie Lewis,England,Defender,19,36,31,2825,1,0,11,3,864,80.8,50,30,2,46,0,0,0
+291,Tottenham Hotspur,Alfie Simon,England,Midfielder,34,5,5,412,0,0,9,3,213,81.5,5,3,2,4,0,0,0
+292,Chelsea,Noah Young,United States,Goalkeeper,29,21,13,1137,0,0,0,0,297,76.4,0,0,13,14,2,0,0
+293,Chelsea,Luke Lee,Spain,Defender,32,18,2,363,0,0,1,0,145,82.8,9,6,4,4,0,0,0
+294,Chelsea,Joshua Edwards,England,Midfielder,19,11,1,271,0,0,2,0,66,84.1,5,2,3,1,0,0,0
+295,Tottenham Hotspur,Carlos Hernandez,England,Midfielder,21,27,14,1049,3,4,18,5,540,84.5,11,7,2,8,0,0,0
+296,Brighton & Hove Albion,Manuel Perez,England,Defender,37,7,6,496,0,0,0,0,144,86.1,7,5,0,6,0,0,0
+297,Manchester City,Lukas Lewis,England,Midfielder,34,31,31,2680,1,13,44,15,1088,78.9,16,12,9,1,0,0,0
+298,Fulham,Abdul Moore,Portugal,Midfielder,20,30,14,1444,0,3,13,5,837,81.4,14,7,7,6,0,0,0
+299,Fulham,Ali Brown,England,Goalkeeper,35,36,0,892,0,0,0,0,314,79.4,0,0,2,0,0,0,0
+300,Newcastle United,Felix Colombo,Australia,Midfielder,32,22,11,1217,1,4,24,10,401,80.0,15,10,13,5,1,0,0
+301,Everton,Joshua Thompson,DR Congo,Midfielder,25,1,1,72,0,0,1,0,22,82.6,0,0,0,1,0,0,0
+302,Tottenham Hotspur,Marco Petit,Germany,Defender,31,7,4,347,0,0,2,0,93,82.7,6,4,4,3,0,0,0
+303,Arsenal,Klaus Ricci,Northern Ireland,Midfielder,36,8,7,547,2,2,1,0,284,87.6,7,3,5,4,0,0,0
+304,Burnley,Carlos Gonzalez,Portugal,Defender,23,38,11,1131,0,1,3,0,442,85.2,19,16,2,7,0,0,0
+305,Manchester United,Kyle Silva,Norway,Midfielder,28,19,14,1228,2,2,35,12,481,86.6,16,10,6,5,0,0,0
+306,Luton Town,Hans Martin,Republic of Ireland,Defender,24,14,9,851,0,1,3,1,189,79.6,19,15,10,2,1,0,0
+307,Brighton & Hove Albion,Giovanni Walker,Ghana,Midfielder,29,36,30,2533,0,8,101,39,1071,84.1,25,19,8,10,0,0,0
+308,Manchester City,Manuel Wright,Morocco,Forward,18,25,4,392,0,0,9,3,119,79.0,4,2,7,1,1,0,0
+309,Crystal Palace,Alexander Durand,England,Midfielder,35,3,2,177,0,1,2,0,96,84.9,2,1,0,0,0,0,0
+310,Crystal Palace,Florian Colombo,New Zealand,Defender,19,25,12,1212,0,0,7,2,586,89.6,45,27,17,10,5,0,1
+311,Everton,John Ferrari,England,Midfielder,38,24,24,1893,2,15,46,13,621,84.7,43,23,49,16,7,0,1
+312,Chelsea,Daniel Richard,Croatia,Midfielder,34,8,6,408,0,0,5,1,128,77.9,4,3,3,4,0,0,0
+313,Tottenham Hotspur,Noah Hall,England,Midfielder,28,4,4,343,1,2,6,2,135,82.6,5,2,1,2,0,0,0
+314,Chelsea,Manuel Thomas,Northern Ireland,Defender,34,11,6,541,0,0,0,0,215,88.6,14,11,1,12,0,0,0
+315,Nottingham Forest,Juan Schmidt,Colombia,Midfielder,38,1,0,16,0,0,0,0,4,83.4,0,0,0,0,0,0,0
+316,Aston Villa,Tyler Watson,England,Defender,35,19,0,485,0,0,2,0,156,87.6,10,7,4,4,2,0,0
+317,Aston Villa,Adam Moreau,New Zealand,Midfielder,35,35,0,359,0,0,8,3,126,78.6,5,3,5,0,0,0,0
+318,Wolverhampton Wanderers,Lukas Johnson,Germany,Forward,22,2,1,88,0,0,3,0,6,70.5,1,0,0,0,0,0,0
+319,Everton,Hans Santos,England,Defender,31,21,0,167,0,0,1,0,47,86.6,4,2,1,1,0,0,0
+320,Nottingham Forest,Archie Young,England,Goalkeeper,27,6,2,231,0,0,0,0,89,70.9,0,0,1,2,0,0,0
+321,Manchester United,Isaac Petit,Canada,Defender,30,35,18,1746,1,5,9,3,324,89.0,22,18,4,9,0,0,0
+322,Luton Town,Lucas White,England,Goalkeeper,19,1,1,77,0,0,0,0,22,69.6,0,0,0,0,0,0,0
+323,Nottingham Forest,Lucas Lewis,Denmark,Forward,23,15,8,612,1,2,28,12,146,79.9,3,1,5,5,1,0,0
+324,Crystal Palace,Niklas Thomas,Egypt,Midfielder,26,7,3,316,0,1,5,1,113,77.5,3,2,0,7,0,0,0
+325,Newcastle United,Nathan Hernandez,Germany,Goalkeeper,32,22,19,1602,0,0,0,0,408,67.3,0,0,8,4,0,0,0
+326,Wolverhampton Wanderers,Adam Smith,Cameroon,Defender,28,16,7,764,1,1,4,1,144,82.3,15,12,10,3,2,0,0
+327,Crystal Palace,José Muller,Poland,Defender,21,12,10,845,0,0,5,1,226,79.7,25,19,8,3,0,0,0
+328,Manchester City,Antonio Rossi,Australia,Goalkeeper,18,38,37,2755,0,0,0,0,786,78.6,0,0,34,34,5,0,1
+329,Luton Town,Juan Bianchi,Egypt,Forward,22,24,12,1119,3,1,20,8,139,72.1,13,7,12,9,1,0,0
+330,Manchester United,Mathieu Marino,Finland,Goalkeeper,23,33,8,837,0,0,0,0,208,79.2,0,0,4,2,0,0,0
+331,Brentford,Lewis Davies,England,Defender,25,32,14,1162,2,2,4,0,327,80.5,12,10,7,8,0,0,0
+332,Arsenal,Felix Kelly,England,Forward,21,34,17,1651,3,11,37,15,378,70.4,11,6,9,13,1,0,0
+333,West Ham United,Patrick Cooper,England,Goalkeeper,34,26,11,1140,0,0,0,0,111,76.9,0,0,7,13,1,0,0
+334,Everton,Adam Hill,DR Congo,Forward,20,33,17,1322,3,2,61,22,416,78.0,10,4,7,20,0,0,0
+335,Brentford,Carlos Turner,England,Midfielder,36,11,10,860,0,0,17,4,340,82.9,15,8,15,20,3,0,0
+336,Tottenham Hotspur,Thomas Harris,Australia,Forward,26,12,8,790,2,0,18,7,159,68.3,4,2,2,6,0,0,0
+337,Sheffield United,Juan Rodriguez,England,Defender,23,15,13,1079,0,1,7,2,285,80.2,14,11,20,8,2,0,0
+338,Burnley,Oscar Hill,Jamaica,Midfielder,30,25,4,474,0,0,8,3,171,82.1,6,3,2,3,0,0,0
+339,Sheffield United,Antoine Brown,England,Defender,35,33,7,1017,0,1,9,3,429,84.5,14,8,20,10,6,0,1
+340,AFC Bournemouth,Noah Bruno,England,Midfielder,34,28,7,976,0,4,21,8,308,80.2,20,14,6,4,0,0,0
+341,West Ham United,Carlos Moreau,Republic of Ireland,Defender,25,6,2,232,0,0,1,0,87,78.1,3,2,1,4,0,0,0
+342,Newcastle United,Florian James,Algeria,Goalkeeper,31,24,3,648,0,0,0,0,179,68.8,0,0,3,1,0,0,0
+343,West Ham United,Tim Silva,Morocco,Defender,24,27,17,1601,0,6,12,3,500,84.7,35,23,25,13,5,0,1
+344,Tottenham Hotspur,Jonas White,England,Defender,25,29,25,2083,2,1,12,2,404,82.8,79,55,30,13,6,0,1
+345,Fulham,Klaus Smith,England,Goalkeeper,20,10,7,663,0,0,0,0,153,66.0,0,0,6,9,0,0,0
+346,Fulham,Abdul Hoffmann,South Korea,Midfielder,38,34,18,1798,1,4,26,11,799,85.8,33,22,21,26,4,1,1
+347,Nottingham Forest,Aaron Jackson,Croatia,Forward,19,33,33,2701,6,4,71,30,433,73.0,19,11,17,1,3,0,0
+348,AFC Bournemouth,Niklas Silva,England,Midfielder,30,38,12,1532,11,1,36,9,461,77.1,29,16,22,11,3,0,0
+349,West Ham United,John Becker,England,Defender,24,30,29,2148,0,0,10,2,537,84.1,74,56,5,16,0,0,0
+350,West Ham United,Alejandro Fischer,England,Forward,26,29,12,1350,3,1,39,17,179,81.5,13,6,5,6,0,0,0
+351,West Ham United,Oscar Scott,England,Midfielder,38,15,7,714,3,1,10,3,379,82.4,9,6,1,2,0,0,0
+352,Brighton & Hove Albion,William Muller,United States,Goalkeeper,23,31,20,1751,0,0,0,0,290,69.0,0,0,12,6,0,0,0
+353,Newcastle United,Mason Richard,England,Defender,25,17,6,699,2,0,4,1,276,82.3,17,14,4,6,0,0,0
+354,Sheffield United,James Leroy,England,Midfielder,35,3,3,219,0,1,5,2,112,86.6,3,2,5,2,0,0,0
+355,Nottingham Forest,Kyle Silva,Mexico,Forward,25,37,8,1240,8,10,25,9,370,75.6,8,4,6,6,0,0,0
+356,Aston Villa,Maximilian Perez,England,Midfielder,32,21,0,215,0,0,3,1,111,79.9,3,2,2,2,0,0,0
+357,West Ham United,Juan Hoffmann,United States,Defender,28,24,5,577,0,0,2,0,174,82.5,16,13,3,2,0,0,0
+358,Manchester United,Henry Thomas,Ghana,Forward,26,16,13,1149,4,0,29,13,315,78.3,10,5,8,2,0,0,0
+359,Nottingham Forest,Alejandro Thomas,Austria,Forward,28,32,19,1669,6,5,63,19,186,69.4,14,6,12,35,1,0,0
+360,Everton,Andrea Allen,United States,Midfielder,26,24,11,1227,0,1,25,7,472,76.2,17,9,11,23,0,0,0
+361,Burnley,Felix Bianchi,England,Defender,35,12,12,848,0,0,7,2,279,87.3,21,15,13,11,0,0,0
+362,Tottenham Hotspur,Adam Ferrari,South Africa,Midfielder,28,27,20,1696,0,6,33,14,722,76.9,26,15,18,11,1,0,0
+363,West Ham United,Thomas Esposito,Scotland,Defender,30,18,14,1291,0,0,13,4,274,84.3,21,15,22,7,3,0,0
+364,West Ham United,Andrea Bruno,France,Defender,20,14,2,236,0,0,1,0,103,83.7,3,1,2,5,0,1,1
+365,West Ham United,Alexandre Hall,England,Goalkeeper,20,25,9,997,0,0,0,0,350,71.6,0,0,3,9,0,0,0
+366,Manchester City,George Romano,Netherlands,Forward,29,21,15,1294,12,1,44,21,188,75.7,6,2,14,19,2,0,0
+367,Burnley,Omar Sanchez,Morocco,Midfielder,38,35,19,1935,4,7,35,10,628,77.1,42,24,15,38,2,0,0
+368,Manchester City,Manuel Leroy,Austria,Defender,22,23,9,753,0,1,0,0,238,89.4,19,14,1,4,0,0,0
+369,Manchester City,Pierre Morris,England,Midfielder,24,27,17,1384,2,7,17,6,414,83.8,26,19,11,7,3,0,0
+370,Manchester United,Manuel Leroy,South Korea,Defender,37,18,9,889,1,0,6,1,353,80.3,16,9,16,6,3,0,0
+371,West Ham United,Maximilian Schulz,England,Midfielder,33,13,5,367,0,2,7,2,184,78.2,5,2,2,1,0,0,0
+372,Manchester City,Ryan Robinson,Mexico,Defender,22,1,1,68,0,0,0,0,24,84.0,2,1,0,0,0,0,0
+373,Tottenham Hotspur,Thomas Harrison,Spain,Forward,30,5,4,312,1,1,8,3,82,79.4,3,1,3,2,0,0,0
+374,Everton,Dylan Richard,Northern Ireland,Midfielder,19,13,7,624,0,0,11,4,308,78.5,7,4,2,3,0,0,0
+375,Arsenal,Andrea Muller,England,Defender,34,8,4,353,0,0,2,0,66,78.6,8,6,1,1,0,0,0
+376,Chelsea,Kyle Weber,England,Defender,21,26,25,1768,1,0,6,1,695,86.3,4,3,34,38,6,0,1
+377,Sheffield United,Callum Leroy,Argentina,Midfielder,38,4,0,35,0,0,0,0,17,77.3,0,0,0,0,0,0,0
+378,AFC Bournemouth,Hassan Robert,England,Midfielder,24,2,2,146,0,0,2,0,61,76.5,2,1,0,2,0,0,0
+379,Newcastle United,Louis Patel,Egypt,Midfielder,35,23,10,982,1,1,16,6,240,87.0,14,9,6,4,0,0,0
+380,West Ham United,David Adams,Brazil,Defender,32,1,1,82,0,0,0,0,30,82.4,1,0,0,0,0,0,0
+381,Fulham,Joseph Sanchez,England,Midfielder,33,36,9,1068,0,7,13,4,380,77.3,20,13,4,9,0,0,0
+382,Chelsea,George Wood,Brazil,Forward,21,32,12,1173,1,2,24,11,347,77.2,8,4,15,12,0,0,0
+383,Liverpool,Jack Turner,United States,Defender,38,32,5,944,0,1,8,2,441,86.9,14,12,18,10,1,0,0
+384,Nottingham Forest,Noah Robert,Northern Ireland,Midfielder,20,20,2,699,0,3,19,5,324,84.7,13,8,5,6,0,0,0
+385,Burnley,Hans Clarke,Senegal,Midfielder,35,36,26,2403,6,12,47,17,952,84.1,45,31,57,1,9,0,1
+386,Chelsea,Pierre Santos,England,Defender,34,22,21,1442,3,0,9,2,374,82.2,39,27,2,7,0,0,0
+387,Wolverhampton Wanderers,Alessandro Kelly,England,Defender,37,16,6,626,0,0,3,1,174,82.3,10,7,2,2,0,0,0
+388,Sheffield United,Harry Perez,England,Forward,22,20,0,210,0,0,9,4,33,68.3,1,0,2,1,0,0,0
+389,Burnley,Nicolas Hall,England,Midfielder,21,3,3,217,1,0,6,1,75,83.0,4,2,2,2,0,0,0
+390,Newcastle United,Francesco Johnson,Uruguay,Defender,28,31,11,1387,1,0,9,3,493,87.8,31,19,32,17,3,0,0
+391,Liverpool,Roberto Wilson,England,Midfielder,28,23,13,1232,4,10,7,2,484,78.7,15,10,9,6,1,0,0
+392,Fulham,Charlie Baker,England,Midfielder,34,3,2,163,0,0,2,0,83,78.6,2,1,1,0,0,0,0
+393,Burnley,Antonio Robinson,England,Midfielder,25,28,9,923,1,3,10,3,348,81.7,14,10,7,9,0,0,0
+394,Nottingham Forest,Omar Simon,Egypt,Goalkeeper,22,9,7,581,0,0,0,0,103,74.8,0,0,2,7,0,0,0
+395,Nottingham Forest,Dylan Ward,Senegal,Forward,20,18,13,1073,2,1,29,9,293,77.4,5,2,8,2,2,0,0
+396,Crystal Palace,Adam Phillips,Scotland,Midfielder,37,29,19,1333,2,3,8,3,551,78.4,20,12,24,15,7,0,1
+397,Sheffield United,Lucas Campbell,Argentina,Goalkeeper,18,22,22,1863,0,0,0,0,557,72.1,0,0,11,14,2,0,0
+398,Newcastle United,David Perez,Wales,Midfielder,26,36,30,2573,4,11,38,14,380,84.0,38,23,10,12,1,0,0
+399,Arsenal,Aaron Wood,Canada,Defender,37,18,1,562,0,0,2,0,55,85.9,10,7,2,2,0,0,0
+400,Fulham,Ryan Scott,England,Goalkeeper,34,7,5,420,0,0,0,0,95,66.3,0,0,2,4,0,0,0
+401,Manchester City,Noah Ward,Senegal,Midfielder,34,20,10,998,5,2,26,6,345,84.2,17,10,6,20,3,0,0
+402,Nottingham Forest,Kyle Wilson,Uruguay,Forward,38,17,12,1171,11,4,35,10,182,75.8,15,7,12,4,3,0,0
+403,Fulham,Manuel Ricci,England,Goalkeeper,37,15,13,921,0,0,0,0,295,79.6,0,0,5,13,0,0,0
+404,Newcastle United,Felix Hughes,DR Congo,Midfielder,36,35,12,1328,5,7,18,7,530,82.3,17,9,11,9,1,0,0
+405,Chelsea,Nathan Thomas,England,Midfielder,35,35,7,1203,4,6,17,4,430,76.4,10,5,19,3,4,0,0
+406,West Ham United,Jacob Simon,England,Defender,24,7,2,256,0,0,1,0,39,81.2,4,3,2,1,0,0,0
+407,Liverpool,Florian Simon,South Korea,Goalkeeper,33,9,8,703,0,0,0,0,163,74.7,0,0,9,3,0,0,0
+408,Tottenham Hotspur,Mohammed Jackson,England,Midfielder,25,3,3,250,0,1,2,0,89,81.0,3,2,1,2,0,0,0
+409,Everton,Mathieu Hernandez,England,Goalkeeper,28,30,28,1980,0,0,0,0,796,65.6,0,0,16,18,3,0,0
+410,Burnley,Antoine Gomez,England,Defender,34,3,0,77,0,0,0,0,18,90.0,1,0,0,0,0,0,0
+411,Arsenal,Joseph Young,Spain,Midfielder,32,26,9,961,4,3,14,3,233,79.5,15,11,12,0,1,1,1
+412,Everton,Alfie Thomas,Republic of Ireland,Defender,34,8,2,338,0,1,2,0,110,79.6,6,4,1,1,0,0,0
+413,Newcastle United,Karim Robinson,Ghana,Forward,26,21,20,1774,7,3,40,17,420,69.7,15,6,29,24,2,0,0
+414,Nottingham Forest,Mathieu Lewis,Sweden,Midfielder,30,36,24,1651,8,2,43,13,893,86.5,23,17,14,33,1,0,0
+415,Arsenal,Mohammed Baker,England,Defender,27,29,9,878,1,0,2,0,200,80.4,11,8,5,6,1,0,0
+416,Manchester City,Thomas Martinez,Serbia,Midfielder,25,14,9,808,1,1,16,5,290,83.2,6,3,5,9,0,0,0
+417,Newcastle United,Charlie Patel,Egypt,Midfielder,22,4,2,180,0,0,3,1,72,86.1,2,1,0,0,0,0,0
+418,Chelsea,Mohammed Ricci,Argentina,Defender,27,37,35,2405,6,0,14,4,1109,89.2,46,28,54,31,11,0,2
+419,Wolverhampton Wanderers,Pierre Thomas,England,Forward,27,31,8,1139,1,3,50,18,299,73.8,13,6,14,2,1,0,0
+420,Nottingham Forest,Alfie Rodriguez,Portugal,Midfielder,37,19,13,1110,5,5,20,7,294,87.9,26,15,13,14,1,0,0
+421,Brentford,Miguel Patel,England,Midfielder,37,15,9,835,0,3,13,3,254,83.5,15,8,7,5,0,0,0
+422,Wolverhampton Wanderers,Noah Allen,England,Forward,29,36,13,1053,4,3,28,9,212,79.1,7,3,5,8,0,0,0
+423,Brighton & Hove Albion,Callum Silva,England,Defender,36,2,0,51,0,0,0,0,9,83.7,1,0,0,0,0,0,0
+424,Luton Town,Luke Alves,Netherlands,Midfielder,31,4,4,284,0,1,3,0,122,82.4,3,1,1,1,0,0,0
+425,AFC Bournemouth,Oscar Hall,Jamaica,Forward,26,2,1,110,0,0,3,1,35,76.0,1,0,0,1,0,0,0
+426,Arsenal,Cameron Oliveira,England,Defender,20,32,15,1533,1,0,9,2,560,84.3,20,13,5,17,0,0,0
+427,Everton,Antonio Taylor,England,Forward,33,33,9,1287,3,5,34,15,226,75.3,16,10,17,6,5,0,1
+428,Tottenham Hotspur,Alexander Thomas,England,Forward,19,30,12,1312,3,3,44,13,232,81.1,9,5,14,17,1,0,0
+429,Aston Villa,Manuel Moreau,Argentina,Forward,27,2,2,166,0,0,4,1,0,70.8,1,0,0,0,0,0,0
+430,Chelsea,Kyle Walker,England,Defender,18,36,32,2178,0,0,16,4,786,81.3,46,40,14,28,1,0,0
+431,Sheffield United,Callum Diaz,Cameroon,Goalkeeper,32,4,1,146,0,0,0,0,46,65.8,0,0,2,0,0,0,0
+432,Chelsea,Giovanni Wagner,Norway,Defender,36,29,19,1512,2,0,6,1,459,87.1,52,43,26,18,3,0,0
+433,Everton,Henry Sousa,Serbia,Goalkeeper,27,30,15,1197,0,0,0,0,208,77.9,0,0,5,9,0,0,0
+434,Chelsea,Maximilian Colombo,South Africa,Defender,28,21,14,1112,2,0,5,1,446,83.7,33,28,10,1,1,0,0
+435,Aston Villa,Abdul Bernard,England,Defender,21,21,17,1468,0,0,14,4,710,82.8,38,27,4,19,1,0,0
+436,Liverpool,Callum Turner,Egypt,Midfielder,36,28,25,2294,5,4,37,11,928,84.3,35,19,8,11,1,0,0
+437,Burnley,José Walker,Canada,Forward,36,30,10,1290,3,1,43,14,356,81.4,6,2,10,12,1,0,0
+438,Brentford,Lukas Romano,England,Defender,19,6,1,220,0,0,0,0,100,85.6,6,3,2,1,0,0,0
+439,Sheffield United,Nicolas Martins,Belgium,Defender,24,14,10,916,0,1,3,1,381,86.2,15,13,1,11,0,0,0
+440,Liverpool,Julien Jones,England,Defender,37,33,25,2357,4,4,3,0,769,88.8,60,53,45,10,8,0,1
+441,Crystal Palace,Oliver Moore,England,Defender,31,38,25,2293,0,0,20,5,781,83.2,35,23,26,20,2,0,0
+442,AFC Bournemouth,Mohammed Hall,Netherlands,Defender,27,9,2,275,0,0,1,0,83,88.6,4,3,0,1,0,0,0
+443,Wolverhampton Wanderers,Karim Bruno,Netherlands,Midfielder,37,28,19,1448,5,12,31,11,690,81.4,31,18,7,5,2,0,0
+444,Brentford,Francesco Moore,Ghana,Goalkeeper,34,18,13,1241,0,0,0,0,196,65.5,0,0,6,10,0,0,0
+445,Aston Villa,Julien Rodriguez,Spain,Midfielder,20,10,8,775,0,2,12,4,243,81.6,10,5,3,4,1,0,0
+446,Liverpool,Tim Ferrari,South Africa,Midfielder,35,38,19,2035,4,4,38,13,562,76.1,41,26,24,16,2,0,0
+447,AFC Bournemouth,Jamie Young,Poland,Defender,23,3,2,184,0,0,1,0,61,83.7,2,1,3,3,0,0,0
+448,Crystal Palace,José Roberts,England,Midfielder,22,33,4,690,0,1,13,3,395,79.4,6,4,1,8,0,0,0
+449,Burnley,Lorenzo Hall,England,Midfielder,32,24,5,778,0,2,5,1,248,85.6,13,9,1,5,0,0,0
+450,Sheffield United,Jacob Martinez,England,Forward,31,25,7,982,1,0,30,10,161,76.1,12,7,17,10,0,0,0
+451,Chelsea,Bilal Santos,England,Defender,33,20,15,1366,0,0,11,3,335,82.6,10,8,18,33,3,0,0
+452,Crystal Palace,Yusuf Scott,Belgium,Defender,28,34,2,716,0,0,2,0,287,88.1,11,8,12,8,0,0,0
+453,Aston Villa,Sean Bianchi,Mexico,Defender,36,26,14,1458,5,1,8,2,510,85.1,28,18,5,25,0,0,0
+454,Manchester City,Jan Jones,England,Defender,20,1,1,65,0,0,0,0,22,80.6,1,0,0,0,0,0,0
+455,Sheffield United,Jonas Martin,England,Goalkeeper,37,8,1,206,0,0,0,0,75,70.6,0,0,0,1,0,0,0
+456,Aston Villa,Maximilian Patel,New Zealand,Forward,26,19,14,1166,7,4,43,16,354,81.9,3,1,2,11,0,0,0
+457,Chelsea,Roberto Johnson,England,Defender,26,4,3,250,0,0,1,0,92,87.8,6,3,1,1,0,0,0
+458,Brentford,Archie Green,England,Defender,35,28,6,645,1,0,5,1,201,81.1,17,10,8,3,0,0,0
+459,Brentford,Jacob Bianchi,England,Goalkeeper,38,1,0,11,0,0,0,0,4,75.5,0,0,0,0,0,0,0
+460,Brentford,Carlos Fernandes,Finland,Midfielder,30,5,4,291,0,1,2,0,118,85.4,2,1,1,0,0,0,0
+461,Crystal Palace,Abdul Wilson,England,Defender,38,6,2,270,0,0,1,0,92,83.5,1,0,2,3,0,0,0
+462,Newcastle United,Matthew Bruno,Ghana,Forward,30,7,5,434,1,3,9,3,67,70.7,1,0,1,2,0,0,0
+463,Luton Town,Lukas Baker,Mali,Defender,33,35,28,2532,0,0,28,7,884,82.1,28,22,14,16,4,0,0
+464,Everton,Jan Gomez,England,Midfielder,22,38,14,1373,2,4,27,7,534,83.8,27,17,9,15,1,0,0
+465,Tottenham Hotspur,Jack Clarke,South Africa,Midfielder,38,4,2,185,0,0,3,1,79,86.0,2,1,1,1,0,0,0
+466,Sheffield United,John Thomas,Germany,Midfielder,24,28,10,1381,1,3,17,6,701,79.9,18,14,17,14,2,0,0
+467,Newcastle United,Matteo Davies,Cameroon,Defender,36,12,5,406,0,0,0,0,126,80.0,11,7,1,2,0,0,0
+468,Aston Villa,Hans Hoffmann,England,Goalkeeper,30,11,0,77,0,0,0,0,20,65.1,0,0,0,0,0,0,0
+469,Crystal Palace,Mohammed Greco,England,Midfielder,33,9,3,271,0,0,9,3,156,78.9,2,1,2,2,0,0,0
+470,Brentford,Mathieu Robinson,Republic of Ireland,Defender,38,20,11,987,0,0,3,0,318,89.8,10,8,5,6,1,0,0
+471,Newcastle United,Kyle Evans,Morocco,Midfielder,24,8,2,338,0,0,4,1,135,78.1,4,2,2,3,0,0,0
+472,Newcastle United,Omar Watson,Spain,Defender,28,30,1,248,0,0,1,0,95,79.9,2,1,1,6,0,0,0
+473,Burnley,Julien Kelly,England,Midfielder,31,13,11,920,3,1,18,7,376,79.9,14,7,4,16,0,0,0
+474,Manchester United,William Garcia,England,Defender,36,32,3,511,0,0,4,1,160,83.5,7,5,3,3,0,0,0
+475,Newcastle United,Luke Edwards,England,Forward,19,37,3,476,1,0,17,6,108,73.9,3,1,4,2,0,0,0
+476,Sheffield United,Adam Fischer,England,Midfielder,35,15,2,382,1,0,6,2,142,78.6,6,3,0,2,0,0,0
+477,Manchester United,Dylan Kelly,Serbia,Midfielder,31,38,14,1694,5,0,29,8,608,82.9,39,19,4,13,0,0,0
+478,Nottingham Forest,George Costa,Spain,Midfielder,34,26,15,1519,5,4,27,7,696,81.9,30,15,18,6,4,0,0
+479,Newcastle United,Ethan Lee,England,Defender,27,16,2,431,0,0,2,0,96,83.5,9,6,6,6,0,0,0
+480,Fulham,Samuel Morris,Serbia,Defender,38,30,22,1974,0,0,11,2,636,88.7,37,25,15,31,2,0,0
+481,Sheffield United,David Fischer,England,Midfielder,24,6,4,393,0,0,3,0,132,87.3,4,2,1,3,0,0,0
+482,Sheffield United,Noah Adams,Portugal,Defender,29,12,10,794,1,1,5,1,172,80.5,22,19,1,6,0,0,0
+483,Burnley,Maximilian Turner,England,Midfielder,25,21,11,1135,0,0,20,6,320,76.7,25,15,17,20,4,1,1
+484,Aston Villa,Juan Dubois,Croatia,Midfielder,35,35,18,1595,12,3,33,12,581,84.3,16,12,4,22,0,0,0
+485,Liverpool,Leo Silva,Brazil,Forward,23,19,2,334,2,1,10,4,109,74.9,2,1,0,1,0,0,0
+486,Luton Town,Ethan Garcia,Australia,Defender,29,27,14,1232,0,2,11,2,335,78.3,21,17,15,3,3,0,0
+487,Brighton & Hove Albion,Felix Esposito,England,Defender,28,32,28,2186,1,3,11,4,677,81.7,39,32,11,4,2,0,0
+488,Arsenal,Lucas Lee,England,Midfielder,27,30,30,2024,0,9,46,18,946,79.4,34,26,31,26,2,0,0
+489,Tottenham Hotspur,Mohammed Moore,England,Midfielder,21,3,2,173,0,0,3,0,59,78.5,2,1,0,2,0,0,0
+490,AFC Bournemouth,Yusuf Diaz,Canada,Defender,23,35,19,1349,0,0,5,1,442,87.2,37,32,16,8,4,0,0
+491,Nottingham Forest,Luke Esposito,Belgium,Midfielder,27,31,18,1915,3,6,31,13,504,84.0,30,22,32,12,6,0,1
+492,Brentford,Noah Hughes,Croatia,Defender,35,8,4,336,0,0,3,0,89,82.3,7,4,1,2,0,0,0
+493,West Ham United,David Williams,Senegal,Defender,20,35,28,2478,0,0,21,8,1204,82.7,20,14,4,11,0,0,0
+494,AFC Bournemouth,Ibrahim Green,England,Forward,31,24,12,1022,0,0,25,9,275,81.7,8,5,13,8,2,0,0
+495,Everton,Aaron Lewis,England,Defender,31,27,4,801,1,0,4,0,421,81.6,20,17,9,7,0,0,0
+496,Fulham,Alfie Smith,Wales,Forward,31,18,13,963,3,3,41,16,244,80.8,6,2,16,5,2,1,1
+497,Crystal Palace,Julien Mitchell,Colombia,Goalkeeper,33,36,29,2176,0,0,0,0,336,67.3,0,0,6,29,0,0,0
+498,Brentford,Freddie Bianchi,England,Forward,27,27,5,869,0,0,25,8,180,69.7,4,1,4,14,0,0,0
+499,Brentford,Louis Fernandes,Brazil,Defender,26,31,7,1071,0,2,7,1,353,81.1,31,24,11,1,4,0,0
+500,Chelsea,Charlie Harrison,England,Defender,29,27,20,1849,1,3,10,2,821,84.4,61,53,8,15,1,0,0
+501,Chelsea,David Kelly,Australia,Goalkeeper,28,20,8,918,0,0,0,0,245,66.4,0,0,8,1,0,0,0
+502,Tottenham Hotspur,Manuel Campbell,Mali,Defender,29,32,26,2043,5,7,5,1,639,79.9,34,22,28,18,5,0,1
+503,Nottingham Forest,Alejandro Bernard,England,Forward,35,8,6,466,2,1,17,7,76,80.9,2,1,5,5,0,0,0
+504,Sheffield United,Manuel Leroy,Sweden,Defender,28,12,11,807,2,0,1,0,405,79.5,20,16,5,1,0,0,0
+505,Liverpool,Ahmed Greco,Uruguay,Defender,21,5,0,119,0,0,0,0,50,79.3,1,0,0,1,0,0,0
+506,Arsenal,Oscar Mitchell,Portugal,Forward,18,7,1,148,0,0,2,0,40,70.6,1,0,2,2,0,0,0
+507,Chelsea,Antonio Simon,England,Defender,37,16,16,1254,4,2,7,2,270,78.2,5,3,25,15,3,0,0
+508,Manchester City,Alessandro Thompson,Colombia,Midfielder,24,33,30,2246,3,15,48,16,571,87.5,55,30,24,30,5,0,1
+509,Nottingham Forest,Ryan Oliveira,England,Defender,21,21,3,550,0,1,0,0,205,82.3,12,8,8,0,1,0,0
+510,Crystal Palace,Karim Wagner,Argentina,Defender,27,29,7,815,0,0,4,1,404,80.3,16,9,15,9,2,0,0
+511,Manchester City,Jan Hernandez,England,Defender,21,26,14,1342,0,0,9,2,517,82.7,11,8,38,9,6,0,1
+512,Brighton & Hove Albion,David Wagner,Nigeria,Forward,30,8,3,372,0,1,14,4,80,78.0,3,1,1,11,0,0,0
+513,Sheffield United,Abdul Hernandez,England,Defender,34,18,4,442,0,0,3,0,169,84.0,10,7,0,4,0,0,0
+514,Brentford,Jan Taylor,England,Forward,23,25,19,1598,3,1,91,38,412,69.3,10,4,9,2,1,0,0
+515,Brentford,José Lopez,England,Defender,26,35,21,2041,0,5,10,2,905,87.2,33,29,5,16,0,0,0
+516,Fulham,Hassan Sousa,Italy,Defender,19,3,1,131,0,0,0,0,34,86.5,2,1,2,1,0,0,0
+517,Burnley,Jan Hernandez,Northern Ireland,Midfielder,35,35,30,2407,3,7,51,17,1226,80.7,33,21,24,1,3,0,0
+518,Crystal Palace,Jake Wilson,England,Defender,18,38,2,642,0,0,3,1,211,85.0,11,9,8,3,0,0,0
+519,AFC Bournemouth,Ali Phillips,Norway,Defender,19,16,7,600,0,0,3,0,183,86.3,13,11,1,8,0,0,0
+520,Everton,Jonas Costa,Nigeria,Defender,36,33,26,1981,1,0,14,4,799,89.8,47,33,19,31,1,0,0
+521,Newcastle United,Callum Martinez,Cameroon,Midfielder,34,22,5,637,3,0,7,2,230,82.0,9,6,7,3,2,0,0
+522,Crystal Palace,Christian Evans,England,Midfielder,27,37,25,2365,7,7,61,26,1039,84.6,23,15,36,13,7,0,1
+523,Nottingham Forest,Juan Costa,Mali,Goalkeeper,24,23,2,424,0,0,0,0,53,77.1,0,0,2,0,0,0,0
+524,Wolverhampton Wanderers,Abdul Watson,England,Defender,37,33,29,2427,4,2,17,6,954,85.5,49,36,22,29,5,0,1
+525,Everton,Cameron Ferrari,Ukraine,Forward,35,28,18,1552,1,3,29,9,377,74.5,8,3,22,8,2,0,0
+526,Liverpool,Klaus Turner,England,Defender,31,18,9,826,0,1,3,0,164,82.9,23,14,10,12,1,0,0
+527,Brentford,Jean Fernandes,England,Defender,31,3,1,84,0,0,0,0,25,87.6,1,0,1,0,0,0,0
+528,Manchester City,Thomas Roberts,England,Midfielder,28,20,2,447,0,0,7,2,214,83.9,7,3,7,1,0,0,0
+529,Nottingham Forest,Freddie Perez,Netherlands,Midfielder,36,34,16,1353,1,3,24,8,606,85.3,14,8,8,6,0,0,0
+530,Manchester United,Ahmed Martin,England,Forward,22,7,2,196,0,0,6,2,43,80.1,2,0,1,1,0,0,0
+531,Wolverhampton Wanderers,Juan Marino,England,Defender,25,18,4,611,0,0,0,0,159,78.3,6,5,6,9,0,0,0
+532,Manchester United,Sean Muller,England,Goalkeeper,30,20,20,1777,0,0,0,0,436,77.2,0,0,7,7,1,0,0
+533,Everton,Tyler Jones,Italy,Defender,30,17,9,793,0,0,3,0,347,80.5,10,8,19,2,4,0,0
+534,Wolverhampton Wanderers,George King,Australia,Forward,20,32,30,2543,15,1,58,21,656,73.9,31,20,22,8,5,0,1
+535,AFC Bournemouth,Mohammed Becker,England,Midfielder,35,21,14,1313,3,14,16,6,485,78.2,17,10,7,4,0,0,0
+536,Crystal Palace,Nathan Fischer,New Zealand,Defender,20,8,2,276,0,0,1,0,69,85.8,5,3,0,1,0,0,0
+537,Brentford,Lorenzo Hughes,England,Defender,26,12,10,816,1,0,2,0,106,79.0,14,9,7,8,0,0,0
+538,Manchester United,Harry Williams,England,Forward,35,15,2,308,0,0,7,3,65,70.4,2,1,6,6,1,0,0
+539,Chelsea,Louis White,United States,Forward,18,34,27,2462,8,8,62,28,384,74.9,16,7,18,8,4,0,0
+540,Tottenham Hotspur,Omar Turner,Mexico,Midfielder,37,14,13,940,5,0,16,5,196,80.9,6,3,8,4,0,0,0
+541,Everton,Dylan Morris,England,Defender,36,30,2,359,0,0,1,0,122,86.3,6,4,2,1,0,0,0
+542,Liverpool,Henry Schmidt,Northern Ireland,Midfielder,19,4,2,209,0,0,1,0,71,83.3,1,0,1,0,0,0,0

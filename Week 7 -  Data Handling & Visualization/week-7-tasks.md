@@ -5,7 +5,7 @@
 #### Instructions [READ THROUGH]
 
 1. Create a GitHub account and then a project for submitting take-home exercises for this bootcamp. Ensure the project is public.
-2. Follow the instructions after you create the GitHub project to map it to a folder on your laptop.
+2. After you creating the project, follow the instructions (on GitHub) to map the project to a folder on your laptop.
 3. Within the project folder on your laptop, create weekly folders for submission of tasks. For example, for the week 7 tasks, you'll create a `Week 7` folder and have your solution for Week 7 tasks in the folder.
 4. Once done with the tasks, push your changes to GitHub and share the URL for the Notebook file. Remember, not the GitHub project URL, but the URL for the Jupyter Notebook file.
 5. Use the Google Forms link to send in your submission: https://forms.gle/UQ9PNddiUCgT7dwy5
@@ -13,11 +13,11 @@
 
 #### Deliverables for this task
 
-1. Put your final work on the task in a Jupyter Notebook (`.ipynb`) containing your code and analysis (markdown explanations)
+1. Put your final work in a Jupyter Notebook (`.ipynb`) containing your code and analysis (markdown explanations)
 2. Two processed CSV files:
 - `epl_team_analysis_results.csv` containing the team data plus calculated metrics
 - `epl_player_analysis_results.csv` containing the player data plus calculated metrics
-3. A brief report [using Markdown] summarizing your key findings that would be useful for Nigerian sports broadcasters
+3. A brief report (using Markdown) summarizing your key findings that would be useful for Nigerian sports broadcasters
 
 ><i>You're not expected to complete all the tasks, however you're expected to give it your best attempt. If you do complete all the tasks, even better.</i>
 
@@ -29,7 +29,7 @@ As a Data Analyst for a sports analytics company, you've been tasked with analyz
 
 ### Dataset Description
 
-You will be working with two related data files:
+You will be working with two related data files (located in the `data` directory):
 
 1. `epl_team_data.csv` - Contains team-level statistics including:
 - Match results and standings
@@ -49,11 +49,12 @@ You will be working with two related data files:
 ### Tasks
 
 **Part 1: Basic Data Exploration and Preparation**
-1. Load the provided `epl_season_data.csv` file into a Pandas DataFrame
-2. Examine the data structure (shape, columns, data types)
-3. Check for and handle any missing values appropriately
+1. Load the provided CSV file into Pandas DataFrames
+2. Examine the data structure of both datasets (shape, columns, data types)
+3. Check for and handle any missing values appropriately in both datasets
 4. Perform basic data cleaning (rename columns, fix data types, etc.)
-5. Calculate summary statistics for the key numerical columns, including disciplinary metrics
+5. Create appropriate relationships between the two datasets
+6. Calculate summary statistics for the key numerical columns in both datasets, including disciplinary metrics
 
 **Part 2: Team Performance Analysis with NumPy and Pandas**
 
