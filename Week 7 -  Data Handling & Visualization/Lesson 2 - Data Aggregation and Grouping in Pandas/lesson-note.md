@@ -7,7 +7,7 @@ By the end of this lesson, you will be able to:
 3. Apply functions to transform and clean data efficiently
 4. Handle missing data appropriately
 5. Create informative summaries of grouped data
-6. Extract valuable insights from educational performance data
+6. Extract valuable insights from (educational performance) data
 
 ## Introduction
 

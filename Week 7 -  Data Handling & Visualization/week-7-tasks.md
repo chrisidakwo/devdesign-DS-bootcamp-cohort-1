@@ -25,7 +25,7 @@
 
 ### Context
 
-As a Data Analyst for a sports analytics company, you've been tasked with analyzing the 2023/2024 English Premier League (EPL) season data to provide insights for a Nigerian sports television network. This data analysis will help their commentators prepare for upcoming broadcasts and understand performance trends of various clubs, particularly those with Nigerian players.
+As a Data Analyst for a sports analytics company, you've been tasked with analyzing the 2023/2024 English Premier League (EPL) season (fictitious) data to provide insights for a Nigerian sports television network. This data analysis will help their commentators prepare for upcoming broadcasts and understand performance trends of various clubs, particularly those with Nigerian players.
 
 ### Dataset Description
 
