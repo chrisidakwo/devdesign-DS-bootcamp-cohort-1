@@ -17,6 +17,7 @@ print("")
 print(f"orCheck2: {orCheck2}")
 print(f"andCheck2: {andCheck2}")
 
+# Truth table
 
 # OR Rules
 # True or True -> True
