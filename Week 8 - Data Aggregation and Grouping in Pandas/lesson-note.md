@@ -176,16 +176,17 @@ This pattern is extremely powerful for data analysis and is used extensively in 
 ```python
 # Find class levels with average Mathematics scores above 80
 high_math_classes = students_df.groupby('class_level').filter(
-    lambda x: x['Mathematics'].mean() > 80)
+    lambda x: x['Mathematics'].mean() > 80
+)
 print("Class levels with math average above 80:")
 print(high_math_classes['class_level'].unique())
 
 # Find students in classes where average attendance is above 90%
 good_attendance_classes = students_df.groupby('class_level').filter(
-    lambda x: x['attendance'].mean() > 90)
+    lambda x: x['attendance'].mean() > 90
+)
 print("\nStudents in classes with good average attendance:")
-print(good_attendance_classes[['first_name', 'last_name', 'class_level', 
-                             'attendance']].head())
+print(good_attendance_classes[['first_name', 'last_name', 'class_level', 'attendance']].head())
 ```
 
 ## Hands-on Exercise 2: School Performance Analysis

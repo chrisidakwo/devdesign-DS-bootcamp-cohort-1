@@ -51,6 +51,7 @@ if epl_teams_df.isnull().sum().sum() > 0:
         if epl_teams_df[col].isnull().sum() > 0:
             epl_teams_df[col] = epl_teams_df[col].fillna(epl_teams_df[col].mode()[0])
 
+# For player data
 if epl_players_df.isnull().sum().sum() > 0:
     # For numerical columns, fill with median
     num_cols = epl_players_df.select_dtypes(include=['int64', 'float64']).columns
@@ -137,17 +138,17 @@ print(epl_players_df.describe())
 
 print('\n\n')
 
-# Discplinary metrics for teams
+# Disciplinary metrics for teams
 print('\Team Disciplinary Statistics')
 team_disciplinary = epl_teams_df[['team_name', 'fouls_committed', 'yellow_cards', 'red_cards', 'manager_bans', 'players_suspended', 'games_missed_suspensions']]
 print(team_disciplinary.describe())
 
 print('\n')
 
-# Discplinary metrics for players
+# Disciplinary metrics for players
 print('\nPlayer Disciplinary Statistics')
-player_discipinary = epl_players_df[['player_name', 'team_name', 'fouls_committed', 'yellow_cards', 'red_cards', 'games_suspended']]
-print(player_discipinary.describe())
+player_disciplinary = epl_players_df[['player_name', 'team_name', 'fouls_committed', 'yellow_cards', 'red_cards', 'games_suspended']]
+print(player_disciplinary.describe())
 
 print('\n\n')
 
@@ -225,13 +226,13 @@ print(epl_teams_df[['team_name', 'fair_play_index', 'fouls_committed', 'yellow_c
 print("\nTop 5 Most Aggressive Teams:")
 print(epl_teams_df[['team_name', 'fouls_committed', 'yellow_cards', 'red_cards']].sort_values('fouls_committed', ascending=False).head(5))
 
-# Over/underperforming teams (comparing actual points vs. expected points)
+# Over/under-performing teams (comparing actual points vs. expected points)
 epl_teams_df['points_difference'] = epl_teams_df['points'] - epl_teams_df['expected_points']
 
-print("\nTop 5 Overperforming Teams:")
+print("\nTop 5 Over-performing Teams:")
 print(epl_teams_df[['team_name', 'points', 'expected_points', 'points_difference']].sort_values('points_difference', ascending=False).head(5))
 
-print("\nTop 5 Underperforming Teams:")
+print("\nTop 5 Under-performing Teams:")
 print(epl_teams_df[['team_name', 'points', 'expected_points', 'points_difference']].sort_values('points_difference').head(5))
 
 print('\n\n')
@@ -435,65 +436,3 @@ try:
     print("Player analysis results successfully exported to 'epl_player_analysis_results.csv'")
 except Exception as e:
     print(f"Error exporting player analysis results: {e}")
-
-
-## Summary Report for Nigerian Sports Broadcasters
-
-# EPL 2023/2024 Season Analysis Report
-## Key Insights for Nigerian Sports Broadcasters
-
-### Team Performance Highlights
-
-# 1. **League Champions**: Manchester City claimed the title with 91 points, just 2 points ahead of Arsenal. This narrow margin highlights the competitive nature of the season.
-
-# 2. **Top Attacking Teams**: Manchester City (96 goals), Arsenal (91 goals), and Liverpool (86 goals) were the most prolific scoring teams in the league.
-
-# 3. **Best Defensive Teams**: Arsenal and Manchester City both conceded just 29 and 34 goals respectively, showing their defensive strength alongside their attacking prowess.
-
-# 4. **Most Efficient Teams**: The teams with the highest goal-to-shot conversion rates were [List top 3 efficient teams], demonstrating clinical finishing.
-
-# 5. **Overachievers**: [List top 3 overachieving teams] exceeded their expected points total by the largest margin, suggesting strong mental fortitude and game management.
-
-# 6. **Disciplinary Insights**: [List most disciplined and most aggressive teams] were at opposite ends of the Fair Play Index, which could provide interesting talking points during broadcasts.
-
-# ### Nigerian Players Spotlight
-
-# 1. **Performance Overview**: [Add summary of Nigerian players' performances] 
-
-# 2. **Standout Nigerian Players**: [Highlight any Nigerian players with exceptional stats]
-
-# 3. **Comparison to Position Averages**: [Discuss how Nigerian players compare to the average for their positions]
-
-# 4. **Disciplinary Records**: [Comment on the disciplinary records of Nigerian players]
-
-# ### League-Wide Player Insights
-
-# 1. **Golden Boot Race**: [List top goalscorers] led the scoring charts, providing fans with an exciting race throughout the season.
-
-# 2. **Assist Kings**: [List top assist providers] showed their creative capabilities, setting up teammates consistently.
-
-# 3. **Defensive Stalwarts**: [List top defenders] were crucial to their teams' defensive solidity.
-
-# 4. **Discipline and Aggression**: [List most disciplined and most aggressive players] represented opposite ends of the disciplinary spectrum.
-
-# ### Correlation Insights
-
-# 1. Our analysis shows a [strong/moderate/weak] correlation between wage budget and final league position, indicating that [interpretation].
-
-# 2. The correlation between possession percentage and points earned is [positive/negative/non-existent], suggesting that [interpretation].
-
-# 3. Teams with higher shot accuracy tended to [finish higher/lower] in the league, with a correlation of [value].
-
-# ### Broadcast Recommendations
-
-# 1. Consider highlighting the performances of Nigerian players compared to their peers when broadcasting matches involving their teams.
-
-# 2. The disciplinary aspects of the game (cards, fouls) showed interesting correlations with team success and could be a compelling narrative during broadcasts.
-
-# 3. When discussing team efficiency, note the significant variation in shot conversion rates across the league, which ranged from [min] to [max].
-
-# 4. The data shows that home advantage [was/was not] a significant factor this season, with teams averaging [value] more points at home than away.
-
-# ### Further Analysis Opportunities
-
-# For future broadcasts, deeper analysis into playing styles, tactical patterns, and manager influence could provide additional insights for viewers.
