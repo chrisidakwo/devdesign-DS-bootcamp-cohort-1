@@ -25,5 +25,3 @@ print(data_df.isnull().sum())
 
 print('\nMissing values for the Mathematics column:')
 print(data_df['Mathematics'].isnull().sum())
-
-

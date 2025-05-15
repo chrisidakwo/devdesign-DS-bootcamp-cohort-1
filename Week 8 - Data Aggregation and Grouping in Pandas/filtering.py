@@ -45,11 +45,18 @@ print('How many?', len(selected_occupation.index))
 # String Operations
 
 print('\n\n')
-# TODO: Errors when filter expressions are joined
 starts_with_n = students_df[students_df['last_name'].str.startswith('N')]
 # starts_with_n = starts_with_n[starts_with_n['class_level'] == 'SS1']
 
-# TODO: use another example of a string methods
+# Below is an example of how string filter operations can be joined
+# students_df[
+#     (students_df['first_name'].str.startswith('A')) & 
+#     (students_df['father_occupation'].str.contains('Doctor', na=False))
+# ]
+
+# Below is another example of a string methods that searches data in the `father_occupation` column for values that contain the word 'Engineer'
+# na=False tells the method to, by default, exlude rows with NaN or non-string column value
+# students_df[students_df['father_occupation'].str.contains('Engineer', na=False)]
 
 print('\nHow many students have their last name starting with N?', len(starts_with_n.index))
 print('')
@@ -63,9 +70,61 @@ str_contains = students_df[students_df['last_name'].str.contains('DU', case=Fals
 print(str_contains[['first_name', 'last_name', 'class_level']].head(50))
 
 # Regex - Regular Expressions
-# TODO: Include code for pattern matching with regex and links to resources for reading-up on regex
 
-# Extract with capture groups
-# TODO: Include code sample and some explanation
+# Basic Regex Filtering
+# Filter names that start with 'A' or 'O'
+name_pattern = r'^[AO]'
+students_with_a_or_o = students_df[students_df['first_name'].str.match(name_pattern)]
+print("Students with names starting with A or O:")
+print(students_with_a_or_o[['first_name', 'last_name']].head())
 
 print('\n')
+
+# Find names containing 'ola' anywhere in the name (case insensitive)
+ola_pattern = r'ola'
+ola_names = students_df[students_df['first_name'].str.contains(ola_pattern, case=False, regex=True)]
+print("\nStudents with 'ola' in their name (case insensitive):")
+print(ola_names[['first_name', 'last_name']].head())
+
+print('\n')
+
+# Filter students with traditional Nigerian name prefixes
+prefix_pattern = r'^(Ade|Olu|Obi|Chi)'
+traditional_names = students_df[students_df['first_name'].str.match(prefix_pattern, case=False)]
+print("\nStudents with traditional name prefixes:")
+print(traditional_names[['first_name', 'last_name']].head())
+
+print('\n')
+
+# Regex Filtering on Multiple Columns
+# Find students where first name contains 'ch' AND last name ends with 'wu'
+ch_pattern = r'ch'
+wu_pattern = r'wu$'
+ch_wu_students = students_df[
+    students_df['first_name'].str.contains(ch_pattern, case=False, regex=True) &
+    students_df['last_name'].str.contains(wu_pattern, case=False, regex=True)
+]
+print("\nStudents with 'ch' in first name and last name ending with 'wu':")
+print(ch_wu_students[['first_name', 'last_name']].head())
+
+# Extracting data using capture groups
+
+# Capture groups are a powerful regex feature that let you extract specific parts of a string pattern. 
+# Here are examples demonstrating how to use capture groups to extract data:
+
+# Extract first letter of first name
+students_df['first_initial'] = students_df['first_name'].str.extract(r'^([A-Z])')
+print("Extracted first initials:")
+print(students_df[['first_name', 'first_initial']].head())
+
+print('\n')
+
+# Extracting Multiple Groups
+# Extract first and last letter of name
+students_df[['first_letter', 'last_letter']] = students_df['first_name'].str.extract(r'^([A-Za-z]).*([A-Za-z])$')
+print("\nFirst and last letters of names:")
+print(students_df[['first_name', 'first_letter', 'last_letter']].head())
+
+print('\n')
+
+# NOTE: See the regex-resources.md file for links to resources on Regex

@@ -25,14 +25,10 @@ print('\nSORTED BY FIRST NAME AND LAST NAME\n')
 fl_name_sort = students_df.sort_values(['first_name', 'last_name', 'English Language'])
 print(fl_name_sort[['first_name', 'last_name', 'English Language', 'Mathematics', 'Physics', 'Chemistry', 'Biology']].head(20))
 
-
-
 # Sort by multiple columns (class level, then Mathematics score)
-# sorted_multi = students_df.sort_values(['class_level', 'Mathematics'], 
-#                                        ascending=[True, False])
+# sorted_multi = students_df.sort_values(['class_level', 'Mathematics'], ascending=[True, False])
 
 # sorted_by_math = students_df.sort_values('Mathematics', ascending=False)
-
 
 # print("Top math students:")
 # print(sorted_by_math[['first_name', 'last_name', 'Mathematics']].head())

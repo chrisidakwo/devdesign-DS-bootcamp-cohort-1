@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 def load_student_data(path):
-    "Loads student data from a CSV file specified in the path argument"
+    """Loads student data from a CSV file specified in the path argument"""
 
     return pd.read_csv(path)
 
@@ -120,7 +120,6 @@ def calc_average_score(df):
     return result_df
 
 
-
 def main():
     # 1. Load the student dataframe
     students_df = load_student_data('../../data/students.csv')
@@ -148,7 +147,6 @@ def main():
     students_with_agg = calc_average_score(students_df)
     top_students = students_with_agg[['first_name', 'last_name', 'average_score']].head(50)
     print(top_students)
-
 
     # print('\n')
     # print(students_df[['first_name', 'last_name']].head(3))
