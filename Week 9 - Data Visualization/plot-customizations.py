@@ -44,6 +44,9 @@ def main():
     ax.spines['bottom'].set_color('#555555')
 
     # TODO: Add padding at the top, before annotation
+    # (y_max, y_min) = ax.get_ylim()
+    # padding = 0.2 * (y_max - y_min)
+    # ax.set_ylim(y_min - padding, y_max + padding)
 
     # Add a text annotation
     avg_math = students_df['Mathematics'].mean()
