@@ -4,8 +4,8 @@ import random
 from datetime import datetime, timedelta
 
 # Set random seed for reproducibility
-np.random.seed(42)
-random.seed(42)
+# np.random.seed(42)
+# random.seed(42)
 
 # Define subjects for each stream
 arts_subjects = [
@@ -159,7 +159,7 @@ def generate_date_of_birth(class_level, admission_date):
     else:
         age = random.randint(min_age, max_age)
     
-    # Calculate birth date by subtracting age from admission date
+    # Calculate birthdate by subtracting age from admission date
     # Add random month and day variations
     birth_year = admission_date.year - age
     birth_month = random.randint(1, 12)
@@ -170,8 +170,8 @@ def generate_date_of_birth(class_level, admission_date):
 
 def generate_score():
     """Generate a realistic subject score (out of 100)"""
-    # Normal distribution with mean 75 and standard deviation 12
-    score = int(np.random.normal(78, 12))
+    # Normal distribution with mean 78 and standard deviation 40
+    score = int(np.random.normal(82, 40))
     # Clip to ensure it's between 0 and 100
     return max(min(score, 100), 0)
 
@@ -185,7 +185,7 @@ def generate_student_data(total_students):
     ss3_count = min_per_class
     
     # If total_students > 3*min_per_class, distribute the excess evenly
-    excess = total_students - 3*min_per_class
+    excess = total_students - 3 * min_per_class
     if excess > 0:
         ss1_count += excess // 3
         ss2_count += excess // 3
@@ -369,15 +369,20 @@ def generate_student_data(total_students):
     # Create and return DataFrame
     return pd.DataFrame(data)
 
-# Generate the complete dataset with 2,400 students (800 per class level)
-students_df = generate_student_data(2400)
 
-# Save to CSV
-students_df.to_csv("students.csv", index=False)
-print(f"Dataset generated with {len(students_df)} students.")
-print(f"SS1: {len(students_df[students_df['class_level'] == 'SS1'])} students")
-print(f"SS2: {len(students_df[students_df['class_level'] == 'SS2'])} students")
-print(f"SS3: {len(students_df[students_df['class_level'] == 'SS3'])} students")
-print(f"Arts: {len(students_df[students_df['study_group'] == 'Arts'])} students")
-print(f"Science: {len(students_df[students_df['study_group'] == 'Science'])} students")
-print(f"Students with jobs: {len(students_df[students_df['has_job'] == 'Yes'])} students")
+def main():
+    # Generate the complete dataset with 2,400 students (800 per class level)
+    students_df = generate_student_data(2400)
+
+    # Save to CSV
+    students_df.to_csv("students.csv", index=False)
+    print(f"Dataset generated with {len(students_df)} students.")
+    print(f"SS1: {len(students_df[students_df['class_level'] == 'SS1'])} students")
+    print(f"SS2: {len(students_df[students_df['class_level'] == 'SS2'])} students")
+    print(f"SS3: {len(students_df[students_df['class_level'] == 'SS3'])} students")
+    print(f"Arts: {len(students_df[students_df['study_group'] == 'Arts'])} students")
+    print(f"Science: {len(students_df[students_df['study_group'] == 'Science'])} students")
+    print(f"Students with jobs: {len(students_df[students_df['has_job'] == 'Yes'])} students")
+
+if __name__ == '__main__':
+    main()

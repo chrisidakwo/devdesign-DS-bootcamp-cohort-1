@@ -35,7 +35,7 @@ def main():
 
 
     # Customize the background
-    ax.set_facecolor('red')
+    ax.set_facecolor('#f8f9fa')
 
     # Customize the axes
     ax.spines['top'].set_visible(False)
@@ -52,6 +52,8 @@ def main():
         fontsize=12, ha='center', va='center',
         bbox=dict(boxstyle="round,pad=0.3", fc='yellow', alpha=0.3)
     )
+
+    plt.tight_layout()
 
     plt.show()
 
