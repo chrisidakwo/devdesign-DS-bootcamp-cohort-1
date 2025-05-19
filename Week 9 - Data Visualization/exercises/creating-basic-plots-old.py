@@ -206,7 +206,7 @@ def prepare_boxplot_data(df, subjects):
 
     return data_list, labels
 
-def customize_boxplot(box_dict, color='blue'):
+def customize_boxplot(box_dict, color='teal'):
     """
     Customize the appearance of a boxplot
 
@@ -251,7 +251,7 @@ def create_stem_arts_comparison(df, colors, save_path=None):
     # Plot 1: Distribution of scores in STEM subjects
     stem_data, stem_labels = prepare_boxplot_data(df, stem_subjects)
     stem_box = axes[0].boxplot(stem_data, patch_artist=True, labels=stem_labels)
-    customize_boxplot(stem_box, 'blue')
+    customize_boxplot(stem_box, 'teal')
 
     axes[0].set_title('Distribution of Scores in STEM Subjects', fontsize=14, fontweight='bold')
     axes[0].set_xlabel('Subject', fontsize=12)

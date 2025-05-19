@@ -154,24 +154,49 @@ def prepare_boxplot_data(df, subjects):
     for subject in subjects:
         # Get non-null scores for this subject
 
-        print(subject)
-        print(df[subject].describe())
-        print('')
-
-        scores = df[subject].dropna().values # dropping all NaN or null/empty cells
+        scores = df[subject].dropna().values # dropping all NaN or null/empty cells (in a row)
         if len(scores) > 0:
             data_list.append(scores)
             labels.append(subject)
 
-    return data_list, labels
+    return (data_list, labels)
+
+
+def customize_boxplot(box_dict, color='blue'):
+    """
+    Customize the appearance of a boxplot
+
+    Args:
+        box_dict: Dictionary returned by plt.boxplot()
+        color: Base color for styling the boxplot
+    """
+    for box in box_dict['boxes']:
+        box.set(color="black", linewidth=1.5,)
+        box.set(facecolor=f'{color}', alpha=0.5)
+
+    for whisker in box_dict['whiskers']:
+        whisker.set(color=color, linewidth=1.5, linestyle='--')
+
+    for cap in box_dict['caps']:
+        cap.set(color=color, linewidth=1.5)
+
+    for median in box_dict['medians']:
+        median.set(color='orange', linewidth=1.5)
+
+    for flier in box_dict['fliers']:
+        flier.set(marker='o', markerfacecolor=color, markersize=5, alpha=0.5)
 
 
 def create_stem_arts_comparison(df):
     # Define STEM and Arts subjects
-    stem_subjects = ['Mathematics', 'Physics', 'Chemistry', 'Biology',
-                     'Computer Science', 'Further Mathematics', 'Agriculture']
-    arts_subjects = ['Literature in English', 'Government', 'Economics', 'English Language',
-                     'History', 'Civic Education', 'French', 'Agriculture', 'History']
+    stem_subjects = [
+        'Mathematics', 'Physics', 'Chemistry', 'Biology', 'Computer Science',
+        'Further Mathematics', 'Agriculture'
+    ]
+    arts_subjects = [
+        'Literature in English', 'Government', 'Economics', 'English Language', 'History',
+        'Civic Education', 'French', 'Agriculture', 'History'
+    ]
 
     # Filter to subjects that exist in our dataset
     stem_subjects = [subject for subject in stem_subjects if subject in df.columns]
@@ -181,18 +206,41 @@ def create_stem_arts_comparison(df):
     fig, axes = plt.subplots(1, 2, figsize=(18, 8))
 
     # Plot 1: Distribution of scores in STEM subjects
-    stem_data, stem_labels = prepare_boxplot_data(df, stem_subjects)
-    stem_box = axes[0].boxplot(stem_data, patch_artist=True, labels=stem_labels)
-    # customize_boxplot(stem_box, 'blue')
+    stem_subjects_scores, stem_subject_names = prepare_boxplot_data(df, stem_subjects)
+    stem_box = axes[0].boxplot(stem_subjects_scores, patch_artist=True, labels=stem_subject_names)
+    customize_boxplot(stem_box, 'teal')
 
     axes[0].set_title('Distribution of Scores in STEM Subjects', fontsize=14, fontweight='bold')
-    axes[0].set_xlabel('Subject', fontsize=12)
     axes[0].set_ylabel('Score', fontsize=12)
-    axes[0].set_xticklabels(stem_labels, rotation=45, ha='right')
+    axes[0].set_xticklabels(stem_subject_names, rotation=45, ha='right')
     axes[0].grid(axis='y', alpha=0.3)
+
+    # Add mean score markers for each STEM subject
+    for i, subject in enumerate(stem_subject_names):
+        mean_score = df[subject].mean()
+        axes[0].plot(i+1, mean_score, 'ro', markersize=8)
+
+    # Plot 2: Distribution of scores in Art subjects
+    art_subjects_scores, art_subject_names = prepare_boxplot_data(df, arts_subjects)
+    art_box = axes[1].boxplot(art_subjects_scores, patch_artist=True, labels=art_subject_names)
+
+    axes[1].set_title('Distribution of Scores in Arts Subjects', fontsize=14, fontweight='bold')
+    axes[1].set_ylabel('Score', fontsize=12)
+    axes[1].set_xticklabels(art_subject_names, rotation=45, ha='right')
+    axes[1].grid(axis='y', alpha=0.3)
+
+    # Add mean score markers for each Arts subject
+    for i, subject in enumerate(art_subject_names):
+        mean_score = df[subject].mean()
+        axes[1].plot(i+1, mean_score, 'ro', markersize=8)
+
+    # Add an overall title for the figure
+    fig.suptitle('Comparison of STEM vs. Arts Subject Score Distributions',
+                 fontsize=18, fontweight='bold', y=1.05)
 
     plt.tight_layout()
     plt.show()
+
 
 
 def main():
