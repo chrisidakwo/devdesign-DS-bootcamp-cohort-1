@@ -68,7 +68,7 @@ INPUT (Data) + OUTPUT (Answers) = PROGRAM (Rules)
     - Examples: Game playing, robot navigation
 
 
-**The ML Workflow (Supervised Learning)**
+**The Typical ML Workflow (Supervised Learning)**
 Data -> Features -> Model -> Predictions -> Evaluation -> Iteration
 
 

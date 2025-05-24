@@ -1,106 +1,346 @@
+import re
+from statistics import median
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import numpy as np
 
-def load_student_data(path):
+def load_banking_data(path):
     """Loads student data from a CSV file specified in the path argument"""
 
     return pd.read_csv(path)
 
 
-# 1. Missing Data
-# customer_data = {
-#     'customer_id': ['CUS001', 'CUS002', 'CUS003'],
-#     'age': [28, None, 35],                    # Missing age
-#     'income': [120000, 250000, None],         # Missing income
-#     'account_balance': [50000, None, 80000],  # Missing balance
-#     'state': ['Lagos', 'Abuja', '']          # Empty string
-# }
-
-# Explore your data
-# df.shape, df.describe(), df.head(), df.types
-
-print('============= HANDLING MISSING DATA =============')
-def handle_missing_data(df):
-    """Find and handle missing data"""
-
-    # Check for missing data
-    print('Missing values per column:')
-    print(df.isnull().sum())
-    print('\n')
-
-    # Visualize missing data pattern
+def visualize_missing_data(df):
     plt.figure(figsize=(8, 10))
     sns.heatmap(df.isnull(), cbar=True, yticklabels=False)
     plt.title('Missing Data Patterns')
     plt.tight_layout()
     plt.show()
 
-    # Option 1: Remove rows with missing values (if row count is few or not significant)
-    df_cleaned = df.dropna()
 
-    # Option 2: Remove columns wth too many missing values
-    df_cleaned = df.dropna(axis=1, thresh=0.7*len(df)) # Keep columns with less than 30% missing data
+def data_exploration(df):
+    print('Banking data rows and columns: ', df.shape)
 
-    # Option 3: Fill with appropriate values
+    print('\nWhat are the data types for the columns')
+    print(df.dtypes)
 
-    # For numerical data
-    # df['math_score'].fillna(df['math_score'].mean(), inplace=True)
-    df['math_score'].fillna(0, inplace=True)
+    print('\nColumn names', df.columns.tolist())
 
-    # For categorical data
-    df['gender'].fillna(df['gender'].mode(), inplace=True) # Fill with the most common/occurring value
-    df['gender'].fillna('Unknown', inplace=True) # Fill with a default/placeholder
+    print('\nBasic summary statistics')
+    print(df.describe())
 
-    df['gender'].fillna(method='ffill', inplace=True) # Use previous value. Hint: because of the ffill method
+    print('\nFirst 20 rows')
+    print(df.head(20))
 
-    # df['temperature'].fillna(method='ffill', inplace=True)
+    print('\nDataset info:')
+    print(df.info())
 
 
-# # 2. Outliers and Impossible Values
-# student_scores = {
-#     'age': [16, 17, 16, 150, 18],        # 150 years old? Impossible!
-#     'score': [85, 92, 78, 450, 88],      # 450 out of 100? Error!
-#     'height': [1.65, 1.72, 15.2, 1.80], # 15.2 meters tall? Wrong unit!
-#     'attendance': [0.95, 0.87, 1.5, 0.92] # 150% attendance? Impossible!
-# }
+def handle_missing_data(df):
+    """Find and handle missing data"""
+
+    print('\n\nHandle Missing Customer IDs')
+
+    missing_ids = df['customer_id'].isnull().sum()
+    new_df = df.dropna(subset=['customer_id'])
+
+    print(f'Removed {missing_ids} customer rows missing a customer ID')
+
+    return new_df
+
+
+def remove_duplicate_records(df):
+    print('\n\nRemove duplicate records')
+
+    duplicated_records = df.duplicated(subset=['customer_id']).sum()
+    df = df.drop_duplicates(subset=['customer_id'], keep='first')
+
+    print(f'Removed {duplicated_records} duplicate records')
+
+    return df
+
+
+def clean_customers_names(df):
+    print('\n\nClean customers\' names')
+
+    # Use a heatmap to visualize the number of cells with missing data, for each column
+    visualize_missing_data(df)
+
+    # Remove empty names
+    empty_name_count = ((df['full_name'].isnull()) | (df['full_name'].str.strip() == '')).sum()
+
+    df = df[df['full_name'].notna() & (df['full_name'].str.strip() != '')]
+
+    def standardize_name(name):
+        if pd.isna(name):
+            return name
+
+        # Remove extra spaces
+        name = str(name).strip()
+
+        # Remove multiple spaces
+        name = ' '.join(name.split())
+
+        # Standardize capitalization
+        name = name.title()
+
+        return name
+
+
+    df['full_name'] = df['full_name'].apply(standardize_name)
+
+    print(f'Removed {empty_name_count} rows with empty customer names')
+
+    return df
+
 
 def handle_outliers(df):
-    """Find and handle outliers in data"""
+    print('\n\nHandle outliers and missing data in age')
 
-    # z-score
-    # IQR
-    pass
+    outliers_count = (
+            (df['age'] < 18) |
+            (df['age'] > 120)
+    ).sum()
+
+    missing_ages_count = df['age'].isnull().sum()
+
+    # Remove impossible ages (outliers). Only retain rows that pass the filter condition
+    df = df[
+        (df['age'] >= 18) &
+        (df['age'] <= 120)
+    ]
+
+    # Fill missing age with median
+    median_age = df['age'].median()
+    df.fillna({'age': median_age}, inplace=True)
+
+    print(f'Removed {outliers_count} rows with empty with invalid ages')
+    print(f'Filled {missing_ages_count} missing ages with the median age: {median_age}')
+
+    return df
 
 
-# 2. Inconsistent Formatting
-product_data = {
-    'location': ['Lagos', 'LAGOS', 'lagos', 'Lag', 'L.A.G.O.S'],  # Same city, different formats
-    'phone': ['+2348012345678', '08012345678', '8012345678'],      # Different phone formats
-    'date': ['15/03/2024', '2024-03-15', '15-Mar-2024'],          # Different date formats
-    'gender': ['M', 'Male', 'male', 'MAN', 'Boy', 'Mr'],             # Same gender, different values
-}
+def standardize_state_names(df):
+    print('\n\nStandardize state names')
 
-#4. Duplicate Records
-customers = {
-    'name': ['John Adebayo', 'John Adebayo', 'Mary Okafor', 'Mary Okafor'],
-    'phone': ['08012345678', '08012345678', '08087654321', '08087654321'],
-    'email': ['john@email.com', 'john@gmail.com', 'mary@email.com', 'mary@email.com']
-}
+    # State mapping
+    states_map = {
+        'ab.uj': 'Abuja',
+        'an.am.': 'Anambra',
+        'ji.ga.': 'Jigawa',
+        'so.ko.': 'Sokoto',
+        'Na.sa.': 'Nasarawa',
+        'go.mb.': 'Gombe',
+        'cr.os.': 'Cross River',
+        'za.mf.': 'Zamfara',
+    }
 
-#5. Wrong data types
-loan_data = {
-    'amount': ['500000', '1000000', '750000'],    # Should be numbers, not text
-    'approved': ['Yes', 'No', 'Maybe'],          # Should be True/False/True
-    'date': ['20240315', '15/03/2024'],          # Should be datetime objects
-    'interest_rate': ['15%', '12.5%', '18%']     # Should be decimal numbers
-}
+    def standardize_state(state):
+        if pd.isna(state):
+            return state
+
+        state = str(state).lower().strip()
+
+        if state in states_map:
+            return states_map[state]
+
+        return state.title()
+
+
+    df['state'] = df['state'].apply(standardize_state)
+
+    return df
+
+
+def clean_income_data(df):
+    print('\n\nClean income data')
+
+    def clean_income_value(income):
+        if pd.isna(income):
+            return np.nan
+
+        # Method chaining
+
+        # wrap in string object and clean
+        income_str = (str(income).replace('₦', '')
+                      .replace(',', '')
+                      .replace( ' ', '')
+                      .strip())
+
+        try:
+            return float(income_str)
+        except ValueError:
+            return np.nan
+
+    #
+    df['monthly_income'] = df['monthly_income'].apply(clean_income_value)
+
+
+    # Fill missing incomes with median
+    missing_income_count = df['monthly_income'].isnull().sum()
+
+    median_income = df['monthly_income'].median()
+    df.fillna({'monthly_income': median_income}, inplace=True)
+
+    print('Fixed income formatting issues')
+    print(f'Filled {missing_income_count} missing income columns with median (₦{median_income:,.0f})')
+
+    return df
+
+
+def handle_account_balance_outliers(df):
+    print('\n\nHandle account balance outliers')
+
+    # Remove impossible/negative balances (likely data errors)
+
+    negative_balances_count = (df['account_balance'] < 0).sum()
+
+    # Only keep rows with account balance greater than zero(0)
+    df = df[df['account_balance'] >= 0]
+
+    # Cap extremely high balances (potential outliers)
+    q99 = df['account_balance'].quantile(0.99)
+
+    extreme_balances_count = df[df['account_balance'] > q99 * 10].sum()
+
+    df.loc[df['account_balance'] > q99 * 10, 'account_balance'] = q99
+
+    print(f'Removed {negative_balances_count} rows with negative account balance')
+    print(f'Capped {extreme_balances_count} extremely high account balance')
+
+    return df
+
+
+def standardize_phone_numbers(df):
+    print('\n\nStandardize phone numbers')
+
+    def clean_phone_number(phone):
+        if pd.isna(phone):
+            return np.nan
+
+
+        # Remove all non-digits
+        phone = (str(phone).replace('+', '')
+                 .replace(' ', '')
+                 .replace('-', ''))
+
+        # Using regex
+        # phone = re.sub(r'\\D', '', str(phone))
+
+        # Handle different formats
+        if phone.startswith('234') and len(phone) == 13:
+            phone = '0' + phone[3:]
+        elif len(phone) == 10 and phone.startswith(('70', '80', '81', '90', '91')):
+            phone = '0' + phone
+        elif len(phone) == 11 and phone.startswith('0'):
+            pass
+        else:
+            return np.nan
+
+        # Validate the final format
+        if len(phone) == 11 and phone.startswith('0'):
+            return phone
+        else:
+            return np.nan
+
+    df['phone_number'] = df['phone'].apply(clean_phone_number)
+
+    return df
+
+
+def standardize_categorical_variables(df):
+    print('\n\nStandardize categorical variables')
+
+    employment_map = {
+        'public servant': 'Government',
+        'public': 'Government',
+    }
+
+    #
+    df['employment_type'] = df['employment_type'].str.lower.map(employment_map).fillna(df['employment_type'])
+
+
+    marital_status_map = {
+        'd': 'divorced',
+        'w': 'Widowed',
+        'wed': 'Married',
+        'm': 'Married',
+    }
+
+    #
+    df['marital_status'] = df['marital_status_map'].str.lower.map(marital_status_map).fillna(df['marital_status'])
+
+
+def clean_loan_history(df):
+
+    def clean_loan_value(loan_value):
+        if pd.isna(loan_value):
+            return 0
+
+        # Handle text values
+        loan_str = str(loan_value).lower()
+        if loan_str in ['none', 'zero', 'nil']:
+            return 0
+        elif loan_str in ['many', 'several']:
+            return 3 # Safe/reasonable assumption
+        elif loan_str in ['few', 'some']:
+            return 1
+
+    df['previous_loans'] = df['previous_loans'].apply(clean_loan_value)
+
+    return df
+
+
+# TODO: Provide links to resources to read up on working with datetime in Python
+def clean_date_formats(df):
+
+    def clean_date(date):
+        if pd.isna(date) or str(date).strip == '':
+            return np.nan
+
+        # Try different date formats
+        date_formats = ['%Y-%m-%d', '%d/%m/%Y', '%m-%d-%Y', '%d-%b-%Y', '%Y/%m/%d']
+
+        for fmt in date_formats:
+            try:
+                return pd.to_datetime(str(date), format=fmt)
+            except ValueError:
+                continue
+
+        return np.nan
+
+    df['registration date'] = df['registration date'].apply(clean_date)
+
+    # Drop columns with nan values
+    df = df.dropna(subset=['registration date'])
+
+    return df
+
 
 
 def main():
-    students_df = load_student_data('../../data/students_record.csv')
+    banking_df = load_banking_data('../../data/banking_data.csv')
 
-    handle_missing_data(students_df)
+    new_df = banking_df.copy()
+
+    # Handle missing data
+    new_df = handle_missing_data(new_df)
+
+    # # Remove duplicate records
+    # new_df = remove_duplicate_records(new_df)
+    #
+    # # Clean and reformat customers' names
+    # new_df = clean_customers_names(new_df)
+
+    # new_df = clean_income_data(new_df)
+
+    new_df = handle_account_balance_outliers(new_df)
+
+
+    print(new_df[['customer_id', 'account_balance']].head(25))
+
 
 
 if __name__ == '__main__':

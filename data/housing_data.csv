@@ -1,0 +1,41 @@
+property_id,area_sqm,bedrooms,bathrooms,age_years,location,house_type,has_garage,has_pool,price
+H001,120,3,2,15,Lagos-Mainland,Apartment,No,No,25000000
+H002,180,4,3,8,Lagos-Island,Duplex,Yes,No,45000000
+H003,200,4,3,5,Abuja-Central,Duplex,Yes,No,65000000
+H004,90,2,1,20,Lagos-Mainland,Apartment,No,No,18000000
+H005,150,3,2,12,Ibadan,Bungalow,Yes,No,22000000
+H006,250,5,4,3,Lagos-Island,Mansion,Yes,Yes,120000000
+H007,100,2,2,10,Port Harcourt,Apartment,Yes,No,20000000
+H008,170,4,3,7,Abuja-Central,Duplex,Yes,No,60000000
+H009,130,3,3,9,Lagos-Island,Apartment,Yes,No,35000000
+H010,220,5,4,4,Lagos-Island,Duplex,Yes,Yes,90000000
+H011,85,2,1,25,Lagos-Mainland,Apartment,No,No,15000000
+H012,160,4,3,6,Port Harcourt,Bungalow,Yes,No,30000000
+H013,190,4,3,8,Abuja-Central,Duplex,Yes,No,70000000
+H014,110,3,2,15,Ibadan,Bungalow,Yes,No,19000000
+H015,300,6,5,2,Lagos-Island,Mansion,Yes,Yes,150000000
+H016,95,2,2,18,Lagos-Mainland,Apartment,No,No,20000000
+H017,175,4,3,9,Abuja-Central,Duplex,Yes,No,58000000
+H018,140,3,2,11,Port Harcourt,Bungalow,Yes,No,25000000
+H019,230,5,4,5,Lagos-Island,Duplex,Yes,No,85000000
+H020,105,3,2,13,Lagos-Mainland,Apartment,Yes,No,23000000
+H021,185,4,3,7,Abuja-Central,Duplex,Yes,No,62000000
+H022,120,3,2,16,Ibadan,Bungalow,Yes,No,21000000
+H023,270,5,5,3,Lagos-Island,Mansion,Yes,Yes,125000000
+H024,80,1,1,22,Lagos-Mainland,Apartment,No,No,12000000
+H025,160,3,3,10,Port Harcourt,Bungalow,Yes,No,28000000
+H026,200,4,4,6,Abuja-Central,Duplex,Yes,No,68000000
+H027,130,3,2,12,Lagos-Mainland,Apartment,Yes,No,28000000
+H028,290,6,5,2,Lagos-Island,Mansion,Yes,Yes,135000000
+H029,95,2,1,19,Ibadan,Apartment,No,No,14000000
+H030,180,4,3,8,Abuja-Central,Duplex,Yes,No,64000000
+H031,110,3,2,14,Lagos-Mainland,Apartment,No,No,22000000
+H032,240,5,4,4,Lagos-Island,Duplex,Yes,Yes,95000000
+H033,100,2,2,11,Port Harcourt,Apartment,Yes,No,19000000
+H034,170,4,3,9,Abuja-Central,Duplex,Yes,No,59000000
+H035,150,3,3,7,Ibadan,Bungalow,Yes,No,26000000
+H036,310,6,6,1,Lagos-Island,Mansion,Yes,Yes,165000000
+H037,90,2,1,23,Lagos-Mainland,Apartment,No,No,16000000
+H038,190,4,3,5,Abuja-Central,Duplex,Yes,No,66000000
+H039,115,3,2,15,Port Harcourt,Apartment,Yes,No,22000000
+H040,280,5,5,3,Lagos-Island,Mansion,Yes,Yes,130000000
