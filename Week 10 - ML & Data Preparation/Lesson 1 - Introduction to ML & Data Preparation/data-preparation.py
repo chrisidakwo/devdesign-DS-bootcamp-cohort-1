@@ -1,6 +1,3 @@
-import re
-from statistics import median
-
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -164,6 +161,7 @@ def clean_income_data(df):
         # Method chaining
 
         # wrap in string object and clean
+        # NOTE: Can also be done with a regex
         income_str = (str(income).replace('₦', '')
                       .replace(',', '')
                       .replace( ' ', '')
@@ -220,7 +218,6 @@ def standardize_phone_numbers(df):
         if pd.isna(phone):
             return np.nan
 
-
         # Remove all non-digits
         phone = (str(phone).replace('+', '')
                  .replace(' ', '')
@@ -245,7 +242,9 @@ def standardize_phone_numbers(df):
         else:
             return np.nan
 
-    df['phone_number'] = df['phone'].apply(clean_phone_number)
+    df['phone_number'] = df['phone_number'].apply(clean_phone_number)
+
+    # Drop columns with null values
 
     return df
 
@@ -263,7 +262,7 @@ def standardize_categorical_variables(df):
 
 
     marital_status_map = {
-        'd': 'divorced',
+        'd': 'Divorced',
         'w': 'Widowed',
         'wed': 'Married',
         'm': 'Married',
@@ -271,6 +270,8 @@ def standardize_categorical_variables(df):
 
     #
     df['marital_status'] = df['marital_status_map'].str.lower.map(marital_status_map).fillna(df['marital_status'])
+
+    return df
 
 
 def clean_loan_history(df):
@@ -288,12 +289,21 @@ def clean_loan_history(df):
         elif loan_str in ['few', 'some']:
             return 1
 
+        try:
+            return int(float(loan_value))
+        except ValueError:
+            return 0
+
     df['previous_loans'] = df['previous_loans'].apply(clean_loan_value)
 
     return df
 
 
 # TODO: Provide links to resources to read up on working with datetime in Python
+# https://docs.python.org/3/library/datetime.html
+# https://www.programiz.com/python-programming/datetime
+# https://www.geeksforgeeks.org/python-datetime-module/
+
 def clean_date_formats(df):
 
     def clean_date(date):
@@ -301,7 +311,7 @@ def clean_date_formats(df):
             return np.nan
 
         # Try different date formats
-        date_formats = ['%Y-%m-%d', '%d/%m/%Y', '%m-%d-%Y', '%d-%b-%Y', '%Y/%m/%d']
+        date_formats = ['%Y-%m-%d', '%d/%m/%Y', '%m-%d-%Y', '%d-%b-%Y', '%Y/%m/%d', '%d-%m-%Y']
 
         for fmt in date_formats:
             try:
@@ -311,36 +321,75 @@ def clean_date_formats(df):
 
         return np.nan
 
-    df['registration date'] = df['registration date'].apply(clean_date)
+    df['registration_date'] = df['registration_date'].apply(clean_date)
 
-    # Drop columns with nan values
-    df = df.dropna(subset=['registration date'])
+    # Drop rows/cells with nan value
+    df = df.dropna(subset=['registration_date'])
 
     return df
 
 
+def handle_credit_scores(df):
+    # Remove outliers/impossible values
+    df =  df[
+        (df['credit_score'].isnull()) |
+        (df['credit_score'] >= 300 & (df['credit_score'] <= 850))
+    ]
+
+    # Fill missing credit scores with median
+    median_credit_score = df['credit_score'].median()
+    df.fillna({'credit_score': median_credit_score}, inplace=True)
+
+    return df
+
 
 def main():
     banking_df = load_banking_data('../../data/banking_data.csv')
+
+    # Change the column name for employment type using any one of the approaches below
+
+    # Option 1
+    # banking_df = banking_df.rename(columns={
+    #     'employment-type': 'employment_type',
+    # })
+
+    # Option 2
+    banking_df.rename(columns={'employment-type': 'employment_type'}, inplace=True)
+
+    # Rename registration date column
+    banking_df.rename(columns={'registration date': 'registration_date'}, inplace=True)
 
     new_df = banking_df.copy()
 
     # Handle missing data
     new_df = handle_missing_data(new_df)
 
-    # # Remove duplicate records
-    # new_df = remove_duplicate_records(new_df)
-    #
-    # # Clean and reformat customers' names
-    # new_df = clean_customers_names(new_df)
+    # Remove all duplicated customer ID rows, while retaining the first/initial occurrence
+    new_df = remove_duplicate_records(new_df)
 
-    # new_df = clean_income_data(new_df)
+    # Properly formats the presentation of the full names of customers
+    new_df = clean_customers_names(new_df)
+
+    # Removed impossible age values and fill rows with missing values with the median age of customers
+    new_df = handle_outliers(new_df)
+
+    new_df = standardize_state_names(new_df)
+
+    new_df = clean_income_data(new_df)
 
     new_df = handle_account_balance_outliers(new_df)
 
+    new_df = standardize_phone_numbers(new_df)
 
-    print(new_df[['customer_id', 'account_balance']].head(25))
+    # new_df = standardize_categorical_variables(new_df)
 
+    new_df = clean_date_formats(new_df)
+
+    new_df = clean_loan_history(new_df)
+
+    new_df = handle_credit_scores(new_df)
+
+    new_df.to_csv('../../data/banking_data_formatted.csv', index=False)
 
 
 if __name__ == '__main__':

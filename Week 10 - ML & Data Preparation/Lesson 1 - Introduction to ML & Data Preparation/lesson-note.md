@@ -123,6 +123,13 @@ Before cooking a meal, you wash, peel, and chop ingredients. Similarly, before a
    ```
 
 2. **Scaling Numerical Features**:
+
+a. Min-Max Scaling (Normalization): Transforms numerical features to a range between 0 and 1
+b. Standard Scaling (Standardization): Centers data around 0 with a standard deviation of 1
+c. Robust Scaling: Similar to standard scaling but uses median and interquartile range
+
+# TODO: Include elaborate description of the scaling methods and when they can be used
+
     - Standardization: (x - mean) / std_dev
     - Normalization: (x - min) / (max - min)
 
@@ -140,7 +147,13 @@ Before cooking a meal, you wash, peel, and chop ingredients. Similarly, before a
    ```
 
 3. **Encoding Categorical Variables**:
-    - One-hot encoding: Create binary columns for each category
+
+Types of Categorical Variables:
+- Nominal (no inherent order)
+- Ordinal (have natural order)
+
+Encoding methods:
+    - One-hot encoding: Create separate binary columns for each category (For Nominal variables, few categories)
     - Label encoding: Convert categories to numbers
 
    ```python

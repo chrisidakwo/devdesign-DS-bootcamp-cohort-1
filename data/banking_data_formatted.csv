@@ -1,0 +1,195 @@
+customer_id,full_name,age,state,monthly_income,account_balance,phone_number,employment_type,account_type,previous_loans,marital_status,education_level,registration_date,credit_score
+CUS074,Sarah Okonkwo,62.0,Plateau,449275.0,4122207.0,08023402820,Self-employed,Current,0,Widowed,Secondary,2021-10-24,500.0
+CUS243,Zainab Lawal,69.0,Zamfara,441302.0,2897818.0,08010465293,Self-employed,Student,4,Widowed,PhD,2021-10-29,802.0
+CUS096,Blessing Eze,72.0,Kaduna,316525.0,3054931.0,08051214935,Student,Student,0,Divorced,Secondary,2017-08-30,386.0
+CUS222,Ahmed Kalu,47.0,Kebbi,335613.0,1280418.0,08052576883,Private,Student,0,Single,University,2023-09-29,588.0
+CUS071,Emeka Emeka,69.0,Kaduna,248423.0,4185344.0,08067885829,Student,Savings,0,Divorced,Masters,2022-08-25,447.0
+CUS197,Esther Bello,66.0,Kano,309525.0,4327169.0,08066573363,Private,Savings,0,Single,University,2021-10-31,823.0
+CUS114,Tunde Lawal,38.0,Bayelsa,106594.0,557784.0,08098665641,Retired,Student,0,Married,PhD,2017-05-10,623.0
+CUS823,Timothy Sani,72.0,Kogi,131789.0,3770123.0,08071680764,Private,Current,3,Single,Secondary,2020-01-13,482.0
+CUS173,Kemi Okonkwo,42.0,Eki,268952.5,3950977.0,08088284144,Self-employed,Fixed Deposit,4,Divorced,Masters,2021-09-19,329.0
+CUS102,Lydia Eze,77.0,Ebonyi,278498.0,650251.0,08074205238,Private,Current,1,Married,Secondary,2023-02-21,398.0
+CUS073,Ola Okonkwo,72.0,Kogi,349129.0,984173.0,08066415068,Government,Current,3,Married,Primary,2015-08-11,743.0
+CUS238,Olumide Bello,71.0,Kano,200476.0,738162.0,08099377765,Student,Savings,5,Single,University,2016-10-26,529.0
+CUS126,Patricia Eze,41.0,Kogi,468192.0,1886154.0,08058337053,Student,Student,1,Married,Masters,2021-08-29,706.0
+CUS091,Yemi Okoro,35.0,Anambra,126806.0,2154353.0,08088708080,Self-employed,Fixed Deposit,3,Married,Masters,2021-09-28,535.0
+CUS044,Timothy Kalu,29.0,Abia,286334.0,3263312.0,08072189568,Retired,Savings,2,Married,Secondary,2024-09-14,423.0
+CUS229,Queen Eze,68.0,Osun,313722.0,3298806.0,08021234058,Retired,Current,4,Divorced,PhD,2016-03-11,585.0
+CUS247,Stella Ogbonna,57.0,Zamfara,165615.0,258491.0,08056339903,Self-employed,Fixed Deposit,1,Single,Masters,2022-09-11,349.0
+CUS109,Ngozi Adewale,77.0,Osu,227731.0,1874906.0,08019910312,Self-employed,Current,0,divorced,Primary,2017-09-26,451.0
+CUS123,Raymond Adewale,54.0,Benue,137481.0,3441864.0,08020563396,Student,Fixed Deposit,3,Widowed,PhD,2020-08-04,540.0
+CUS036,Sarah Chioma,18.0,Plateau,313327.0,2041519.0,08099903659,Government,Student,0,Separated,PhD,2018-03-18,767.0
+CUS237,Esther Raji,51.0,Jigawa,454482.0,2166763.0,08042444216,Retired,Savings,4,Divorced,Primary,2020-02-02,758.0
+CUS249,Ola Adeyemi,38.0,Kwara,165026.0,3352965.0,08033750817,Retired,Savings,5,Single,University,2018-10-25,517.0
+CUS220,Olumide Patel,53.0,Gombe,430796.0,1898774.0,08022892393,Private,Savings,5,Single,Secondary,2023-09-23,781.0
+CUS127,Fatima Hassan,41.0,Lagos,256589.0,4910479.0,08076513340,Retired,Current,0,Married,PhD,2021-05-27,803.0
+CUS075,Olumide Adeyemi,51.0,Jigawa,53242.0,1449962.0,08087648913,Self-employed,Current,3,D,Masters,2018-02-24,578.0
+CUS039,Ola Adewale,39.0,Nasarawa,31664.0,3493770.0,08040613354,Self-employed,Savings,4,Single,Masters,2015-01-20,319.0
+CUS052,Uche Patel,73.0,Kwara,65505.0,2840325.0,08090192971,Private,Savings,3,Single,University,2019-05-13,336.0
+CUS084,Blessing Mahmud,20.0,Bayelsa,390032.0,700820.0,08082921937,Student,Savings,1,Widowed,Masters,2017-10-08,578.0
+CUS288,Grace Qasim,45.0,Ebonyi,268952.5,2010211.0,08060579464,Student,Student,0,Single,Masters,2019-10-21,611.0
+CUS194,Sarah Chioma,21.0,Ondo,144345.0,4809737.0,,Student,Student,0,Widowed,Secondary,2022-05-26,547.0
+CUS235,Rasheed Ibrahim,64.0,Enugu,164438.0,3261450.0,08071643210,Retired,Current,2,Widowed,University,2016-06-06,775.0
+CUS030,Victor Mahmud,53.0,Ond,424174.0,4379027.0,08059472642,Private,Student,0,Single,Secondary,2015-06-22,532.0
+CUS228,Esther Eze,32.0,Kogi,200708.0,3482674.0,08036581810,Government,Savings,0,Divorced,Primary,2022-03-20,364.0
+CUS093,Peace Nwosu,37.0,Benue,312391.0,2577010.0,08056799854,Retired,Savings,0,married,Masters,2023-02-19,720.0
+CUS153,Ibrahim Garba,36.0,Osun,239736.0,544740.0,08034719141,Self-employed,Student,4,Widowed,Secondary,2016-09-03,346.0
+CUS042,Kingsley Emeka,18.0,Kwara,173809.0,151377.0,08021542285,Self-employed,Savings,5,Widowed,University,2015-04-12,573.0
+CUS015,Ngozi Adebayo,28.0,Bay,449884.0,1939646.0,08085752075,Government,Fixed Deposit,2,Married,PhD,2022-08-23,450.0
+CUS245,Janet Igwe,35.0,Ondo,490779.0,3757056.0,08049537550,Private,Current,5,Divorced,University,2016-04-28,408.0
+CUS215,Daniel Adebayo,61.0,Akwa Ibom,234839.0,2253565.0,08033553384,Self-employed,Student,4,Divorced,Primary,2024-03-22,718.0
+CUS250,Sarah Hassan,80.0,Ondo,268952.5,4732139.0,08025081640,Self-employed,Savings,1,Married,Masters,2023-03-24,1000.0
+CUS981,Ibrahim Adewale,70.0,Gom,268952.5,2279936.0,08015717418,Government,Savings,3,Widowed,Masters,2022-11-07,751.0
+CUS181,Moses Okoro,22.0,Ekiti,430175.0,2516411.0,08011878802,Private,Current,1,Widowed,PhD,2021-12-15,480.0
+CUS223,Zainab Sani,73.0,Ebonyi,40321.0,3130316.0,08099377008,Student,Fixed Deposit,3,Single,Primary,2023-04-01,776.0
+CUS008,Ngozi Okafor,35.0,Kogi,378996.0,3112182.0,08022135081,Self-employed,Student,0,Widowed,PhD,2017-05-13,650.0
+CUS175,Lydia Patel,66.0,Anambra,453619.0,4235372.0,08035916682,Private,Current,0,Divorced,Secondary,2022-08-10,411.0
+CUS239,Uma Hassan,35.0,Cross River,172406.0,261806.0,08031090519,Retired,Savings,0,Divorced,Primary,2019-09-22,390.0
+CUS048,Raymond Yusuf,28.0,Kwara,117655.0,2563654.0,08029064614,Self-employed,Student,0,D,PhD,2015-11-03,752.0
+CUS205,Daniel Okonkwo,56.0,Osun,269805.0,671092.0,08025409873,Private,Fixed Deposit,3,D,Primary,2020-05-23,741.0
+CUS104,Janet Wale,61.0,Ebonyi,310274.0,2693310.0,08033726348,Government,Current,4,Single,Primary,2023-07-20,328.0
+CUS058,Nkem Osei,63.0,Borno,406799.0,4790801.0,08043177787,Government,Savings,2,Divorced,PhD,2024-04-18,329.0
+CUS097,Janet Hassan,26.0,Imo,133532.0,1129691.0,08056564666,Self-employed,Savings,0,Single,Secondary,2022-07-18,800.0
+CUS051,Lawal Sani,67.0,Imo,50653.0,1174707.0,,Private,Fixed Deposit,0,Married,Primary,2015-06-08,350.0
+CUS200,Fatima Garba,49.0,Kano,426914.0,300150.0,08069889732,Student,Fixed Deposit,0,Married,Secondary,2021-08-22,351.0
+CUS112,Ahmed Abubakar,51.0,Kebbi,44369.0,204667.0,08011089865,Student,Fixed Deposit,3,Widowed,Masters,2016-05-05,440.0
+CUS041,Yemi Bello,80.0,Anambra,268952.5,670165.0,08075736711,Private,Savings,3,Divorced,Primary,2016-12-01,639.0
+CUS192,Esther Okoro,33.0,Abuja,65491.0,427563.0,08042312384,Private,Student,0,Divorced,Masters,2020-02-14,624.0
+CUS007,Patricia Emeka,30.0,Cross River,431482.0,4988543.54,08061794797,Government,Fixed Deposit,0,Divorced,Primary,2015-02-11,769.0
+CUS047,Daniel Wale,26.0,Abia,422592.0,157843.0,08055972523,Private,Savings,3,widowed,Primary,2016-05-19,802.0
+CUS113,Felix Taiwo,55.0,Ebonyi,317290.0,731329.0,08092019634,Government,Savings,0,Widowed,University,2015-06-25,488.0
+CUS095,Grace Nwosu,56.0,Kaduna,474662.0,316615.0,08077188509,Self-employed,Current,5,Divorced,PhD,2020-11-23,465.0
+CUS201,Nkem Danjuma,41.0,Plateau,309479.0,617789.0,08075788086,Self-employed,Savings,5,Married,PhD,2015-11-21,660.0
+CUS060,Emeka Nwosu,33.0,Ebonyi,421839.0,2683189.0,08068885842,Student,Savings,0,Married,Secondary,2017-07-19,802.0
+CUS135,Esther Mahmud,58.0,Ekiti,223294.0,4209523.0,08043107531,Private,Savings,4,Single,Masters,2022-11-15,845.0
+CUS101,Esther Sani,41.0,Adamawa,471581.0,727026.0,08073021403,Private,Current,0,Married,Masters,2017-09-25,440.0
+CUS182,Adebayo Bello,39.0,Plateau,182596.0,147147.0,08044935146,Retired,Student,0,Single,University,2023-07-30,741.0
+CUS111,Queen Hassan,45.0,Kogi,83107.0,3162223.0,08067337164,Private,Fixed Deposit,3,Single,PhD,2018-09-06,687.0
+CUS094,Queen Eze,50.0,Osun,488984.0,4603134.0,08040784033,Student,Current,0,Divorced,University,2023-04-09,809.0
+CUS031,Chidi Bello,24.0,Gombe,429603.0,1361286.0,08078501165,public servant,Student,0,Married,PhD,2021-05-15,730.0
+CUS207,Kingsley Abubakar,27.0,Cross River,148666.0,4414048.0,08013348967,Retired,Student,3,Single,Secondary,2021-02-17,748.0
+CUS105,Lawal Ibr.,60.0,Ondo,477169.0,302118.0,08070290371,Self-employed,Fixed Deposit,5,Divorced,PhD,2024-10-11,378.0
+CUS217,Lawal Sani,35.0,Abuja,148429.0,1566194.0,08061167439,Self-employed,Student,3,Divorced,PhD,2023-05-17,717.0
+CUS187,Tunde Ibrahim,59.0,Benue,413031.0,3083856.0,08085466531,Student,Fixed Deposit,5,Divorced,Primary,2024-01-21,421.0
+CUS169,Chidi Danjuma,30.0,Sokoto,145952.0,1239552.0,08061811873,Retired,Fixed Deposit,0,Single,University,2022-09-09,577.0
+CUS057,Timothy Nnadi,57.0,Ogun,381255.0,1347656.0,08042522788,Government,Savings,3,Widowed,Masters,2024-07-26,543.0
+CUS157,Daniel Okafor,44.0,Kano,69618.0,2124134.0,08030120523,Self-employed,Fixed Deposit,2,Divorced,Secondary,2021-01-01,391.0
+CUS072,Uche Wale,63.0,Kebbi,405562.0,1809811.0,08042416423,Retired,Savings,4,Married,Masters,2018-10-04,737.0
+CUS219,Felix Yakubu,64.0,Zamfara,156514.0,4635984.0,08013256612,Retired,Current,3,Widowed,PhD,2017-05-12,456.0
+CUS198,Victor Johnson,52.0,Rivers,353938.0,2929796.0,08029126577,Government,Current,0,Divorced,Masters,2022-09-05,422.0
+CUS568,Lawal Usman,63.0,Ekiti,41935.0,3189642.0,08047006195,Private,Savings,4,Widowed,Primary,2015-12-05,808.0
+CUS005,Rasheed Sani,67.0,Yob,53205.0,1280513.0,08024902279,Student,Savings,0,Married,PhD,2015-10-03,521.0
+CUS155,Ngozi Raji,78.0,Enugu,59862.0,307975.0,08045580530,Student,Current,1,Divorced,University,2015-11-03,687.0
+CUS230,Moses Qasim,25.0,Kwara,268952.5,4728639.0,08063823565,Private,Student,5,Single,Masters,2023-09-25,557.0
+CUS172,Janet Danjuma,78.0,Ben,444426.0,4753503.0,08053502099,Student,Current,0,Married,University,2016-02-29,419.0
+CUS139,Chidi Ogbonna,79.0,Gombe,479449.0,4426792.0,,Retired,Fixed Deposit,3,Divorced,University,2017-01-11,581.0
+CUS132,Amara Yakubu,46.0,Nasarawa,491572.0,4610376.0,08093345680,Self-employed,Savings,0,Single,Secondary,2016-08-05,758.0
+CUS134,Stella Sani,35.0,Ogun,270495.0,2255943.0,08054549331,Student,Current,3,Married,PhD,2015-08-26,432.0
+CUS142,Janet Yakubu,79.0,Kog,268952.5,2119652.0,08041329397,Self-employed,Current,3,Widowed,University,2021-11-08,812.0
+CUS221,Nkem Eze,72.0,Ondo,69739.0,4574716.0,08011802262,Retired,Fixed Deposit,0,Single,PhD,2015-11-24,457.0
+CUS003,Janet Igwe,33.0,Ondo,184351.0,2649549.0,08040928414,Student,Fixed Deposit,1,Divorced,Secondary,2022-12-27,826.0
+CUS140,Timothy Okafor,74.0,Kaduna,484288.0,4416736.0,08026992699,Government,Current,0,Married,Primary,2019-08-06,668.0
+CUS002,Felix Nwosu,79.0,Abia,386129.0,2222496.0,08077912283,Self-employed,Student,2,Single,PhD,2020-02-20,742.0
+CUS025,Isaac Danjuma,31.0,Delta,266066.0,4855080.0,08015295354,Retired,Current,0,Widowed,University,2022-03-03,749.0
+CUS085,Ngozi Okonkwo,34.0,Benue,280562.0,826906.0,08025506140,Private,Current,1,Widowed,University,2020-06-18,662.0
+CUS195,Daniel Yakubu,38.0,Enugu,210977.0,2203990.0,08076156330,Student,Fixed Deposit,0,Divorced,Secondary,2021-10-15,578.0
+CUS028,Raymond Okoro,68.0,Niger,48488.0,4622521.0,,Government,Fixed Deposit,2,Widowed,PhD,2017-03-16,477.0
+CUS147,Ibrahim Nwachukwu,30.0,Anambra,83744.0,2345126.0,,Self-employed,Current,0,Married,Masters,2022-08-21,791.0
+CUS234,Musa Abubakar,69.0,Ekiti,170075.0,4991027.0,08024883116,Retired,Savings,2,Married,Primary,2021-05-28,343.0
+CUS099,Amara Yusuf,63.0,Kwara,91641.0,4432666.0,08015753207,Student,Fixed Deposit,4,Not Married,Primary,2016-02-12,512.0
+CUS204,Daniel Igwe,55.0,Akwa Ibom,282831.0,4948884.0,08010249926,Student,Fixed Deposit,0,Divorced,PhD,2023-03-06,696.0
+CUS174,Timothy Nnadi,44.0,Ekiti,253144.0,1406959.0,08083497552,Retired,Student,5,Divorced,Masters,2019-11-05,391.0
+CUS011,Tunde Sani,39.0,Plateau,471082.0,2723456.0,08033975909,Self-employed,Student,1,Divorced,Secondary,2021-02-07,330.0
+CUS168,Timothy Jibril,52.0,Anambra,175961.0,697215.0,08075319391,Student,Fixed Deposit,0,Widowed,Primary,2015-01-06,456.0
+CUS162,Raymond Taiwo,63.0,Rivers,236696.0,4149887.0,08073638066,Private,Student,0,Married,University,2016-10-25,727.0
+CUS129,Emeka Adeyemi,32.0,Enugu,186091.0,3452191.0,08064098759,Self-employed,Fixed Deposit,5,Divorced,Primary,2022-03-24,328.0
+CUS107,Chidi Johnson,62.0,Niger,248784.0,4803369.0,08059880074,Retired,Savings,3,Married,Secondary,2017-12-20,683.0
+CUS100,Queen Musa,61.0,Na.Sa.,183752.0,2420871.0,08048098313,Student,Fixed Deposit,0,Widowed,Primary,2015-10-17,325.0
+CUS110,Olumide Yusuf,69.0,Katsina,268952.5,3297996.0,08077270024,Student,Savings,5,Widowed,Primary,2020-07-18,407.0
+CUS087,Emeka Okonkwo,19.0,Rivers,268952.5,4988543.54,08019042608,Retired,Fixed Deposit,4,Widowed,Secondary,2018-07-28,474.0
+CUS026,Stella Eze,45.0,Rivers,248173.0,347087.0,,Retired,Fixed Deposit,2,Divorced,University,2023-12-01,638.0
+CUS146,Emeka Adeyemi,40.0,Plateau,232546.0,3162719.0,08078237648,Government,Fixed Deposit,1,Married,Masters,2015-07-13,1000.0
+CUS054,Peace Eze,64.0,Imo,101800.0,2368031.0,08063962279,Retired,Fixed Deposit,1,Single,Masters,2021-05-30,547.0
+CUS120,Peace Ibrahim,32.0,Borno,281077.0,4916908.0,08082317979,Private,Savings,0,Separated,Primary,2016-02-03,558.0
+CUS078,Victor Nwachukwu,40.0,Ondo,193080.0,2068618.0,08031479929,Retired,Savings,4,Divorced,University,2019-02-13,304.0
+CUS141,Rasheed Garba,77.0,Delta,182199.0,2884839.0,08052499214,Government,Savings,3,Widowed,University,2015-11-11,818.0
+CUS154,Rasheed Ogbonna,51.0,Anambra,118882.0,3400633.0,08046583092,Student,Student,3,Divorced,Secondary,2019-09-24,822.0
+CUS209,Kingsley Qasim,29.0,Edo,488655.0,3196627.0,08087637150,Government,Current,0,Single,PhD,2023-03-21,415.0
+CUS236,Janet Okoro,62.0,Kogi,433637.0,3262970.0,,Self-employed,Fixed Deposit,0,Widowed,Primary,2016-09-27,833.0
+CUS133,Ahmed Jibril,66.0,Katsina,231809.0,4102063.0,08069896833,Self-employed,Fixed Deposit,1,Single,PhD,2024-07-06,321.0
+CUS160,Victor Taiwo,72.0,Bayelsa,329940.0,1885482.0,08092848647,Government,Student,0,Married,University,2024-08-22,467.0
+CUS246,Musa Adeyemi,34.0,Borno,339029.0,4529107.0,08057291107,Government,Savings,1,Widowed,PhD,2018-08-31,837.0
+CUS121,Daniel Patel,74.0,Oyo,390383.0,3943817.0,08071557580,Student,Current,0,Widowed,University,2018-01-01,386.0
+CUS241,Lydia Ogbonna,66.0,Borno,317743.0,3287948.0,,Government,Fixed Deposit,0,Widowed,Secondary,2018-08-21,584.0
+CUS214,Olumide Yusuf,62.0,Benue,304742.0,1487640.0,08075670435,Government,Student,0,Divorced,University,2022-12-05,558.0
+CUS124,Chidi Yakubu,42.0,Borno,316678.0,4318670.0,08032467324,Student,Student,3,Divorced,Masters,2023-03-13,578.0
+CUS079,Ola Abubakar,45.0,Bayelsa,496295.0,3469547.0,08052409043,Government,Current,0,Divorced,University,2017-02-09,796.0
+CUS115,Patricia Hassan,52.0,Kwara,94339.0,2238748.0,08077082134,Government,Fixed Deposit,4,Widowed,University,2024-09-21,350.0
+CUS020,Yemi Raji,28.0,Kogi,391506.0,814461.0,08056491626,Government,Current,0,Single,Secondary,2018-10-02,777.0
+CUS034,Tunde Nnadi,68.0,Lagos,444388.0,1911070.0,08062673816,Private,Fixed Deposit,0,Widowed,Secondary,2018-09-14,349.0
+CUS991,Isaac Jibril,37.0,Abia,286806.0,3477830.0,08043136611,Student,Savings,5,Divorced,Primary,2018-10-25,419.0
+CUS180,Uche Adeyemi,70.0,Borno,298182.0,3491925.0,08082929321,Retired,Current,3,Single,Secondary,2020-05-21,374.0
+CUS137,Stella Kalu,47.0,Anambra,35561.0,642009.0,08095580599,Private,Fixed Deposit,0,Single,Secondary,2019-06-11,707.0
+CUS202,Blessing Adeyemi,49.0,Akwa Ibom,411312.0,1216823.0,08078047676,Self-employed,Savings,0,Married,University,2024-05-04,463.0
+CUS150,Sarah Chioma,72.0,Kano,90812.0,3798578.0,08064622834,Retired,Savings,2,Married,University,2016-04-29,578.0
+CUS232,Sarah Osei,58.0,Bayelsa,268952.5,2912579.0,08034284552,Retired,Student,5,Single,Secondary,2018-03-07,763.0
+CUS045,Musa Sani,33.0,Jigawa,450933.0,1439153.0,08072185655,Government,Student,0,Single,PhD,2018-06-07,762.0
+CUS009,Uma Kalu,61.0,Gombe,475067.0,2043425.0,08065895013,Government,Student,0,Married,PhD,2023-07-13,837.0
+CUS190,Daniel Nwachukwu,78.0,Imo,483859.0,1044386.0,08094873387,Government,Current,5,Single,Masters,2022-06-18,605.0
+CUS086,Blessing Ibrahim,52.0,Kebbi,234400.0,2398190.0,08042550432,Government,Current,2,Widowed,Primary,2020-12-19,749.0
+CUS184,Moses Adeyemi,41.0,Anambra,385952.0,1042190.0,08078677248,Government,Savings,0,Single,Masters,2022-06-01,578.0
+CUS055,Fatima Mahmud,27.0,Ekiti,187998.0,4503902.0,08087487454,Student,Fixed Deposit,0,Single,Primary,2018-06-08,337.0
+CUS013,Moses Wale,76.0,Lagos,385060.0,3760851.0,08058474990,Retired,Current,0,Single,University,2017-04-12,503.0
+CUS161,Isaac Taiwo,32.0,Abia,368258.0,3874671.0,08092911609,Private,Student,4,Widowed,PhD,2018-09-28,790.0
+CUS144,Rasheed Adeyemi,46.0,Kogi,175589.0,2085913.0,08083294756,Private,Current,3,Divorced,Secondary,2022-06-19,357.0
+CUS010,Rasheed Igwe,38.0,Edo,383863.0,2273210.0,08065195416,Government,Current,3,Married,PhD,2021-07-31,432.0
+CUS165,Halima Sani,56.0,Kog,47929.0,282677.0,08098475431,Student,Fixed Deposit,2,Married,PhD,2022-12-21,441.0
+CUS176,Amara Ogbonna,19.0,Gombe,307248.0,3221776.0,08011966340,Private,Fixed Deposit,5,Not Married,University,2020-06-25,676.0
+CUS024,Grace Adeyemi,52.0,Abia,100614.0,3765692.0,08088755292,Self-employed,Savings,0,Married,Primary,2016-12-26,780.0
+CUS196,Stella Eze,60.0,Kaduna,99567.0,123482.0,08041607851,Self-employed,Current,0,Single,Primary,2023-01-29,669.0
+CUS211,Ibrahim Nwachukwu,37.0,Ekiti,385225.0,2463614.0,08031712170,Government,Student,4,Widowed,University,2022-07-13,831.0
+CUS218,Blessing Williams,54.0,Kaduna,71975.0,3000396.0,08015212197,Self-employed,Fixed Deposit,4,Divorced,Primary,2023-05-19,1000.0
+CUS038,Stella Jibril,19.0,Akwa Ibom,91866.0,945224.0,08041530609,Retired,Savings,0,Married,PhD,2022-05-26,458.0
+CUS242,Yemi Nnadi,76.0,Bayelsa,174936.0,516423.0,08016018863,Self-employed,Student,0,Divorced,Primary,2024-06-29,332.0
+CUS117,Stella Ogbonna,79.0,Sokoto,274344.0,3226447.0,08099141650,Private,Student,0,Widowed,PhD,2018-05-22,725.0
+CUS151,Raymond Wale,49.0,Kebbi,435020.0,1785112.0,08087089277,Self-employed,Current,0,Widowed,Masters,2022-05-03,679.0
+CUS016,Halima Okafor,19.0,Katsina,136108.0,4696841.0,08031399477,Student,Current,2,Widowed,University,2023-05-13,332.0
+CUS061,Fatima Garba,41.0,Borno,248820.0,4855653.0,08013807063,Self-employed,Student,1,Divorced,Masters,2018-08-15,613.0
+CUS103,Emeka Hassan,71.0,Katsina,246738.0,4420268.0,08045093899,Self-employed,Savings,0,Divorced,Secondary,2020-04-01,594.0
+CUS240,Ahmed Sani,27.0,Ekiti,158162.0,837276.0,08013894241,Student,Student,2,Single,PhD,2023-02-23,500.0
+CUS092,Zainab Eze,68.0,Taraba,486882.0,3494391.0,08013918116,Government,Savings,0,Married,Secondary,2015-08-17,846.0
+CUS125,Kingsley Sani,40.0,Imo,279716.0,2395949.0,08032884458,Government,Current,2,Single,Primary,2016-10-23,818.0
+CUS163,Tunde Danjuma,56.0,Edo,66929.0,1813722.0,,Retired,Fixed Deposit,0,Married,PhD,2018-06-21,411.0
+CUS012,Uche Mahmud,31.0,Benue,329735.0,4205226.0,08091594317,Self-employed,Current,0,Widowed,PhD,2017-04-04,711.0
+CUS152,Olumide Ogbonna,47.0,Benue,472567.0,4028837.0,08045805161,Retired,Student,3,Married,Secondary,2021-08-18,837.0
+CUS062,Timothy Patel,36.0,Ebonyi,394313.0,2700020.0,08015123891,Retired,Student,2,Married,Secondary,2018-11-13,392.0
+CUS019,Moses Adebayo,58.0,Yobe,439414.0,2574848.0,08011675940,Self-employed,Savings,2,Widowed,Masters,2021-01-08,408.0
+CUS067,Raymond Sani,50.0,Gombe,163527.0,3557433.0,08051182970,Private,Student,2,Single,Masters,2021-06-11,779.0
+CUS156,Amara Nwachukwu,29.0,Imo,369774.0,123463.0,08013474367,Government,Fixed Deposit,1,M,Masters,2020-03-10,780.0
+CUS119,Moses Taiwo,46.0,Lagos,182149.0,4256540.0,08017251448,Private,Student,0,Divorced,Masters,2015-04-06,524.0
+CUS082,Grace Hassan,34.0,Kano,268952.5,2827279.0,08094516047,Retired,Savings,2,Widowed,PhD,2019-05-02,651.0
+CUS183,Isaac Usman,27.0,Yobe,392554.0,3603347.0,08040109067,Student,Student,3,Widowed,Secondary,2024-08-12,640.0
+CUS188,Halima Igwe,74.0,Borno,82943.0,940295.0,08094975275,Government,Student,2,Married,University,2018-01-22,456.0
+CUS166,Janet Ogbonna,79.0,Bayelsa,359863.0,3125882.0,08099950736,Self-employed,Current,0,Single,PhD,2022-06-10,465.0
+CUS046,Zainab Lawal,72.0,Cross River,127992.0,1264953.0,08072156391,Student,Fixed Deposit,3,Divorced,Masters,2017-05-12,407.0
+CUS050,Victor Jibril,18.0,Niger,358357.0,2615935.0,08048449785,Retired,Savings,0,Married,Masters,2020-07-11,837.0
+CUS056,Moses Adeyemi,26.0,Gombe,282676.0,317470.0,08071504168,Private,Savings,4,divorced,PhD,2019-09-28,728.0
+CUS171,Moses Sani,48.0,Adamawa,225557.0,1398540.0,08059401736,Student,Current,0,Single,Masters,2017-01-29,579.0
+CUS001,Daniel Nwachukwu,62.0,Gombe,144633.0,70222.0,08096672314,Student,Student,5,Single,Primary,2023-08-19,597.0
+CUS021,Kemi Hassan,42.0,Ondo,466334.0,1540224.0,08093159882,Student,Savings,4,Widowed,Masters,2018-06-09,578.0
+CUS027,Sarah Mahmud,52.0,Ab.Uj.,198410.0,3977345.0,08019206480,Retired,Student,0,Divorced,PhD,2024-07-01,396.0
+CUS170,Lawal Williams,68.0,Rivers,128063.0,4955549.0,08011850244,Retired,Current,0,married,University,2022-01-31,673.0
+CUS186,Olumide Usman,40.0,Gombe,313984.0,1089799.0,08055411308,Retired,Current,0,Widowed,PhD,2015-02-06,597.0
+CUS108,Blessing Mahmud,56.0,Gombe,406588.0,3473299.0,08091083514,Private,Current,3,Widowed,Primary,2017-09-25,807.0
+CUS210,Blessing Okonkwo,61.0,Lagos,39468.0,1730740.0,08060768311,Retired,Savings,2,Divorced,PhD,2024-09-23,514.0
+CUS208,Moses Okafor,46.0,Abuja,200734.0,1550524.0,08045904254,Private,Fixed Deposit,1,Married,PhD,2015-01-17,653.0
+CUS185,Yemi Musa,70.0,Niger,369114.0,503745.0,08024562816,Private,Fixed Deposit,0,Divorced,PhD,2020-01-05,808.0
+CUS059,Daniel Danjuma,58.0,Akwa Ibom,238567.0,1140357.0,08081203719,Retired,Savings,0,MARRIED,University,2020-03-03,376.0
+CUS053,Daniel Okafor,70.0,Kebbi,197349.0,1770220.0,08051025857,Self-employed,Fixed Deposit,1,Married,University,2018-12-09,333.0
+CUS089,Patricia Kalu,39.0,Anambra,93050.0,2492345.0,08076176959,Retired,Student,4,Widowed,Masters,2020-01-05,370.0
+CUS164,Victor Sani,55.0,Ogu,343168.0,2610999.0,08036836725,Government,Student,0,Married,University,2024-08-04,495.0
+CUS106,Zainab Kalu,27.0,Katsina,232550.0,154107.0,08010317065,Student,Savings,0,Married,Secondary,2019-11-12,597.0
+CUS143,Blessing Usman,47.0,Nasarawa,394170.0,1777207.0,,Self-employed,Fixed Deposit,1,Divorced,University,2020-03-25,578.0
+CUS159,Peace Nwosu,65.0,Ondo,101926.0,3292699.0,08036904024,Student,Fixed Deposit,4,Married,University,2018-07-07,512.0
+CUS212,Raymond Musa,44.0,Jigawa,362297.0,3775344.0,08045026743,Private,Current,1,Widowed,PhD,2020-02-29,428.0
+CUS216,Olumide Adebayo,44.0,Kwara,392715.0,3631854.0,08085924128,Private,Student,0,Divorced,Masters,2020-12-08,451.0
