@@ -298,8 +298,7 @@ def clean_loan_history(df):
 
     return df
 
-
-# TODO: Provide links to resources to read up on working with datetime in Python
+## Python Datetime Resources
 # https://docs.python.org/3/library/datetime.html
 # https://www.programiz.com/python-programming/datetime
 # https://www.geeksforgeeks.org/python-datetime-module/
