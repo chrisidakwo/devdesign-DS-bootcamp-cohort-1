@@ -1,0 +1,81 @@
+school_id,school_name,student_id,grade_level,gender,socioeconomic_status,math_score,reading_score,science_score,social_studies_score,days_absent,participation_extracurricular,school_size,school_type,school_location,student_teacher_ratio,tech_resources_per_student,library_books_per_student
+SCH001,Kings College Lagos,KCL1001,9,M,Low,68,72,65,70,8,No,1250,Public,Urban,22,0.5,8
+SCH001,Kings College Lagos,KCL1002,9,F,Medium,78,80,75,82,3,Yes,1250,Public,Urban,22,0.5,8
+SCH001,Kings College Lagos,KCL1003,10,M,Low,65,70,62,68,12,No,1250,Public,Urban,22,0.5,8
+SCH001,Kings College Lagos,KCL1004,10,F,Low,71,74,68,70,6,Yes,1250,Public,Urban,22,0.5,8
+SCH001,Kings College Lagos,KCL1005,11,M,Medium,75,78,72,76,4,Yes,1250,Public,Urban,22,0.5,8
+SCH001,Kings College Lagos,KCL1006,11,F,High,88,92,85,90,1,Yes,1250,Public,Urban,22,0.5,8
+SCH001,Kings College Lagos,KCL1007,12,M,Low,73,75,70,72,9,No,1250,Public,Urban,22,0.5,8
+SCH001,Kings College Lagos,KCL1008,12,F,Medium,82,85,80,83,2,Yes,1250,Public,Urban,22,0.5,8
+SCH002,Loyola Jesuit College,LJC2001,9,F,High,92,95,90,94,1,Yes,750,Private,Suburban,15,1.2,14
+SCH002,Loyola Jesuit College,LJC2002,9,M,High,88,90,86,89,2,Yes,750,Private,Suburban,15,1.2,14
+SCH002,Loyola Jesuit College,LJC2003,10,F,Medium,85,88,82,86,3,Yes,750,Private,Suburban,15,1.2,14
+SCH002,Loyola Jesuit College,LJC2004,10,M,High,90,93,88,91,1,Yes,750,Private,Suburban,15,1.2,14
+SCH002,Loyola Jesuit College,LJC2005,11,F,High,94,96,91,95,0,Yes,750,Private,Suburban,15,1.2,14
+SCH002,Loyola Jesuit College,LJC2006,11,M,Medium,87,89,84,88,2,Yes,750,Private,Suburban,15,1.2,14
+SCH002,Loyola Jesuit College,LJC2007,12,F,High,95,97,93,96,1,Yes,750,Private,Suburban,15,1.2,14
+SCH002,Loyola Jesuit College,LJC2008,12,M,High,91,94,89,92,1,Yes,750,Private,Suburban,15,1.2,14
+SCH003,Government Secondary School Kano,GSK3001,9,M,Low,62,65,60,63,10,No,950,Public,Urban,24,0.4,6
+SCH003,Government Secondary School Kano,GSK3002,9,F,Low,65,68,63,66,8,No,950,Public,Urban,24,0.4,6
+SCH003,Government Secondary School Kano,GSK3003,10,M,Medium,70,73,68,71,6,Yes,950,Public,Urban,24,0.4,6
+SCH003,Government Secondary School Kano,GSK3004,10,F,Low,67,69,65,68,7,No,950,Public,Urban,24,0.4,6
+SCH003,Government Secondary School Kano,GSK3005,11,M,Low,64,66,62,65,9,No,950,Public,Urban,24,0.4,6
+SCH003,Government Secondary School Kano,GSK3006,11,F,Medium,72,75,70,73,5,Yes,950,Public,Urban,24,0.4,6
+SCH003,Government Secondary School Kano,GSK3007,12,M,Low,66,68,64,67,11,No,950,Public,Urban,24,0.4,6
+SCH003,Government Secondary School Kano,GSK3008,12,F,Low,69,72,67,70,7,No,950,Public,Urban,24,0.4,6
+SCH004,Federal Government College Enugu,FGC4001,9,F,Medium,80,83,78,81,3,Yes,1500,Public,Suburban,20,0.8,10
+SCH004,Federal Government College Enugu,FGC4002,9,M,High,85,88,83,86,2,Yes,1500,Public,Suburban,20,0.8,10
+SCH004,Federal Government College Enugu,FGC4003,10,F,Medium,78,80,76,79,4,Yes,1500,Public,Suburban,20,0.8,10
+SCH004,Federal Government College Enugu,FGC4004,10,M,Low,72,74,70,73,6,No,1500,Public,Suburban,20,0.8,10
+SCH004,Federal Government College Enugu,FGC4005,11,F,High,86,89,84,87,1,Yes,1500,Public,Suburban,20,0.8,10
+SCH004,Federal Government College Enugu,FGC4006,11,M,Medium,79,82,77,80,3,Yes,1500,Public,Suburban,20,0.8,10
+SCH004,Federal Government College Enugu,FGC4007,12,F,Medium,81,84,79,82,2,Yes,1500,Public,Suburban,20,0.8,10
+SCH004,Federal Government College Enugu,FGC4008,12,M,High,87,90,85,88,1,Yes,1500,Public,Suburban,20,0.8,10
+SCH005,Atlantic Hall,ATH5001,9,M,High,89,91,87,90,1,Yes,450,Private,Urban,12,1.5,18
+SCH005,Atlantic Hall,ATH5002,9,F,High,92,94,90,93,0,Yes,450,Private,Urban,12,1.5,18
+SCH005,Atlantic Hall,ATH5003,10,M,High,90,93,88,91,1,Yes,450,Private,Urban,12,1.5,18
+SCH005,Atlantic Hall,ATH5004,10,F,Medium,86,89,84,87,2,Yes,450,Private,Urban,12,1.5,18
+SCH005,Atlantic Hall,ATH5005,11,M,High,93,95,91,94,0,Yes,450,Private,Urban,12,1.5,18
+SCH005,Atlantic Hall,ATH5006,11,F,High,95,97,93,96,0,Yes,450,Private,Urban,12,1.5,18
+SCH005,Atlantic Hall,ATH5007,12,M,Medium,88,90,86,89,1,Yes,450,Private,Urban,12,1.5,18
+SCH005,Atlantic Hall,ATH5008,12,F,High,94,96,92,95,0,Yes,450,Private,Urban,12,1.5,18
+SCH006,Community Secondary School Owerri,CSS6001,9,F,Low,67,70,65,68,7,No,1100,Public,Rural,19,0.6,9
+SCH006,Community Secondary School Owerri,CSS6002,9,M,Low,64,67,62,65,9,No,1100,Public,Rural,19,0.6,9
+SCH006,Community Secondary School Owerri,CSS6003,10,F,Medium,73,76,71,74,5,Yes,1100,Public,Rural,19,0.6,9
+SCH006,Community Secondary School Owerri,CSS6004,10,M,Low,68,71,66,69,8,No,1100,Public,Rural,19,0.6,9
+SCH006,Community Secondary School Owerri,CSS6005,11,F,Low,70,73,68,71,6,No,1100,Public,Rural,19,0.6,9
+SCH006,Community Secondary School Owerri,CSS6006,11,M,Medium,75,78,73,76,4,Yes,1100,Public,Rural,19,0.6,9
+SCH006,Community Secondary School Owerri,CSS6007,12,F,Low,69,72,67,70,7,No,1100,Public,Rural,19,0.6,9
+SCH006,Community Secondary School Owerri,CSS6008,12,M,Medium,74,77,72,75,5,Yes,1100,Public,Rural,19,0.6,9
+SCH007,Greensprings School,GSS7001,9,M,Medium,82,85,80,83,3,Yes,600,Charter,Suburban,16,1.0,12
+SCH007,Greensprings School,GSS7002,9,F,Low,75,78,73,76,5,Yes,600,Charter,Suburban,16,1.0,12
+SCH007,Greensprings School,GSS7003,10,M,Medium,83,86,81,84,2,Yes,600,Charter,Suburban,16,1.0,12
+SCH007,Greensprings School,GSS7004,10,F,Medium,80,83,78,81,3,Yes,600,Charter,Suburban,16,1.0,12
+SCH007,Greensprings School,GSS7005,11,M,High,86,89,84,87,1,Yes,600,Charter,Suburban,16,1.0,12
+SCH007,Greensprings School,GSS7006,11,F,Medium,81,84,79,82,2,Yes,600,Charter,Suburban,16,1.0,12
+SCH007,Greensprings School,GSS7007,12,M,Low,77,80,75,78,4,Yes,600,Charter,Suburban,16,1.0,12
+SCH007,Greensprings School,GSS7008,12,F,High,85,88,83,86,1,Yes,600,Charter,Suburban,16,1.0,12
+SCH008,Technical College Port Harcourt,TCP8001,9,F,Low,69,72,67,70,8,No,850,Public,Urban,21,0.7,7
+SCH008,Technical College Port Harcourt,TCP8002,9,M,Medium,74,77,72,75,6,Yes,850,Public,Urban,21,0.7,7
+SCH008,Technical College Port Harcourt,TCP8003,10,F,Low,68,71,66,69,9,No,850,Public,Urban,21,0.7,7
+SCH008,Technical College Port Harcourt,TCP8004,10,M,Low,65,68,63,66,10,No,850,Public,Urban,21,0.7,7
+SCH008,Technical College Port Harcourt,TCP8005,11,F,Medium,76,79,74,77,5,Yes,850,Public,Urban,21,0.7,7
+SCH008,Technical College Port Harcourt,TCP8006,11,M,Low,70,73,68,71,7,No,850,Public,Urban,21,0.7,7
+SCH008,Technical College Port Harcourt,TCP8007,12,F,Low,72,75,70,73,6,No,850,Public,Urban,21,0.7,7
+SCH008,Technical College Port Harcourt,TCP8008,12,M,Medium,77,80,75,78,4,Yes,850,Public,Urban,21,0.7,7
+SCH009,Grange School,GRS9001,9,M,High,91,94,89,92,1,Yes,500,Private,Suburban,14,1.3,15
+SCH009,Grange School,GRS9002,9,F,High,93,96,91,94,0,Yes,500,Private,Suburban,14,1.3,15
+SCH009,Grange School,GRS9003,10,M,High,90,93,88,91,1,Yes,500,Private,Suburban,14,1.3,15
+SCH009,Grange School,GRS9004,10,F,Medium,87,90,85,88,2,Yes,500,Private,Suburban,14,1.3,15
+SCH009,Grange School,GRS9005,11,M,High,94,97,92,95,0,Yes,500,Private,Suburban,14,1.3,15
+SCH009,Grange School,GRS9006,11,F,High,96,98,94,97,0,Yes,500,Private,Suburban,14,1.3,15
+SCH009,Grange School,GRS9007,12,M,Medium,89,92,87,90,1,Yes,500,Private,Suburban,14,1.3,15
+SCH009,Grange School,GRS9008,12,F,High,95,97,93,96,0,Yes,500,Private,Suburban,14,1.3,15
+SCH010,Nigerian Tulip International College,NTC1001,9,F,Medium,79,82,77,80,4,Yes,1300,Public,Rural,20,0.5,8
+SCH010,Nigerian Tulip International College,NTC1002,9,M,Low,71,74,69,72,7,No,1300,Public,Rural,20,0.5,8
+SCH010,Nigerian Tulip International College,NTC1003,10,F,Low,73,76,71,74,6,No,1300,Public,Rural,20,0.5,8
+SCH010,Nigerian Tulip International College,NTC1004,10,M,Medium,77,80,75,78,5,Yes,1300,Public,Rural,20,0.5,8
+SCH010,Nigerian Tulip International College,NTC1005,11,F,Medium,80,83,78,81,3,Yes,1300,Public,Rural,20,0.5,8
+SCH010,Nigerian Tulip International College,NTC1006,11,M,Low,72,75,70,73,8,No,1300,Public,Rural,20,0.5,8
+SCH010,Nigerian Tulip International College,NTC1007,12,F,Medium,81,84,79,82,3,Yes,1300,Public,Rural,20,0.5,8
+SCH010,Nigerian Tulip International College,NTC1008,12,M,High,85,88,83,86,2,Yes,1300,Public,Rural,20,0.5,8

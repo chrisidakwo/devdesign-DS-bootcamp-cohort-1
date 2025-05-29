@@ -189,7 +189,7 @@ def generate_student_data(total_students):
     if excess > 0:
         ss1_count += excess // 3
         ss2_count += excess // 3
-        ss3_count += excess - 2*(excess // 3)
+        ss3_count += excess - 2 * (excess // 3)
     
     # Initialize empty lists for each column
     student_ids = []

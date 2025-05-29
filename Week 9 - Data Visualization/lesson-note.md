@@ -27,7 +27,7 @@ import pandas as pd
 import numpy as np
 
 # Load our dataset
-students_df = pd.read_csv('nigerian_students_full.csv')
+students_df = pd.read_csv('students.csv')
 print(f"Loaded dataset with {students_df.shape[0]} students")
 ```
 
@@ -313,7 +313,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Let's continue using our Nigerian students dataset
-students_df = pd.read_csv('nigerian_students_full.csv')
+students_df = pd.read_csv('students.csv')
 
 # Set the Seaborn style
 sns.set_style("whitegrid")  # Options: "darkgrid", "whitegrid", "dark", "white", "ticks"

@@ -27,7 +27,7 @@ import pandas as pd
 import numpy as np
 
 # Load our dataset
-students_df = pd.read_csv('nigerian_students_full.csv')
+students_df = pd.read_csv('students.csv')
 print(f"Loaded dataset with {students_df.shape[0]} students")
 ```
 
