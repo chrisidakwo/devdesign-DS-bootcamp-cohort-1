@@ -1,0 +1,26 @@
+customer_id,age,income,loan_amount,loan_term,interest_rate,credit_score,employment_years,occupation,education,marital_status,dependents,has_mortgage,default
+LD001,35,120000,500000,3,15.5,680,8,Engineer,Bachelor,Married,2,Yes,No
+LD002,42,85000,350000,5,16.0,620,15,Teacher,Master,Married,3,No,No
+LD003,28,65000,400000,3,17.2,590,4,Sales,Diploma,Single,0,No,Yes
+LD004,55,150000,800000,10,14.8,720,20,Doctor,PhD,Married,1,Yes,No
+LD005,31,70000,,4,16.5,610,6,Nurse,Bachelor,Single,0,No,No
+LD006,38,95000,600000,5,,650,10,Accountant,Master,Married,2,Yes,No
+LD007,45,110000,450000,3,15.9,670,12,Manager,Bachelor,Divorced,2,No,Yes
+LD008,29,60000,300000,4,17.0,600,3,Technician,Diploma,Single,0,No,No
+LD009,48,140000,750000,7,14.5,710,18,Engineer,Master,Married,3,Yes,No
+LD010,33,80000,380000,5,16.2,630,7,Teacher,Bachelor,Married,1,No,No
+LD011,40,,550000,5,15.7,640,11,Business Owner,Bachelor,Married,2,Yes,Yes
+LD012,27,55000,250000,3,17.5,580,2,Sales,Diploma,Single,0,No,Yes
+LD013,52,160000,900000,10,14.0,740,22,Doctor,PhD,Married,1,Yes,No
+LD014,36,90000,420000,5,16.1,640,9,Engineer,Master,Married,2,No,No
+LD015,44,115000,600000,7,15.2,680,14,Manager,Bachelor,Divorced,1,Yes,No
+LD016,30,62000,320000,4,16.8,600,5,Teacher,Bachelor,Single,0,No,Yes
+LD017,50,145000,780000,7,14.3,720,20,Business Owner,Master,Married,3,Yes,No
+LD018,34,78000,400000,5,16.3,630,8,Accountant,Bachelor,Married,1,No,No
+LD019,41,105000,550000,5,15.5,660,12,Engineer,Master,Married,2,Yes,No
+LD020,26,52000,240000,3,17.6,570,2,Technician,Diploma,Single,0,No,Yes
+LD021,56,170000,950000,10,13.8,750,25,Doctor,PhD,Married,0,Yes,No
+LD022,39,98000,480000,5,15.9,650,11,Manager,Bachelor,Married,2,No,No
+LD023,47,135000,700000,7,14.7,700,16,Business Owner,Master,Married,3,Yes,No
+LD024,32,75000,380000,5,16.4,620,7,Teacher,Bachelor,Single,0,No,Yes
+LD025,43,112000,580000,5,15.3,670,13,Engineer,Master,Married,2,Yes,No
