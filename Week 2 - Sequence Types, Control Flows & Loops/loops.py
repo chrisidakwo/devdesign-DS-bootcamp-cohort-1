@@ -1,7 +1,7 @@
 message = "Welcome, Chris! Thanks for joining the session today!"
 message = "Welcome, Adrian! Thanks for joining the session today!"
 message = "Welcome, Boaz! Thanks for joining the session today!"
-message = "Welcome, Segin! Thanks for joining the session today!"
+message = "Welcome, Segun! Thanks for joining the session today!"
 message = "Welcome, David! Thanks for joining the session today!"
 
 students = ["Chris", "Adrian", "Boaz", "Segun", "David", "Donald", "Bassey", "Biodun", "Chukwuezi", "Ifeoluwa"]

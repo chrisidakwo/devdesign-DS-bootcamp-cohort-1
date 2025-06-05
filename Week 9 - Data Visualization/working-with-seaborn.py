@@ -176,6 +176,7 @@ def pair_plot(df):
     # Display the plot
     plt.show()
 
+
 def main():
     students_df = load_data('../data/students-old.csv')
     pair_plot(students_df)

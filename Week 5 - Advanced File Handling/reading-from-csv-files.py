@@ -1,23 +1,23 @@
 import csv
 import pprint
 
-FILENAME = 'Week 5 - Advanced File Handling/files/house_prices.csv'
+FILENAME = './files/house_prices.csv'
 
-housePricing = []
+if __name__ == '__main__':
+    housePricing = []
 
-with open(FILENAME, 'r') as file:
-    csvReader = csv.reader(file)
+    with open(FILENAME, 'r') as file:
+        csvReader = csv.reader(file)
 
-    for row in csvReader:
-        print(row)  # row is a list of values
+        for row in csvReader:
+            print(row)  # row is a list of values
 
-    print('\n')
+        print('\n')
 
-    # Dictionary reader - maps headers to values
-    file.seek(0)  # Go back to the beginning of the file
-
-    dictReader = csv.DictReader(file)
-    for row in dictReader:
-        housePricing.append(row)  # row is a dictionary {header: value}
-
-pprint.pprint(housePricing)
+        # Dictionary reader - maps headers to values
+        # file.seek(0)  # Go back to the beginning of the file
+        #
+        dictReader = csv.DictReader(file)
+        for row in dictReader:
+            housePricing.append(row)  # row is a dictionary {header: value}
+            print(row)

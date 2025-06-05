@@ -2,9 +2,9 @@ import statistics as st
 import pandas as pd
 import numpy as np
 
-# amount = [5, 7, 10, 13, 15]
-# print('')
-# print(st.stdev(amount))
+amount = [5, 7, 10, 13, 15]
+print('')
+print(st.stdev(amount))
 
 array_data = np.random.randint(60, 100, size=(5, 4))
 df2 = pd.DataFrame(array_data, 
@@ -32,3 +32,19 @@ print(pd.DataFrame(array_data))
 # ]
 
 # plt.figure(figsize=(10, 6))
+
+
+if __name__ == '__main__':
+    df = pd.read_csv('../data/students_record.csv')
+
+    print(df.isnull().sum())
+
+    # Calculate the average math score
+    average_score = df['math_score'].mean()
+    print(f'\nMath average score is: {average_score}\n')
+
+    df['math_score'] = df['math_score'].fillna(average_score)
+
+    print('Verify')
+    print(df.isnull().sum())
+    print(df['math_score'])
