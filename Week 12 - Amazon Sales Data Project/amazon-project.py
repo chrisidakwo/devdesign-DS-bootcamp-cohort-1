@@ -1,17 +1,17 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from pprint import pprint
+import numpy as np
+
+desired_width=580
+
+pd.set_option('display.width', desired_width)
+np.set_printoptions(linewidth=desired_width)
+pd.set_option('display.max_columns', 14)
 
 def str_to_float(value):
     """Converts the provided value to a float"""
     return float(str(value))
 
-def print_introduction():
-    print('\n')
-    print('='*50)
-    print('📊 AMAZON SALES DATA ANALYSIS')
-    print('='*50)
-    print('\n')
 
 class AmazonSalesAnalyzer:
     """Analyze Amazon sales data and provide actionable business insights"""
@@ -106,7 +106,7 @@ class AmazonSalesAnalyzer:
             'status_distribution': status_distribution.to_dict()
         }
 
-    def plot_status_distribution(self, status_distribution: dict, save_path):
+    def plot_status_distribution(self, status_distribution, save_path):
         """Create a pie chart for order status distribution"""
         fig, ax = plt.subplots(figsize=(10, 8))
 
@@ -138,10 +138,6 @@ class AmazonSalesAnalyzer:
 
         product_performance.columns = ['total_revenue', 'order_count', 'units_sold']
         product_performance = product_performance.sort_values('total_revenue', ascending=False)
-
-        print('\n')
-        print(product_performance)
-        print('\n')
 
         # Calculate revenue percentage
         total_revenue = self.df['total_sales'].sum()
@@ -176,6 +172,9 @@ class AmazonSalesAnalyzer:
         print(f'Bottom 3 Revenue: ${bottom_revenue:,} ({((bottom_revenue / total_revenue) * 100):.1f}% of total)')
         print(f'Performance Multiplier: {performance_gap:.2f}x')
 
+        return {
+            'product_performance': product_performance
+        }
 
     def payment_method_analysis(self):
         """
@@ -217,14 +216,12 @@ class AmazonSalesAnalyzer:
         
         return {
             'payment_performance': payment_analysis.to_dict('index'),
-            'grographic_preferences': location_payment.to_dict('index'),
+            'geographic_preferences': location_payment.to_dict('index'),
         }
 
     def geographical_analysis(self):
         """
-            - Identify top 5 cities/states driving the most revenue
             - Calculate revenue per capita for major markets
-            - Discover untapped markets with growth potential
             - **Deliverable:** Market expansion strategy with priority rankings
         """
 
@@ -232,9 +229,6 @@ class AmazonSalesAnalyzer:
             'total_sales': ['sum', 'count', 'mean'],
             'qty': ['sum'],
         })
-
-        print(location_performance)
-        print('\n')
 
         location_performance.columns = ['total_revenue', 'order_count', 'avg_order_value', 'units_sold']
         location_performance = location_performance.sort_values('total_revenue', ascending=False)
@@ -254,7 +248,7 @@ class AmazonSalesAnalyzer:
             print(f'Units Sold: {data['units_sold']:.0f}')
             print('')
         
-        # Untapped market = [low revenue, high AOV (averge order value)]
+        # Untapped market = [low revenue, high AOV (average order value)]
         # Low revenue = location total revenue less than the total revenue median
         # High AOV = location AOV > median AOV 
         untapped_market =  location_performance[
@@ -262,27 +256,147 @@ class AmazonSalesAnalyzer:
             (location_performance['avg_order_value'] > location_performance['avg_order_value'].median()) 
         ]
 
-        print(untapped_market)
+        print('\nUNTAPPED MARKETS:')
+        for location, data in untapped_market.iterrows():
+            print(f'{location}: AOV ${data['avg_order_value']:.2f}, Revenue: ${data["total_revenue"]:,.2f}')
 
+        return {
+            'top_markets': top_5_markets.to_dict('index'),
+            'market_concentration': location_performance.head(1)['revenue_percentage'].iloc[0],
+            'untapped_markets': untapped_market.to_dict('index')
+        }
+
+    def temporal_analysis(self):
+        """"""
+
+        # Extract temporal features
+        self.df['year'] = self.df['date'].dt.year
+        self.df['month'] = self.df['date'].dt.month
+        self.df['week_day'] = self.df['date'].dt.day_name()
+        self.df['week_number'] = self.df['date'].dt.isocalendar().week
+
+        weekly_sales = self.df.groupby('week_number')['total_sales'].sum().sort_values(ascending=False)
+        golden_week = weekly_sales.index[0]
+        golden_week_revenue = weekly_sales.iloc[0]
+
+        print('\nGOLDEN WEEK:')
+        print(f'Week {golden_week} is the golden week with a revenue of ${golden_week_revenue:,.2f}')
+
+        # Day of week pattern
+        dow_performance = self.df.groupby('week_day').agg({
+            'total_sales': ['sum', 'count', 'mean'],
+        }).round(2)
+
+        dow_performance.columns = ['total_revenue', 'order_count', 'avg_order_value']
+
+        days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+        dow_performance = dow_performance.reindex(days)
+
+        print('\nDAY-OF-WEEK PERFORMANCE:')
+        for day, data in dow_performance.iterrows():
+            print(f'    {day}: ${data["total_revenue"]:,.2f} in revenue | {data['order_count']:.0f} orders')
+
+        best_day = dow_performance['total_revenue'].idxmax()
+        worst_day = dow_performance['total_revenue'].idxmin()
+
+        print('\nBEST TIMING INSIGHT')
+        print(f'Best sales day: {best_day}')
+        print(f'Worst sales day: {worst_day} (Perfect for marketing campaigns and promotions)')
+
+        # Monthly trends
+        monthly_sales = self.df.groupby('month')['total_sales'].sum()
+        peak_month = monthly_sales.idxmax()
+        slow_month = monthly_sales.idxmin()
+
+        month_names = {
+            1: 'January',
+            2: 'February',
+            3: 'March',
+            4: 'April',
+            5: 'May',
+            6: 'June',
+            7: 'July',
+            8: 'August',
+            9: 'September',
+            10: 'October',
+            11: 'November',
+            12: 'December',
+        }
+
+        print('\nSEASONAL PATTERN')
+        print(f'Peak Month: {month_names[peak_month]} (${monthly_sales[peak_month]:,.2f})')
+        print(f'Slow Month: {month_names[slow_month]} (${monthly_sales[slow_month]:,.2f})')
+
+        return {
+            'golden_week': {
+                'week': golden_week,
+                'revenue': golden_week_revenue
+            },
+            'best_day': best_day,
+            'worst_day': worst_day,
+            'peak_month': peak_month,
+            'slow_month': slow_month,
+            'dow_performance': dow_performance.to_dict('index'),
+        }
+
+    def create_visualizations(self, save_path):
+        """Create visualizations for presentation"""
+
+        # Setup of the plot environment
+        fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(25, 20))
+        fig.suptitle('Amazon Sales Analytics', fontsize=16, fontweight='bold')
+
+        # Top products by revenue
+        products_revenue = self.df.groupby('product')['total_sales'].sum()
+        axes[0, 0].barh(range(len(products_revenue)), products_revenue.values)
+        axes[0, 0].set_yticks(range(len(products_revenue)))
+        axes[0, 0].set_yticklabels(products_revenue.index)
+        axes[0, 0].set_title('Top Products By Revenue')
+        axes[0, 0].grid()
+
+        # Payment method
+        payment_performance = self.df.groupby('payment_method')['total_sales'].sum()
+        axes[0, 1].pie(payment_performance.values, labels=payment_performance.index, autopct='%1.1f%%')
+        axes[0, 1].set_title('Revenue by Payment Method')
+
+        # Geographic Distribution
+        location_revenue = self.df.groupby('location')['total_sales'].sum().nlargest(10)
+        axes[1, 0].bar(range(len(location_revenue)), location_revenue.values)
+        axes[1, 0].set_xticks(range(len(location_revenue)))
+        axes[1, 0].set_xticklabels(location_revenue.index, rotation=45, ha='right')
+        axes[1, 0].set_title('Total 10 Markets By Revenue')
+        axes[1, 0].set_ylabel('Revenue ($)')
+
+        # Category Performance
+        category_performance = self.df.groupby('category')['total_sales'].sum()
+        axes[1, 1].bar(category_performance.index, category_performance.values)
+        axes[1, 1].set_ylabel('Revenue ($)')
+        axes[1, 1].set_title('Revenue by Category')
+        axes[1, 1].grid(axis='y', alpha=0.5, linestyle='--')
+        axes[1, 1].tick_params(axis='x', rotation=45)
+
+        plt.savefig(save_path, dpi=300, bbox_inches='tight')
+
+        plt.tight_layout()
+        plt.show()
 
     def run_analysis(self):
-        print_introduction()
+        """Run all analysis"""
 
-        print(analyzer.df.columns.tolist())
         print('\n')
-        print(analyzer.df.head())
+        print('='*80)
+        print('📊 AMAZON SALES DATA ANALYSIS')
+        print('='*80)
         print('\n')
 
-        result = analyzer.data_overview()
-
-        # analyzer.plot_status_distribution(result['status_distribution'], 'status_distribution.png')
-
-        # analyzer.product_performance_analysis()
-
-        # analyzer.payment_method_analysis()
-
-        analyzer.geographical_analysis()
-
+        # Execute all analysis
+        result = self.data_overview()
+        self.plot_status_distribution(result['status_distribution'], '../data/amazon_order_status_distribution.png')
+        self.product_performance_analysis()
+        self.payment_method_analysis()
+        self.geographical_analysis()
+        self.temporal_analysis()
+        self.create_visualizations('../data/amazon_sales_analysis_dashboard.png')
 
 if __name__ == '__main__':
     analyzer = AmazonSalesAnalyzer('../data/amazon_sales_data_2025.csv')
