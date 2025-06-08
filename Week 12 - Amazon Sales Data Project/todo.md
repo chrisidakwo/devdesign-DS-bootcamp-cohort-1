@@ -10,8 +10,6 @@
 # Most-valued products and sales correlation
 # Order status by location
 
-# Customer behaviour analytics
-
 ## **Mission Statement**
 You're a data analyst for Amazon's regional operations team. The company wants to optimize inventory, marketing strategies, and customer experience based on sales patterns. Your analysis will directly influence million-dollar decisions!
 
@@ -28,7 +26,7 @@ You're a data analyst for Amazon's regional operations team. The company wants t
 
 ### **🏆 Product Performance Championship**
 **Task:** Identify the superstar and "under-performer" products
-- Find the top 3 products with the highest sales volume AND the bottom 3 laggards
+- Find the top 3 products with the highest sales volume AND the bottom 3 laggards (Products that sold the most)
 - Create compelling visualizations showing the dramatic performance gap
 - Calculate what percentage of total revenue these extremes represent
 - **Deliverable:** "Hall of Fame vs. Hall of Shame" product report with actionable insights
@@ -53,11 +51,6 @@ You're a data analyst for Amazon's regional operations team. The company wants t
 - Analyze day-of-week patterns and seasonal trends
 - Identify slow periods perfect for promotional campaigns
 - **Deliverable:** Optimal marketing calendar with timing recommendations
-
-
-
-
-
 
 
 
